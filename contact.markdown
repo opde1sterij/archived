@@ -20,7 +20,7 @@ Op de eerste rij<br>
 Broedplaats Bogota<br>
 Haarlemmerstraatweg 79<br>
 1165 MK Halfweg<br>
-Kantoor: BT 10
+Kantoor: BB 17
 
 KvK: 58190767<br>
 btw-nummer: NL852918550 B01
