@@ -1,11 +1,11 @@
 ---
-title: Kinderboekenweek 2025
+title: Help, ik ben een held
 date: 2025-01-22 11:07:00 +01:00
 position: 0
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur
-korte-beschrijving: Het wordt een is een multimediale voorstelling over nieuwsgierigheid,
-  vriendschap en avontuur passend bij het thema van de Kinderboekenweek 2025 "Vol
-  avontuur"
+korte-beschrijving: "“Help, ik ben een held” is een multimediale voorstelling over
+  vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste
+  schat is."
 assets:
 - path: "/uploads/kinderboekenweek-2025.jpg"
 kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook speciaal
@@ -21,10 +21,12 @@ leeftijd: groep 3, 4, 5, 6, 7, 8
 sectie: bo
 ---
 
-Voor de Kinderboekenweek 2025 maakt TG Zwerm weer een speciale voorstelling. Deze voorstelling spelen we van maandag 29 sept t/m vrijdag 31 okt 2025.
+Sam en Philine zijn in de achtertuin het grote verjaardagsfeest aan het voorbereiden. Morgen is Sam namelijk jarig. Speciaal voor zijn verjaardag komt zijn oom Jack helemaal uit Australië overgevlogen. Sam kijkt enorm tegen hem op. Oom Jack is namelijk avonturier, een echte schatzoeker. En zijn lievelingsoom.
 
-De nieuwe voorstelling is nog niet af, maar wat we wél kunnen zeggen, is dat Sam en Philine een spannend avontuur gaan beleven, geschikt voor groep 3 t/m 8. Het scherm speelt opnieuw een rol, waarop een derde personage – of misschien wel een vierde, vijfde en zesde – te zien zal zijn. En dit alles speelt zich af in een prachtig decor van Erica Segveld.  
+Dan opeens gaat de telefoon: het is oom Jack. Hij is gevangen genomen door zijn grote vijand. Sam en Philine zijn de enigen die hem kunnen redden.
 
-Laat de leerlingen meevoeren door woeste zeeën, verborgen geheimen en verrassende ontmoetingen. Met herkenbare thema’s zoals vriendschap, avontuur en nieuwsgierig zijn naar het onbekende, biedt deze voorstelling spanning, humor en inspiratie voor groep 3 t/m 8. Echt iets voor (bijna) de hele school!  
+Ga mee met onze twee helden op een meeslepend avontuur in de achtertuin. Lukt het ze om oom Jack te redden en het grote geheim te ontrafelen?
 
-Het wordt een is een multimediale voorstelling over nieuwsgierigheid, vriendschap en avontuur passend bij het thema van de Kinderboekenweek 2025 "Vol avontuur"
+“Help, ik ben een held” is een multimediale voorstelling over vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste schat is.
+
+Voor de Kinderboekenweek 2025 maakt TG Zwerm weer een speciale voorstelling: "Help, ik ben een held". Dit is alweer het vijfde avontuur van Sam en Philine. De vier eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt TG Zwerm er wederom een KinderboekenMAAND van. "Help, ik ben een held" speelt van maandag 29 september t/m vrijdag 31 oktober 2025, natuurlijk passend bij het thema van de Kinderboekenweek 2025: "Vol avontuur".
