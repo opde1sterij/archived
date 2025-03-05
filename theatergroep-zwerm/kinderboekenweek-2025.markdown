@@ -21,7 +21,7 @@ leeftijd: groep 3, 4, 5, 6, 7, 8
 sectie: bo
 ---
 
-Sam en Philine zijn in de achtertuin het grote verjaardagsfeest aan het voorbereiden. Morgen is Sam namelijk jarig. Speciaal voor zijn verjaardag komt zijn oom Jack helemaal uit Australië overgevlogen. Sam kijkt enorm tegen hem op. Oom Jack is namelijk avonturier, een echte schatzoeker. En zijn lievelingsoom.
+**Sam en Philine zijn in de achtertuin het grote verjaardagsfeest aan het voorbereiden. Morgen is Sam namelijk jarig. Speciaal voor zijn verjaardag komt zijn oom Jack helemaal uit Australië overgevlogen. Sam kijkt enorm tegen hem op. Oom Jack is namelijk avonturier, een echte schatzoeker. En zijn lievelingsoom.**
 
 Dan opeens gaat de telefoon: het is oom Jack. Hij is gevangen genomen door zijn grote vijand. Sam en Philine zijn de enigen die hem kunnen redden.
 
@@ -29,4 +29,4 @@ Ga mee met onze twee helden op een meeslepend avontuur in de achtertuin. Lukt he
 
 “Help, ik ben een held” is een multimediale voorstelling over vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste schat is.
 
-Voor de Kinderboekenweek 2025 maakt TG Zwerm weer een speciale voorstelling: "Help, ik ben een held". Dit is alweer het vijfde avontuur van Sam en Philine. De vier eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt TG Zwerm er wederom een KinderboekenMAAND van. "Help, ik ben een held" speelt van maandag 29 september t/m vrijdag 31 oktober 2025, natuurlijk passend bij het thema van de Kinderboekenweek 2025: "Vol avontuur".
+Voor de Kinderboekenweek 2025 maakt Tg Zwerm weer een speciale voorstelling: "Help, ik ben een held". Dit is alweer het vijfde avontuur van Sam en Philine. De vier eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt Tg Zwerm er wederom een KinderboekenMAAND van. "Help, ik ben een held" speelt van maandag 29 september t/m vrijdag 31 oktober 2025, natuurlijk passend bij het thema van de Kinderboekenweek 2025: "Vol avontuur".
