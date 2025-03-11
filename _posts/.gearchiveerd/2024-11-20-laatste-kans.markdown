@@ -1,6 +1,7 @@
 ---
 title: Laatste kans!
 date: 2024-11-20 21:01:00 +01:00
+permalink: "/blog/20-11-2024-laatste-kans/"
 blogger: Esther Hulst
 assets:
 - path: "/uploads/cjp-alert-maak-het-budget-op.jpg"
