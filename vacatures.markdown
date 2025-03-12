@@ -1,7 +1,6 @@
 ---
 title: Vacatures
 date: 2023-11-14 22:52:00 +01:00
-published: false
 position: 7
 korte-beschrijving: Werken bij Op de eerste rij? Bekijk de vacatures.
 assets:
