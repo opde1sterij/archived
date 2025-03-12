@@ -1,7 +1,6 @@
 ---
 title: Nieuws-vacature
-date: 2023-11-29 15:52:00 +01:00
-published: false
+date: 2024-03-12 15:52:00 +01:00
 position: 0
 ---
 
