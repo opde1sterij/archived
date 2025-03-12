@@ -2,7 +2,7 @@
 title: Eindejaarskorting
 date: 2024-12-03 08:08:00 +01:00
 published: false
-position: 3
+position: 4
 assets:
 - path: "/uploads/eindejaarskorting.jpg"
 ---
