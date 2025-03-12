@@ -4,11 +4,7 @@ date: 2024-03-12 15:52:00 +01:00
 position: 0
 ---
 
-acteurs gezocht (M/V/X)
-
-Hier is de geüpdatete tekst met M/V/X, de nieuwe auditiedatum en het aantal voorstellingen:  
-
----
+**Acteurs gezocht (M/V/X)**
 
 Op **22 april 2025** houdt Theatergroep Zwerm audities. Wil jij als professionele acteur aan de slag bij een ambitieuze theatergroep? Wil jij werk met veel vrijheid, verantwoordelijkheid en ontwikkelmogelijkheden? Ben je niet bang voor pubers? En wil je graag een steentje bijdragen aan de ontwikkeling van jongvolwassenen? Dan ben jij onze acteur!  
 
