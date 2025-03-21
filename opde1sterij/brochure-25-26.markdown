@@ -7,7 +7,9 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-Onze [digitale brochure 2025-2026](https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487) is er! Ons volledige aanbod staat er in: 11 voorstellingen, 5 voor VO, 5 voor PO, waarvan 1 speciaal voor de Kinderboekenweek, TheaterChallenge en Traject C. Check de brochure door op de afbeelding hieronder te klikken.
+Onze [digitale brochure 2025-2026](https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487) is er! Ons volledige aanbod staat er in: 11 voorstellingen, 5 voor VO, 5 voor PO, waarvan 1 speciaal voor de Kinderboekenweek, TheaterChallenge en Traject C. Check de brochure hieronder:
+
+<a href="https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487"><img src="/uploads/brochure-25-26.jpg" class="lazyload" style="width: 100%; margin: 16px 0 0"></a>
 
 Er staan drie nieuwe voorstellingen in:  
 * [Help, ik ben een held](https://www.opde1sterij.nl/theatergroep-zwerm/kinderboekenweek-2025/), speciaal voor de Kinderboekenweek  
@@ -19,5 +21,3 @@ Die laatste twee gaan beiden over nepnieuws, misleidende informatie, kunstmatige
 Of neem contact met ons op via [mail](mailto:info@opde1sterij.nl) of bel:  
 <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>.  
 Of plan een [belafspraak](https://calendly.com/opde1sterij/info-over-nieuwe-voorstellingen) in op een moment dat ons beiden goed uitkomt.
-
-<a href="https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487"><img src="/uploads/brochure-25-26.jpg" class="lazyload" style="width: 100%; margin: 16px 0 0"></a>
