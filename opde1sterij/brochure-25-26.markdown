@@ -2,10 +2,12 @@
 title: Brochure 25-26
 date: 2025-03-12 15:00:00 +01:00
 position: 0
+assets:
+- path: "/uploads/brochure-23-24.jpg"
 author: info@opde1sterij.nl
 ---
 
-Onze [digitale brochure 2025-2026](https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487) is er! Ons volledige aanbod staat er in: 11 voorstellingen, 5 voor VO, 5 voor PO, waarvan 1 speciaal voor de Kinderboekenweek, TheaterChallenge en Traject C.
+Onze [digitale brochure 2025-2026](https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487) is er! Ons volledige aanbod staat er in: 11 voorstellingen, 5 voor VO, 5 voor PO, waarvan 1 speciaal voor de Kinderboekenweek, TheaterChallenge en Traject C. Check de brochure door op de afbeelding hieronder te klikken.
 
 Er staan drie nieuwe voorstellingen in:  
 * [Help, ik ben een held](https://www.opde1sterij.nl/theatergroep-zwerm/kinderboekenweek-2025/), speciaal voor de Kinderboekenweek  
