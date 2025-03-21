@@ -1,5 +1,5 @@
 ---
-title: Nieuws
+title: 'Nieuws: Kinderboekenweek 2025'
 date: 2025-01-22 06:41:00 +01:00
 position: 3
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur, voorstelling, voorstellingen,

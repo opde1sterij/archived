@@ -1,5 +1,5 @@
 ---
-title: Nieuws-vacature
+title: 'Nieuws: Vacature'
 date: 2024-03-12 15:52:00 +01:00
 position: 1
 ---
