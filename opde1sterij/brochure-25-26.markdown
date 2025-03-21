@@ -18,4 +18,4 @@ Of neem contact met ons op via [mail](mailto:info@opde1sterij.nl) of bel:
 <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>.  
 Of plan een [belafspraak](https://calendly.com/opde1sterij/info-over-nieuwe-voorstellingen) in op een moment dat ons beiden goed uitkomt.
 
-<a href="https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487"><img data-src="/uploads/brochure-25-26.jpg" class="lazyload" style="width: 100%; margin: 16px 0 0"></a>
+<a href="https://indd.adobe.com/view/0ddec2b8-dfec-4593-bfa8-064b923bb487"><img src="/uploads/brochure-25-26.jpg" class="lazyload" style="width: 100%; margin: 16px 0 0"></a>
