@@ -437,14 +437,12 @@
 
 		<script src="/lazysizes.min.js" async=""></script>
 		<script src="/opde1sterij.js"></script>
-		<script src="/boekingen.js"></script>
+		{% if page.sectie %}<script src="/boekingen.js"></script>{% endif %}
 		<script>
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
 			ga('create', '{{home-page.analytics}}', 'auto'); ga('set', 'forceSSL', true); ga('set', 'anonymizeIp', true); ga('send', 'pageview')
 		</script>
-<!-- 
 		<script src="https://google-analytics.com/analytics.js" async defer></script>
- -->
 	</body>
 
 </html>

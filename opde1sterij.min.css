@@ -547,7 +547,7 @@ header {
 
 .secties ul {
     margin: 37px 0 0;
-    padding: 0 0 0 22px;
+    padding: 0 0 0 16px;
     list-style:none
 }
 
@@ -559,7 +559,7 @@ header {
 
 .secties a {
     display: block;
-    padding: 8px 12px;
+    padding: 8px 13px;
     transition-duration: .3s;
     transition-property: background;
     text-decoration: none;
