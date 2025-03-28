@@ -18,7 +18,7 @@ kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook 
   per dag €1325,- <br>  4 voorstellingen per dag €1695,- <br>  Prijzen zijn excl.
   btw en excl. reiskosten; '
 leeftijd: groep 3, 4, 5, 6, 7, 8
-sectie: bo
+sectie: po
 ---
 
 **Sam en Philine zijn in de achtertuin het grote verjaardagsfeest aan het voorbereiden. Morgen is Sam namelijk jarig. Speciaal voor zijn verjaardag komt zijn oom Jack helemaal uit Australië overgevlogen. Sam kijkt enorm tegen hem op. Oom Jack is namelijk avonturier, een echte schatzoeker. En zijn lievelingsoom.**

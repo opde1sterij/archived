@@ -64,8 +64,8 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   // xhr.withCredentials = true;
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.onreadystatechange = function() {
-      document.getElementById('gform').style.display = 'none'; // hide form
-      document.getElementById('boeking-verzonden').style.display = 'block';
+      document.getElementById('boekingsbevestiging').style.display = 'none'; // hide form
+      document.getElementById('boeking-verzonden').style.display = 'inline-block';
       window.scrollTo(0, 0);
       return;
   };

@@ -13,7 +13,7 @@ assets:
 - path: "/uploads/help-onze-meester-is-verdwaald-3.jpg"
   name: help-onze-meester-is-verdwaald-3
 author: info@opde1sterij.nl
-sectie: bo
+sectie: po
 kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook speciaal
   onderwijs; Tijdsduur: 40 min (30 min voorstelling en 10 min meet + greet); Aangeboden
   in: heel Nederland; Aantal deelnemers: max. 90; Maakt gebruik van: digibord; Lesmateriaal:

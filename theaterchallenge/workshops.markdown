@@ -16,7 +16,7 @@ assets:
 - path: "/uploads/losse-workshops.jpg"
   name: losse-workshops
 author: info@opde1sterij.nl
-sectie: bo, vo
+sectie: po, vo
 kenmerken: 'Soort project: workshops; Doelgroep: 4 t/m 18 jaar; Tijdsduur: vanaf 1,5
   uur; Aangeboden in: Heel Nederland; Max. aantal deelnemers: de hele school; Prijs:
   offerte op aanvraag'

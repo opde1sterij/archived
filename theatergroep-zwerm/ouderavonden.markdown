@@ -15,7 +15,7 @@ assets:
 - path: "/uploads/ouderavonden.jpg"
   name: ouderavonden
 author: info@opde1sterij.nl
-sectie: bo, vo
+sectie: po, vo
 kenmerken: 'Soort project: voorstelling; Doelgroep: ouders, verzorgers, docenten,
   hulpverleners; Tijdsduur: in overleg (45 min voorstelling 30 min nabespreking);
   Aangeboden in: heel Nederland; Max aantal deelnemers: in overleg; Maakt gebruik

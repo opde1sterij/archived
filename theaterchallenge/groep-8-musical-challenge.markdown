@@ -12,7 +12,7 @@ assets:
 - path: "/uploads/groep-8-musical-challenge-2.jpg"
   name: groep-8-musical-challenge-2
 author: info@opde1sterij.nl
-sectie: bo
+sectie: po
 kenmerken: 'Soort project: workshops; Doelgroep: groep 8; Tijdsduur: verschilt per
   pakket.; vanaf 2,5 uur - enkele dagen; Aangeboden in: heel Nederland; Max. aantal
   deelnemers: per groep; Prijs: offerte op aanvraag; online aanbod: vanwege de Coronamaatregelen

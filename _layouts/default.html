@@ -89,19 +89,31 @@
 								{% if portal-page %}<li class="portals{% if page.url == '/portals' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/portals/" title="Portals">Portals</a></li>{% endif %}
 							</ul>
 							<ul class="secties-mobiel" hidden>
-								<li class="basisonderwijs{% if page.url == '/basisonderwijs' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/basisonderwijs/" title="Aanbod Basisonderwijs">Basisonderwijs</a></li>
+								<li class="primair-onderwijs{% if page.url == '/primair-onderwijs' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/primair-onderwijs/" title="Aanbod Primair Onderwijs">Primair Onderwijs</a></li>
 								<li class="voortgezet-onderwijs{% if page.url == '/voortgezet-onderwijs' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/voortgezet-onderwijs/" title="Aanbod Voortgezet Onderwijs">Voortgezet Onderwijs</a></li>
+								<li class="agenda{% if page.url == '/agenda' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></li>
+								<li class="blog{% if page.url == '/blog' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/blog/" title="Bekijk ons blog">Blog</a></li>
+								<li class="over-ons{% if page.url == '/over-ons' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/over-ons/" title="Over Op de eerste rij">Over Ons</a></li>
+<!-- 
 								<li class="bedrijven{% if page.url == '/bedrijven' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/bedrijven/" title="Aanbod Bedrijven">Bedrijven</a></li>
 								<li class="particulieren{% if page.url == '/particulieren' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/particulieren/" title="Aanbod Particulieren">Particulieren</a></li>
+ -->
 							</ul>
 						</div>
 					</nav>
 					<nav class="secties">
 						<ul>
-							<li><a href="/basisonderwijs/" title="Aanbod Basisonderwijs"{% if page.url == '/basisonderwijs/' %} class="geselecteerd"{% endif %}>Basisonderwijs</a></li>
+							<li><a href="/primair-onderwijs/" title="Aanbod Primair Onderwijs"{% if page.url == '/primair-onderwijs/' %} class="geselecteerd"{% endif %}>Primair Onderwijs</a></li>
 							<li><a href="/voortgezet-onderwijs/" title="Aanbod Voortgezet Onderwijs"{% if page.url == '/voortgezet-onderwijs/' %} class="geselecteerd"{% endif %}>Voortgezet Onderwijs</a></li>
+							<li><a href="/agenda/" title="Bekijk onze agenda"{% if page.url == '/agenda/' %} class="geselecteerd"{% endif %}>Agenda</a></li>
+							<li><a href="/blog/" title="Bekijk ons blog"{% if page.url == '/blog/' %} class="geselecteerd"{% endif %}>Blog</a></li>
+							<li><a href="/over-ons/" title="Over Op de eerste rij"{% if page.url == '/over-ons/' %} class="geselecteerd"{% endif %}>Over Ons</a></li>
+<!-- 
 							<li><a href="/bedrijven/" title="Aanbod Bedrijven"{% if page.url == '/bedrijven/' %} class="geselecteerd"{% endif %}>Bedrijven</a></li>
+ -->
+<!-- 
 							<li><a href="/particulieren/" title="Aanbod Particulieren"{% if page.url == '/particulieren/' %} class="geselecteerd"{% endif %}>Particulieren</a></li>
+ -->
 						</ul>
 					</nav>
 					<aside class="rechter-header-blok">
@@ -109,7 +121,7 @@
 						<div class="sociaal">
 							<a class="facebook-knop" href="{{home-page.facebook}}" title="Ga naar onze Facebook" rel="noopener noreferrer"></a>
 							<a class="youtube-knop" href="{{home-page.youtube}}" title="Ga naar onze YouTube" rel="noopener noreferrer"></a>
-							<a class="twitter-knop" href="{{home-page.twitter}}" title="Ga naar onze X/Twitter" rel="noopener noreferrer"></a>
+							<a class="twitter-knop" href="{{home-page.twitter}}" title="Ga naar onze X" rel="noopener noreferrer"></a>
 							<a class="instagram-knop" href="{{home-page.instagram}}" title="Ga naar onze Instagram" rel="noopener noreferrer"></a>
 						</div>
 						<div class="contact-box">
@@ -121,7 +133,7 @@
 					</aside>
 				</div>
 			</header>
-			{% if page.url == '/basisonderwijs/' or page.url == '/voortgezet-onderwijs/' or page.url == '/bedrijven/' or page.url == '/particulieren/' or page.url contains '/crew/' or page.url == '/agenda/' %}{% else %}
+			{% if page.url == '/primair-onderwijs/' or page.url == '/voortgezet-onderwijs/' or page.url == '/bedrijven/' or page.url == '/particulieren/' or page.url contains '/crew/' or page.url == '/agenda/' %}{% else %}
 			<div class="achtergrond-box">
 				{% if page.url == '/boekingen/' %}{% assign selected-page = contact-page %}{% elsif page.url == '/blog/' %}{% assign selected-page = site.collections | where: 'title', 'Posts' | first %}{% else %}{% assign selected-page = page %}{% endif %}{% assign trailer = selected-page.trailer-embed-code | default: 'geen trailer' %}{% if page.blogger %}{% assign achtergrond-afbeelding = selected-page.assets[0].path | default: '/leeg_nieuw.png' %}{% else %}{% assign achtergrond-afbeelding = selected-page.assets[0].path | default: '/leeg_nieuw.png' %}{% endif %}<noscript><div class="achtergrond"{% if trailer == 'geen trailer' %} style="background-image:url('{% assign extension = achtergrond-afbeelding | split: '.' | last %}{% if extension == 'png' %}{{achtergrond-afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{achtergrond-afbeelding}}{% endif %}'); opacity: 1;"{% endif %}>{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="video-wikkel"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>'}}{% endif %}</div></noscript><div class="achtergrond lazyload"{% if trailer == 'geen trailer' %} data-bg="{% assign extension = achtergrond-afbeelding | split: '.' | last %}{% if extension == 'png' %}{{achtergrond-afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{achtergrond-afbeelding}}{% endif %}"{% endif %}>{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="video-wikkel"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>'}}{% endif %}</div>
 				<div class="achtergrond-lader"></div>
@@ -151,7 +163,7 @@
 						<div class="blokje"></div>
 					</a>{% endif %}
 				</article>
-				{% elsif page.url == '/basisonderwijs/' or page.url == '/voortgezet-onderwijs/' or page.url == '/bedrijven/' or page.url == '/particulieren/' %}
+				{% elsif page.url == '/primair-onderwijs/' or page.url == '/voortgezet-onderwijs/' or page.url == '/bedrijven/' or page.url == '/particulieren/' %}
 				<h1 class="hoofd">{{page.title}}</h1>
 				<div class="product-overzicht">
 					<ul>{% assign secties = site.pages | where_exp: 'sectie-page', 'sectie-page.sectie-naam' | reverse %}{% assign onderdelen = site.pages | where_exp: 'onderdeel-page', 'onderdeel-page.onderdeel == true' | sort: 'position' %}{% for onderdeel in onderdelen %}{% assign pages = site.pages | where_exp: 'sub-page', 'sub-page.dir contains onderdeel.dir' | where_exp: 'sub-page', 'sub-page.sectie contains page.sectie-naam' | sort: 'position' %}
@@ -216,10 +228,10 @@
 					<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
 						<p class="boekingsuitleg">Selecteer wat je wilt boeken:</p>
 						<div class="product-selectie">{% assign onderdelen = site.pages | where_exp: 'onderdeel-page', 'onderdeel-page.onderdeel == true' | sort: 'position' %}{% for onderdeel in onderdelen %}{% assign pages = site.pages | where_exp: 'sub-page', 'sub-page.dir contains onderdeel.dir' | where_exp: 'sub-page', 'sub-page.sectie' | sort: 'position' %}
-							{% for page in pages %}<div id="{{page.title | slugify}}">
-								<input type="checkbox" name="product" value="{{page.title}} ({{page.leeftijd}})" class="{{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}"> <span class="boek-product {{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}">{{page.title | replace: ' – de Hermannosaurus rex', ''}}{% if page.leeftijd %}&nbsp;&nbsp;<span class="boek-product-leeftijd">({{page.leeftijd}})</span>{% endif %}</span>&nbsp;&nbsp;&nbsp;<span class="product-meer-info"><a href="{{page.url}}" title="Over ‘{{page.title}}’">info</a></span>
+							{% for page in pages %}<div id="{{page.title | slugify | replace: 'de-hermannen-', ''}}">
+								<input type="checkbox" name="product" value="{{page.title}} ({{page.leeftijd}})" class="{{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}"> <span class="boek-product {{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}">{{page.title | replace: ' – de Hermannosaurus rex', ''}}{% if page.leeftijd %}&nbsp;&nbsp;<span class="boek-product-leeftijd">({{page.leeftijd}})</span>{% endif %}</span>&nbsp;&nbsp;&nbsp;<span class="product-meer-info"><a href="{{page.url}}" title="Over {{page.title}}">info</a></span>
 							</div>
-							{% endfor %}{% if forloop.last == false %}<br>{% endif %}{% endfor %}
+							{% endfor %}{% if forloop.last == false %}<br>{% endif %}{% endfor %}<br>
 						</div>
 						<div class="boekingscontactgegevens">
 							<p>Vul je gegevens in:</p>
@@ -240,14 +252,14 @@
 							<input type="text" name="datum" placeholder="Voorkeursdatum" class="boeking-datum">
 						</div>
 						<textarea class="boekingstoevoegingen" name="toevoegingen" rows="5" placeholder="Toevoegingen…"></textarea>
-						<div class="boekingsbevestiging">
+						<div id="boekingsbevestiging">
 							<noscript><input type="submit" value="Zet eerst JavaScript aan!" title="Zet eerst JavaScript aan en klik dan op deze knop" class="geen-js verstuur-boeking"></noscript>
 							<input type="submit" value="Klik hier om te versturen" title="Klik hier om deze boekingsaanvraag te versturen" class="js verstuur-boeking">
 							<div class="blokje"></div>
 						</div>
 					</form>
+					<h2 id="boeking-verzonden">&#10004; Gelukt! We nemen snel contact met je op!</h2>
 					<div class="tekst">
-						<h2 id="boeking-verzonden">&#10004; Gelukt! We nemen snel contact met je op!</h2>
 						{{contact-page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
 				</article>
@@ -273,7 +285,7 @@
 					<div class="contact-pagina-sociaal">
 						<a class="contact-pagina-sociaal-facebook" href="{{home-page.facebook}}" title="Ga naar onze Facebook" rel="noopener noreferrer"></a>
 						<a class="contact-pagina-sociaal-youtube" href="{{home-page.youtube}}" title="Ga naar onze YouTube" rel="noopener noreferrer"></a>
-						<a class="contact-pagina-sociaal-twitter" href="{{home-page.twitter}}" title="Ga naar onze X/Twitter" rel="noopener noreferrer"></a>
+						<a class="contact-pagina-sociaal-twitter" href="{{home-page.twitter}}" title="Ga naar onze X" rel="noopener noreferrer"></a>
 						<a class="contact-pagina-sociaal-instagram" href="{{home-page.instagram}}" title="Ga naar onze Instagram" rel="noopener noreferrer"></a>
 					</div>
 					<a class="boek-ticket link" href="/boekingen/" title="Boekingen">
@@ -324,17 +336,52 @@
 					<h1>{{page.title}}{% if page.leeftijd %} <span class="leeftijd-doelgroep">({{page.leeftijd}})</span>{% endif %}</h1>
 					{% if page.actie %}<a class="actie-knop" href='/opde1sterij/{{page.actie | replace: ' ', '-' | replace: '!', '' | downcase}}/'>{{page.actie | downcase | replace: 'vroegboekkorting', 'vroegboek korting' | replace: 'onlineaanbod', 'online aanbod' | replace: '!', ''}}➔</a>{% endif %}
 					{% if page.speciaal %}<a class="speciaal-knop" href='/opde1sterij/{{page.speciaal | replace: ' ', '-' | replace: '!', '' | downcase}}/'>{{page.speciaal | replace: 'coronaproof', 'corona proof' | replace: '!', ''}}➔</a>{% endif %}
-					<div class="tekst">
-						{{page.content | markdownify | replace: '<iframe', '<div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>'}}
+					<div class="tekst">{% assign paragraphs = page.content | markdownify | split: '</p>' %}
+						{{paragraphs[0] | replace: '<iframe', '<div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>' | append: '</p>'}}
+						{% assign kenmerken = page.kenmerken | default: 'geen kenmerken' %}{% if kenmerken != 'geen kenmerken' %}{% assign kenmerken-split = page.kenmerken | split:'; ' %}<div class="kenmerken"><h2>Kenmerken</h2><ul>{% for kenmerk in kenmerken-split %}<li><span class="kenmerk-lijst-titel">{{kenmerk | replace:':', '<span class="kapitalen-dubbelepunt">:</span></span><span class="kenmerk-lijst-info">'}}</span></li>{% endfor %}</ul></div>{% endif %}
+						{% for paragraph in paragraphs offset:1 %}{{paragraph | replace: '<iframe', '<div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>' | append: '</p>'}}{% endfor %}
 						{% assign sleutelwoorden = page.sleutelwoorden | default: 'geen sleutelwoorden' %}{% if sleutelwoorden != 'geen sleutelwoorden' %}<ul><li><span class="kenmerk-lijst-titel">Sleutelwoorden<span class="kapitalen-dubbelepunt">:</span></span> <span class="kenmerk-lijst-info">{{page.sleutelwoorden}}</span></li></ul>{% endif %}
 					</div>
 					{% assign filmpje = page.filmpje-embed-code | default: 'geen filmpje' %}{% if filmpje != 'geen filmpje' %}{{page.filmpje-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
-					{% assign kenmerken = page.kenmerken | default: 'geen kenmerken' %}{% if kenmerken != 'geen kenmerken' %}{% assign kenmerken-split = page.kenmerken | split:'; ' %}<div class="kenmerken"><h2>Kenmerken</h2><ul>{% for kenmerk in kenmerken-split %}<li><span class="kenmerk-lijst-titel">{{kenmerk | replace:':', '<span class="kapitalen-dubbelepunt">:</span></span><span class="kenmerk-lijst-info">'}}</span></li>{% endfor %}</ul></div>{% endif %}
-					<a class="boek-ticket link" href="/boekingen/{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% if parent[1] != 'opde1sterij' %}#{{page.title | slugify}}{% endif %}{% endif %}" title="{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% if parent[1] == 'opde1sterij' %}Boekingen{% else %}Boek ‘{{page.title}}’{% endif %}{% else %}Boekingen{% endif %}">
+					{% if page.sectie %}<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
+						<h2>Boekingen</h2>
+						<p class="boekingsuitleg">Wil je deze voorstelling boeken?<br>Vul dan hieronder je gegevens in:</p>
+						<div class="boekingscontactgegevens">
+							<input checked hidden type="checkbox" name="product" value="{{page.title}} ({{page.leeftijd}})" class="{{page.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ' '}}">
+							<input type="text" name="naam" placeholder="Naam" id="boeking-naam" required>
+							<br>
+							<input type="text" name="e-mailadres" placeholder="E-mailadres" id="boeking-e-mailadres" required>
+							<br>
+							<input type="text" name="schoolnaam" placeholder="(Schoolnaam)" class="boeking-school">
+							<br>
+							<input type="text" name="adres" placeholder="Adres" class="boeking-adres">
+							<br>
+							<input type="text" name="postcode" placeholder="Postcode" class="boeking-postcode">
+							<br>
+							<input type="text" name="plaats" placeholder="Plaats" class="boeking-plaats" required>
+							<br>
+							<input type="text" name="telefoonnummer" placeholder="Tel. Contactpersoon" class="boeking-telelefoonnummer">
+							<br>
+							<input type="text" name="datum" placeholder="Voorkeursdatum" class="boeking-datum">
+						</div>
+						<textarea class="boekingstoevoegingen" name="toevoegingen" rows="5" placeholder="Toevoegingen…"></textarea>
+						<div id="boekingsbevestiging">
+							<noscript><input type="submit" value="Zet eerst JavaScript aan!" title="Zet eerst JavaScript aan en klik dan op deze knop" class="geen-js verstuur-boeking"></noscript>
+							<input type="submit" value="Klik hier om te versturen" title="Klik hier om deze boekingsaanvraag te versturen" class="js verstuur-boeking">
+							<div class="blokje"></div>
+						</div>
+					</form>
+					<h2 id="boeking-verzonden">&#10004; Gelukt! We nemen snel contact met je op!</h2>
+					<div class="tekst">
+						{% assign contact-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/contact/"' | first %}{{contact-page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
+					</div>{% endif %}
+<!--
+					<a class="boek-ticket link" href="/boekingen/{% if page.url == '/de-hermannosaurus-rex/' %}#de-hermannosaurus-rex{% else %}{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% if parent[1] != 'opde1sterij' %}#{{page.title | slugify}}{% endif %}{% endif %}{% endif %}" title="{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% if parent[1] == 'opde1sterij' %}Boekingen{% else %}Boek ‘{{page.title}}’{% endif %}{% else %}Boekingen{% endif %}">
 						<div class="ticket"></div>
 						<span>Klik hier om te boeken</span>
 						<div class="blokje"></div>
 					</a>
+ -->
 					{% if page.url != '/de-hermannosaurus-rex/' %}<a class="naar-crew link" href="{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% if parent[1] != 'opde1sterij' %}/{{parent[1]}}{% endif %}{% endif %}/crew/" title="Over de Crew">
 						<span>Over de Crew</span>
 						<div class="blokje"></div>
@@ -344,11 +391,13 @@
 						<div class="blokje"></div>
 					</a>{% endif %}
 				</article>
-				{% endif %}<div id="pijl"></div>
+				{% endif %}<div id="pijl"><a href="https://opdeeersterij.activehosted.com/f/3" class="link"><span>Schrijf je in voor onze nieuwsbrief!</span><div class="blokje"></div></a></div>
 			</main>
 
 			<footer>
 				<div class="nieuwsbrief">
+					<a href="https://opdeeersterij.activehosted.com/f/3" class="link"><span>Schrijf je in voor onze nieuwsbrief!</span><div class="blokje"></div></a>
+<!-- 
 					<form action="https://theatergroepzwerm.us2.list-manage.com/subscribe/post?u=38266bd5740f0712f93ca691f&amp;id=5506a8f535" method="post">
 						<h3>Schrijf je in voor de nieuwsbrief!</h3>
 						<input type="text" name="EMAIL" placeholder="e-mailadres" class="nieuwsbrief-e-mailadres">
@@ -358,16 +407,17 @@
 							<div class="nieuwsbrief-driehoekje"></div>
 						</div>
 					</form>
+ -->
 				</div>
 				<div class="midden">
 					<div class="laatste-blogposts">
-						<h3><a href="/blog/" title="Bekijk alle blogposts">Blog</a></h3>
+						<h3><a href="/blog/" title="Bekijk ons blog">Blog</a></h3>
 						<ol>
 							{% for post in site.posts limit:3 %}{% assign blogger = post.blogger | slugify | default: 'opde1sterij' %}<li><a href="{{post.url}}" title="Blogpost: {{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m'}}"><div class="blogger-portret-mini-cirkel"><noscript><div class="blogger-portret-mini-foto" style="background-image: url('{% if blogger != 'opde1sterij' %}/uploads/{{blogger}}.jpg{% endif %}')"></div></noscript><div class="blogger-portret-mini-foto lazyload" data-bg="{% if blogger != 'opde1sterij' %}/uploads/{{blogger}}.jpg{% endif %}"></div></div><span>{{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m'}}</span></a></li>{% endfor %}
 						</ol>
 					</div>
 					<div class="laatste-agenda">
-						<h3><a href="/agenda/" title="Bekijk de agenda">Agenda</a></h3>
+						<h3><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></h3>
 						<noscript><h3>Zet JavaScript aan en hier zullen data verschijnen.</h3></noscript>
 						<ol></ol>
 					</div>
@@ -387,12 +437,14 @@
 
 		<script src="/lazysizes.min.js" async=""></script>
 		<script src="/opde1sterij.js"></script>
-		{% if page.url == '/boekingen/' %}<script src="/boekingen.js"></script>{% endif %}
+		<script src="/boekingen.js"></script>
 		<script>
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
 			ga('create', '{{home-page.analytics}}', 'auto'); ga('set', 'forceSSL', true); ga('set', 'anonymizeIp', true); ga('send', 'pageview')
 		</script>
+<!-- 
 		<script src="https://google-analytics.com/analytics.js" async defer></script>
+ -->
 	</body>
 
 </html>

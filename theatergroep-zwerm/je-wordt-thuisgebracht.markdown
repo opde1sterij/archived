@@ -3,31 +3,31 @@ title: Je wordt thuisgebracht
 date: 2015-09-05 20:52:00 +02:00
 published: false
 position: 9
-author: info@opde1sterij.nl
-sectie: bo, particulieren
-kenmerken: 'Soort project: voorstelling in aula, gymzaal of speellokaal; Doelgroep:
-  groep 7 & 8 ook speciaal onderwijs; Tijdsduur: 45 min voorstelling en 15 min meet
-  & greet; Aangeboden in: Heel Nederland; Max. aantal deelnemers: 100 leerlingen in
-  school, 150 leerlingen in theater; lesmateriaal: lessenserie over verschillende
-  thema''s; Prijs: 1 voorstelling per dag €855,- <br> 2 voorstellingen per dag €1195,-
-  <br> 3 voorstellingen per dag €1595,-'
-korte-beschrijving: Een muzikale objecttheater-voorstelling over roots, reizen, vriendschap
-  en je thuis voelen voor kinderen vanaf 6 jaar.
-leeftijd: 6+
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
   voorstelling, educatief theater, educatie, interactief, ckv, TheaterChallenge, muziek
   theater, objecttheater, Tilly Sanichar-van Herwijnen, Esther Hulst, Martijn Huitema,
   Moluks, Indisch, Jeugdtheater, afkomst, identiteit, boottocht, aap, schaduwspel,
   schimmerspel, wayang kulit, verhuizen, vriendschap, kindertheater, theater in de
   klas, voorstellingen in de klas, toneelstuk,
+korte-beschrijving: Een muzikale objecttheater-voorstelling over roots, reizen, vriendschap
+  en je thuis voelen voor kinderen vanaf 6 jaar.
 filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zdz_Kwkz9QQ?rel=0&amp;controls=0&amp;showinfo=0"
   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-actie: 
-sleutelwoorden: 
-speciaal: 
 assets:
 - path: "/uploads/je-wordt-thuisgebracht.jpg"
   name: je-wordt-thuisgebracht
+author: info@opde1sterij.nl
+sectie: po, particulieren
+kenmerken: 'Soort project: voorstelling in aula, gymzaal of speellokaal; Doelgroep:
+  groep 7 & 8 ook speciaal onderwijs; Tijdsduur: 45 min voorstelling en 15 min meet
+  & greet; Aangeboden in: Heel Nederland; Max. aantal deelnemers: 100 leerlingen in
+  school, 150 leerlingen in theater; lesmateriaal: lessenserie over verschillende
+  thema''s; Prijs: 1 voorstelling per dag €855,- <br> 2 voorstellingen per dag €1195,-
+  <br> 3 voorstellingen per dag €1595,-'
+leeftijd: 6+
+actie: 
+sleutelwoorden: 
+speciaal: 
 ---
 
 **Je wordt thuisgebracht** is een muzikale objecttheater voorstelling over roots, reizen, vriendschap en je thuis voelen voor kinderen vanaf 6 jaar.

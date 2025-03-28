@@ -14,7 +14,7 @@ assets:
   name: digitale-leerlijn-muziek
 author: info@opde1sterij.nl
 leeftijd: groep 1 t/m 8
-sectie: bo
+sectie: po
 kenmerken: 'Soort project: digitale leerlijn; Doelgroep: onderbouw, middenbouw, bovenbouw;
   Tijdsduur: 30 min per les; Aangeboden in: heel Nederland; Max aantal deelnemers:
   per klas via digibord, of individueel vanuit huis; Prijs: offerte op aanvraag'

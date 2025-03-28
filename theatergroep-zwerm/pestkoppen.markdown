@@ -11,7 +11,7 @@ assets:
 - path: "/uploads/PestKoppen.jpg"
   name: PestKoppen
 author: info@opde1sterij.nl
-sectie: bo
+sectie: po
 kenmerken: 'Soort project: voorstelling in de klas; Doelgroep: groep 6 t/m 8 ook speciaal
   onderwijs; Tijdsduur: 1,5 uur (45 min voorstelling en 45 min nabespreking); Aangeboden
   in: heel Nederland; Aantal deelnemers: max. 64 leerlingen of 2 klassen; Maakt gebruik

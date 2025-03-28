@@ -15,7 +15,7 @@ assets:
 - path: "/uploads/in1dag-voorstelling-maken-basisonderwijs-2.jpg"
   name: in1dag-voorstelling-maken-basisonderwijs-2
 author: info@opde1sterij.nl
-sectie: bo
+sectie: po
 kenmerken: 'Soort project: workshops; Doelgroep: groep 1 t/m 8; Tijdsduur: de hele
   dag (korter in overleg); Aangeboden in: Heel Nederland; Max. aantal deelnemers:
   de hele school; Lesmateriaal: voor elke bouw 2 lessen en een lied; Prijs: offerte

@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2016-03-06 21:54:00 +01:00
-position: 6
+position: 8
 korte-beschrijving: Neem contact op met Op de eerste rij.
 assets:
 - path: "/uploads/contact.jpg"

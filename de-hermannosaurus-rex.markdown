@@ -1,7 +1,7 @@
 ---
 title: De Hermannen – de Hermannosaurus rex
 date: 2019-12-09 16:15:00 +01:00
-position: 5
+position: 7
 korte-beschrijving: 'De Hermannosaurus rex: een knotsgekke voorstelling over duurzaamheid,
   creativiteit en het betere knutselwerk'
 filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube.com/embed/r4RXjNTndq0"
@@ -13,7 +13,7 @@ assets:
 - path: "/uploads/nu-te-boeken-anderhalve-meter-proof!-de-hermannen-met-de-recyclemachine.jpg"
   name: nu-te-boeken-anderhalve-meter-proof!-de-hermannen-met-de-recyclemachine
 author: info@opde1sterij.nl
-sectie: bo, vo
+sectie: po, vo
 onderdeel: true
 kenmerken: 'Soort project: voorstelling ; Doelgroep: groep 3 t/m 8 ook speciaal onderwijs;
   Tijdsduur: 50 min; Aangeboden in: Heel Nederland; Max. aantal deelnemers: 100 ll

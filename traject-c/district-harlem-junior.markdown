@@ -2,26 +2,26 @@
 title: District Harlem Junior
 date: 2015-12-17 13:40:00 +01:00
 position: 9
-author: info@opde1sterij.nl
 zoektermen: muziekeducatie, muziekles, workshop, muziekonderwijs, muziek workshop,
   Martijn Huitema, muziek, vibes, op de eerste rij, lessenreeks, doorlopende leerlijn,
   op maat, kinderconcert, concert, basisonderwijs, primair onderwijs, basisschool,
   muziek maken, instrument bespelen, zangworkshop, percussieworkshop, leerlingen,
   muziek dag,
-sectie: bo
+korte-beschrijving: Deze 4-koppige band geeft spetterende kinderconcerten en muziek-workshops.
+filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube.com/embed/vj33wGuvOx4?list=PLsvf04q2JM9-E2CID52aN5nE1RkbwMWuD"
+  frameborder="0" allowfullscreen></iframe>
+assets:
+- path: "/uploads/district-harlem-junior.jpg"
+  name: district-harlem-junior
+author: info@opde1sterij.nl
+sectie: po
 kenmerken: 'Soort project: kinderconcert & workshops; Doelgroep: groep 1 t/m 8; Tijdsduur:
   in overleg.; Aangeboden in: Heel Nederland; Max aantal deelnemers: hele school;
   Prijs: offerte op aanvraag'
-filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube.com/embed/vj33wGuvOx4?list=PLsvf04q2JM9-E2CID52aN5nE1RkbwMWuD"
-  frameborder="0" allowfullscreen></iframe>
-korte-beschrijving: Deze 4-koppige band geeft spetterende kinderconcerten en muziek-workshops.
 leeftijd: groep 1 t/m 8
 actie: 
 sleutelwoorden: 
 speciaal: 
-assets:
-- path: "/uploads/district-harlem-junior.jpg"
-  name: district-harlem-junior
 ---
 
 **District Harlem Junior** is een 4-koppige band, die workshops en kinderconcerten geeft.

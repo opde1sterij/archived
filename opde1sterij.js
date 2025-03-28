@@ -164,7 +164,7 @@ $(function() {
 	});
 
 	$(window).scroll(function() {
-		if ($('body').height() >= ($(window).height() + $(window).scrollTop() + ($('#pijl').height() * 2))) {
+		if ($('body').height() >= ($(window).height() + $(window).scrollTop() + ($(window).height() * 0.66))) {
 			$('#pijl').css({'display': 'block', 'transform': 'translateY(0)'}); 
 		}
 		else {
@@ -173,16 +173,16 @@ $(function() {
 	});
 
 	var pijlGeklikt = false;
-	$('#pijl').click(function() {
-		if(!pijlGeklikt) {
-			pijlGeklikt = true;
-			$('html, body').animate({ scrollTop: $('html').prop("scrollHeight") }, 1000, 'easeInOutQuad')
-			.promise()
-			.then(function() {
-				pijlGeklikt = false;
-			});
-		}
-	});
+// 	$('#pijl').click(function() {
+// 		if(!pijlGeklikt) {
+// 			pijlGeklikt = true;
+// 			$('html, body').animate({ scrollTop: $('html').prop("scrollHeight") }, 1000, 'easeInOutQuad')
+// 			.promise()
+// 			.then(function() {
+// 				pijlGeklikt = false;
+// 			});
+// 		}
+// 	});
 
 	var onderdeel, plaats;
 	$.ajax({

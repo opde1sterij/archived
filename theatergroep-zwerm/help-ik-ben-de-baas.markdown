@@ -16,7 +16,7 @@ kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook 
   voorstelling per dag €775,- <br> 2 voorstellingen per dag €995,- <br> 3 voorstellingen
   per dag €1245,- <br>  4 voorstellingen per dag €1595,- <br>  Prijzen zijn excl.
   btw en excl. reiskosten; '
-sectie: bo
+sectie: po
 leeftijd: groep 3, 4, 5, 6, 7, 8
 ---
 

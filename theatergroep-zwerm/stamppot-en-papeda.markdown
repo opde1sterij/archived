@@ -16,7 +16,7 @@ kenmerken: 'Soort project: voorstelling op school of in theater; Doelgroep: groe
   dag €1250,- <br> 3 voorstellingen per dag €1750,- <br>  Prijzen zijn excl. btw en
   excl. reiskosten'
 leeftijd: groep 3, 4, 5, 6, 7, 8
-sectie: bo
+sectie: po
 ---
 
 **Eindelijk is het zover: Sam komt bij Philine logeren. Philine heeft al 100.000 keer bij hem gelogeerd, maar hij nog nooit bij haar. Hij heeft last van heimwee. En nu slaapt hij een heel weekend in een vreemd huis, met andere gewoontes én Philine’s Molukse oma die in het tuinhuis woont.** Hij moet wel, want zijn ouders zijn op zakenreis. Philine kan bijna niet wachten en heeft een heel programma in elkaar gedraaid. Sam ziet er best tegenop. Hij moet ook nog oefenen voor zijn kookinsigne bij de scouting. Hoe gaat hij dat nou weer doen als de oma van Philine de hele dag ingewikkelde Indische gerechten staat te bereiden en alleen Indonesisch spreekt? Gelukkig zijn Philine en Sam ondanks alle verschillen vooral beste vrienden. Dus samen lossen ze ook dit probleem op.
