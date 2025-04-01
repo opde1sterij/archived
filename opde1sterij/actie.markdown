@@ -1,10 +1,9 @@
 ---
 title: Early bird special
 date: 2024-04-01 08:08:00 +02:00
-published: false
 position: 4
 assets:
-- path: "/uploads/eindejaarskorting.jpg"
+- path: "/uploads/KBW%202025%20v1.png"
 ---
 
 Het thema voor de **Kinderboekenweek 2025** is bekend: “Vol avontuur”. Tg Zwerm presenteert de voorstelling “Help, ik ben een held” een multimediale voorstelling over vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste schat is. Dit is alweer het vijfde avontuur van Sam en Philine en, net als de vorige edities, geschikt voor groep 3 t/m 8.
