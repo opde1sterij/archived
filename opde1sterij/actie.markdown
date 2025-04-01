@@ -5,7 +5,7 @@ position: 4
 trailer-embed-code: <div class="_form_6"></div><script src="https://opdeeersterij.activehosted.com/f/embed.php?id=6"
   charset="utf-8"></script>
 assets:
-- path: "/uploads/KBW%202025%20v1.png"
+- path: "/uploads/8.png"
 ---
 
 De Kinderboekenweek 2025 staat in het teken van "Vol avontuur" en Tg Zwerm neemt je mee op een onvergetelijke reis met de voorstelling “Help, ik ben een held”. Een multimediale voorstelling over vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste schat is.
