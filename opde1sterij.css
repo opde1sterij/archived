@@ -1,0 +1,4039 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+hr {
+    overflow: visible;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    text-decoration: underline;
+    text-decoration: underline dotted;
+    border-bottom: none
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    padding: 0;
+    border-style: none
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    display: table;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+    color: inherit
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: textfield
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+/*! opde1sterij.css */
+
+body {
+    font: 300 16px/100% "aktiv-grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    color: #3d3b3b;
+    background: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+    -webkit-font-feature-settings: "kern", "liga", "clig", "case";
+    font-feature-settings: "kern", "liga", "clig", "case"
+}
+
+p {
+    margin: 14px 0
+}
+
+a {
+    transition-duration: .3s;
+    transition-property: color;
+    text-decoration: underline;
+    color: #5c2a3b;
+    -webkit-text-decoration-skip: ink
+}
+
+a:hover {
+    color: #e47c95
+}
+
+.theatergroep-zwerm a {
+    color: #3d3b3b;
+    /* 
+        color:#00060a
+     */
+}
+
+.theatergroep-zwerm a:hover {
+    color: #eda62d
+}
+
+.traject-c a {
+    color: #3d3b3b;
+    /* 
+        color:#00060a
+     */
+}
+
+.traject-c a:hover {
+    color: #68924e
+}
+
+.theaterchallenge a {
+    color: #3d3b3b;
+    /* 
+        color:#00060a
+     */
+}
+
+.theaterchallenge a:hover {
+    color: #ba3a26
+}
+
+.monkeyspoom a {
+    color: #3d3b3b;
+    /* 
+        color:#762d6c
+     */
+}
+
+.monkeyspoom a:hover {
+    color: #47b6bf
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.wikkel {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100%
+}
+
+header {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    background: #f3ddc9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .12)
+}
+
+.theatergroep-zwerm header, .theaterchallenge header {
+    background: #fff
+}
+
+.gecentreerd {
+    width: 1024px;
+    height: 80px;
+    margin: 0 auto;
+    background: #fff
+}
+
+.gecentreerd h1 {
+    float: left;
+    width: 207px;
+    height: 80px;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-size: 207px 80px
+}
+
+.theatergroep-zwerm .gecentreerd h1, .theaterchallenge .gecentreerd h1 {
+    background-color: none
+}
+
+.menu {
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 200;
+    top: 38px;
+    display: block;
+    overflow-y: hidden;
+    width: 209px;
+    height: 38px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: height .2s ease
+}
+
+.menu.open {
+    height: 296px
+}
+
+.menu-knop {
+    width: 30px;
+    margin-left: 4px;
+    cursor: pointer
+}
+
+.menu-titel {
+    height: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: .3s;
+    transition-property: color;
+    text-transform: uppercase;
+    color: #e47c95
+}
+
+.theatergroep-zwerm .menu-titel {
+    color: #eda62d
+}
+
+.traject-c .menu-titel {
+    color: #68924e
+}
+
+.theaterchallenge .menu-titel {
+    color: #d2422b
+}
+
+.monkeyspoom .menu-titel {
+    color: #47b6bf
+}
+
+.menu-balkje {
+    position: relative;
+    width: 28px;
+    height: 2px;
+    margin-bottom: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: .3s;
+    transition-property: background;
+    background: #5c2a3b
+}
+
+.theatergroep-zwerm .menu-balkje, .traject-c .menu-balkje, .theaterchallenge .menu-balkje {
+    background: #00060a
+}
+
+.monkeyspoom .menu-balkje {
+    background: #762d6c
+}
+
+.menu-knop:hover .menu-balkje {
+    background: #e47c95
+}
+
+.theatergroep-zwerm .menu-knop:hover .menu-balkje {
+    background: #eda62d
+}
+
+.traject-c .menu-knop:hover .menu-balkje {
+    background: #68924e
+}
+
+.theaterchallenge .menu-knop:hover .menu-balkje {
+    background: #d2422b
+}
+
+.monkeyspoom .menu-knop:hover .menu-balkje {
+    background: #47b6bf
+}
+
+.menu-knop:after {
+    position: absolute;
+    top: 30px;
+    left: 4px;
+    width: 0;
+    height: 0;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-top-color;
+    border-top: 6px solid #e47c95;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent
+}
+
+.theatergroep-zwerm .menu-knop:after {
+    border-top-color: #eda62d
+}
+
+.traject-c .menu-knop:after {
+    border-top-color: #68924e
+}
+
+.theaterchallenge .menu-knop:after {
+    border-top-color: #d2422b
+}
+
+.monkeyspoom .menu-knop:after {
+    border-top-color: #47b6bf
+}
+
+.menu.open .menu-knop:after {
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.sub-menus {
+    position: absolute;
+    z-index: 100;
+    top: 42px;
+    width: 205px;
+    height: 180px;
+    border: 2px solid #fff;
+    border-bottom: 0;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.sub-menus.filmpjes {
+    height: 216px
+}
+
+.sub-menus.portals {
+    height: 216px
+}
+
+.sub-menus.filmpjes.portals {
+    height: 252px
+}
+
+.sub-menus li {
+    font-size: 13px;
+    float: left;
+    width: 100%;
+    transition-duration: .3s;
+    transition-property: opacity;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    border-bottom: 2px solid #fff
+}
+
+.sub-menus .geselecteerd {
+    opacity: 1
+}
+
+.sub-menus li:hover {
+    opacity: 1
+}
+
+.sub-menus .opde1sterij {
+    background: #e47c95
+}
+
+.sub-menus .zwerm {
+    background: #eda62d
+}
+
+.sub-menus .traject-c {
+    background: #68924e
+}
+
+.sub-menus .theaterchallenge {
+    background: #d2422b
+}
+
+.sub-menus .monkeyspoom {
+    background: #47b6bf
+}
+
+.sub-menus .filmpjes {
+    background: #474545
+}
+
+.sub-menus .portals {
+    background: #474545
+}
+
+.sub-menus a {
+    line-height: 34px;
+    display: block;
+    height: 34px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    color: #fff
+}
+
+.sub-menus a:hover {
+    color: #fff
+}
+
+.sub-menus .voortgezet-onderwijs a {
+    letter-spacing: -.4px
+}
+
+.sub-menus li .menu-driehoekje {
+    float: left;
+    width: 0;
+    height: 0;
+    margin-right: 8px;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #000
+}
+
+.sub-menus .opde1sterij .menu-driehoekje {
+    border-left-color: #dc5675
+}
+
+.sub-menus .zwerm .menu-driehoekje {
+    border-left-color: #e19614
+}
+
+.sub-menus .traject-c .menu-driehoekje {
+    border-left-color: #557740
+}
+
+.sub-menus .theaterchallenge .menu-driehoekje {
+    border-left-color: #ba3a26
+}
+
+.sub-menus .monkeyspoom .menu-driehoekje {
+    border-left-color: #3a9da6
+}
+
+.sub-menus li:hover .menu-driehoekje {
+    border-left-color: #fff
+}
+
+.sub-menus .geselecteerd .menu-driehoekje {
+    border-left-color: #fff
+}
+
+.secties-mobiel {
+    display: none
+}
+
+.secties {
+    float: left;
+    width: 610px;
+    height: 80px;
+    margin: 0 auto;
+    background: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.secties ul {
+    margin: 37px 0 0;
+    padding: 0 0 0 16px;
+    list-style: none
+}
+
+.secties li {
+    font-size: 13px;
+    font-weight: 500;
+    float: left
+}
+
+.secties a {
+    display: block;
+    padding: 8px 13px;
+    transition-duration: .3s;
+    transition-property: background;
+    text-decoration: none;
+    letter-spacing: -.15px;
+    text-transform: uppercase;
+    color: #474545
+}
+
+.wf-active .secties a {
+    letter-spacing: -.05px
+}
+
+.secties a:hover {
+    color: #fff;
+    background: #e47c95
+}
+
+.secties .geselecteerd {
+    color: #fff;
+    background: #e47c95
+}
+
+.secties .geselecteerd:hover {
+    text-decoration: underline
+}
+
+.rechter-header-blok {
+    overflow: hidden;
+    background: #f3ddc9
+}
+
+.theatergroep-zwerm .rechter-header-blok, .theaterchallenge .rechter-header-blok {
+    background: #fff
+}
+
+.randje {
+    float: left;
+    width: 11px;
+    height: 80px;
+    background-image: url(/randje_nieuw@3x.png);
+    background-repeat: no-repeat;
+    background-size: 11px 80px
+}
+
+.theatergroep-zwerm .randje {
+    background-image: url(/randje_nieuw_theatergroep-zwerm@3x.png)
+}
+
+.theaterchallenge .randje {
+    background-image: url(/randje_nieuw_theaterchallenge@3x.png)
+}
+
+.sociaal {
+    float: left;
+    width: 20px;
+    margin: 0 0 0 5px
+}
+
+.sociaal a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    transition-property: background-color;
+    background-color: #474545;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 16px
+}
+
+.sociaal a.facebook-knop {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" style="fill:white" /></svg>')
+}
+
+.sociaal a.youtube-knop {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" style="fill:white" /></svg>')
+}
+
+.sociaal a.twitter-knop {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" style="fill:white" /></svg>')
+}
+
+.sociaal a.instagram-knop {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" style="fill:white" /></svg>')
+}
+
+.sociaal a:hover {
+    background-color: #e47c95
+}
+
+.theatergroep-zwerm .sociaal a:hover {
+    background-color: #eda62d
+}
+
+.traject-c .sociaal a:hover {
+    background-color: #68924e
+}
+
+.theaterchallenge .sociaal a:hover {
+    background-color: #d2422b
+}
+
+.monkeyspoom .sociaal a:hover {
+    background-color: #47b6bf
+}
+
+.contact-box {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.7;
+    float: left;
+    margin: 6px 0 0 10px;
+    text-transform: uppercase
+}
+
+.contact-box p {
+    margin: 0
+}
+
+.contact-box a {
+    text-decoration: none
+}
+
+.contact-box a:hover {
+    color: #e47c95;
+    text-decoration: underline
+}
+
+.theatergroep-zwerm .contact-box a:hover {
+    color: #eda62d
+}
+
+.traject-c .contact-box a:hover {
+    color: #68924e
+}
+
+.theaterchallenge .contact-box a:hover {
+    color: #d2422b
+}
+
+.monkeyspoom .contact-box a:hover {
+    color: #47b6bf
+}
+
+.contact-box a:after {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #e47c95
+}
+
+/* 
+.contact-box a:hover:after {
+    border-left-color:#dc5675
+}
+ */
+.theatergroep-zwerm .contact-box a:after {
+    border-left-color: #eda62d
+}
+
+/* 
+.theatergroep-zwerm .contact-box a:hover:after {
+    border-left-color:#e19614
+}
+ */
+.traject-c .contact-box a:after {
+    border-left-color: #68924e
+}
+
+/* 
+.traject-c .contact-box a:hover:after {
+    border-left-color:#557740
+}
+ */
+.theaterchallenge .contact-box a:after {
+    border-left-color: #d2422b
+}
+
+/* 
+.theaterchallenge .contact-box a:hover:after {
+    border-left-color:#ba3a26
+}
+ */
+.monkeyspoom .contact-box a:after {
+    border-left-color: #47b6bf
+}
+
+/* 
+.monkeyspoom .contact-box a:hover:after {
+    border-left-color:#3a9da6
+}
+ */
+.contact-box .alleen-mobiel {
+    display: none
+}
+
+.achtergrond-box {
+    position: relative;
+    min-width: 320px;
+    min-height: calc(100vw * 0.39219);
+    background: #f0f0f0
+}
+
+.achtergrond {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    min-height: calc(100vw * 0.39219);
+    /* max-height:calc(100vh - 125px); */
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    transition-property: opacity;
+    opacity: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.achtergrond:empty::before {
+    display: block;
+    padding-bottom: 39.219%;
+    content: ""
+}
+
+.video-wikkel {
+    position: relative;
+    height: 0;
+    padding-bottom: 39.219%
+}
+
+.normale-ratio {
+    padding-bottom: 56.25%
+}
+
+.video-wikkel iframe, .video-wikkel embed, .video-wikkel object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.primair-onderwijs .achtergrond, .voortgezet-onderwijs .achtergrond, .bedrijven .achtergrond, .particulieren .achtergrond, .crew .achtergrond, .agenda .achtergrond {
+    position: absolute;
+    z-index: -1;
+    min-height: 0;
+    background: #fff
+}
+
+.achtergrond-lader {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin-top: -39.219%;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    transition-duration: 0s;
+    transition-property: background;
+    background: #f0f0f0 url(/spinner@2x.gif) no-repeat center center/24px 24px
+}
+
+.achtergrond-lader:empty::before {
+    display: block;
+    padding-bottom: 39.219%;
+    content: ""
+}
+
+.lazyload, .lazyloading {
+    opacity: 0
+}
+
+.no-js .lazyload {
+    display: none
+}
+
+.lazyloaded {
+    opacity: 1
+}
+
+.achtergrond.lazyloaded ~ .achtergrond-lader {
+    background: 0 0
+}
+
+main {
+    line-height: 1.625;
+    overflow: hidden;
+    width: 1024px;
+    min-width: 320px;
+    height: 100%;
+    min-height: calc(100vh - 294px - 106px);
+    margin: 0 auto;
+    padding-bottom: 294px
+}
+
+b, strong {
+    font-weight: 500;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.primair-onderwijs main, .voortgezet-onderwijs main, .bedrijven main, .particulieren main, .crew main {
+    margin-top: 26px
+}
+
+.hoofd {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 9px auto 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474545;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+article {
+    overflow: hidden;
+    width: 610px;
+    height: 100%;
+    margin: 0 auto 54px
+}
+
+article h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    position: absolute;
+    width: 590px;
+    height: 32px;
+    margin: -32px 0 32px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #e47c95;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+article h1 a {
+    text-decoration: none;
+    color: #fff
+}
+
+article h1 a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+article h1:nth-child(n + 3) {
+    position: static;
+    margin-top: 32px
+}
+
+.theatergroep-zwerm article h1 {
+    background: #eda62d
+}
+
+.traject-c article h1 {
+    background: #68924e
+}
+
+.theaterchallenge article h1 {
+    background: #d2422b
+}
+
+.monkeyspoom article h1 {
+    background: #47b6bf
+}
+
+.leeftijd-doelgroep {
+    font-size: 12px;
+    line-height: 1.4;
+    position: relative;
+    top: -1px;
+    padding-left: 4px;
+    opacity: .6
+}
+
+.wie-zijn-wij {
+    position: absolute;
+    width: 610px;
+    margin-top: -255px
+}
+
+.wie-zijn-wij h1 {
+    font-size: 15px;
+    background: #474545
+}
+
+.wie-zijn-wij .wie-zijn-wij-tekst {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 10px 12px 10px;
+    background: #fff
+}
+
+.wie-zijn-wij .wie-zijn-wij-tekst p {
+    margin: 0
+}
+
+.filmpje {
+    margin: 32px 0
+}
+
+.kenmerken {
+    overflow: hidden;
+    margin: 16px 0
+}
+
+.kenmerken p {
+    clear: both
+}
+
+article h2 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    float: left;
+    height: 32px;
+    margin: 16px 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #e47c95;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.theatergroep-zwerm main article h2 {
+    background: #eda62d
+}
+
+.traject-c main article h2 {
+    background: #68924e
+}
+
+.theaterchallenge main article h2 {
+    background: #d2422b
+}
+
+.monkeyspoom main article h2 {
+    background: #47b6bf
+}
+
+article ul, article ol {
+    line-height: 1.4;
+    clear: both;
+    margin: 14px 0;
+    padding-left: 17px;
+    list-style: outside square;
+    color: #e47c95
+}
+
+.theatergroep-zwerm article ul, .theatergroep-zwerm article ol {
+    color: #eda62d
+}
+
+.traject-c article ul, .traject-c article ol {
+    color: #68924e
+}
+
+.theaterchallenge article ul, .theaterchallenge article ol {
+    color: #d2422b
+}
+
+.monkeyspoom article ul, .monkeyspoom article ol {
+    color: #47b6bf
+}
+
+.kenmerk-lijst-titel {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.kapitalen-dubbelepunt {
+    margin-left: 1px;
+    vertical-align: 1px
+}
+
+.kenmerk-lijst-info {
+    color: #474545
+}
+
+.theatergroep-zwerm .crew, .traject-c .crew, .theaterchallenge .crew, .monkeyspoom .crew {
+    float: right;
+    clear: none;
+    margin: 0
+}
+
+a.link {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    float: left;
+    clear: left;
+    height: 32px;
+    margin: 16px 0;
+    transition-duration: .3s;
+    transition-property: background;
+    text-transform: uppercase;
+    color: #fff;
+    background: #e47c95;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+a.actie-knop {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    float: left;
+    clear: left;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    margin: 16px 0;
+    margin-top: 35px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: .3s;
+    transition-property: background, transform;
+    transform: rotateZ(-10deg);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #e47c95;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale
+}
+
+a.actie-knop:hover, a.actie-knop:active {
+    transform: rotateZ(0deg);
+    color: #fff
+}
+
+.theatergroep-zwerm a.actie-knop {
+    background: #eda62d
+}
+
+.traject-c a.actie-knop {
+    background: #68924e
+}
+
+.theaterchallenge a.actie-knop {
+    background: #d2422b
+}
+
+.monkeyspoom a.actie-knop {
+    background: #47b6bf
+}
+
+a.speciaal-knop {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    display: flex;
+    float: left;
+    clear: both;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    margin-top: -30px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: .3s;
+    transition-property: background, transform;
+    transform: rotateZ(10deg);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #e47c95;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale
+}
+
+article.speciaal a.speciaal-knop {
+    margin-top: 35px
+}
+
+article.actie.speciaal a.speciaal-knop {
+    margin-top: -30px
+}
+
+a.speciaal-knop:hover, a.speciaal-knop:active {
+    transform: rotateZ(0deg);
+    color: #fff;
+    background: #dc5675
+}
+
+.theatergroep-zwerm a.speciaal-knop {
+    background: #eda62d
+}
+
+.theatergroep-zwerm a.speciaal-knop:hover {
+    background: #e19614
+}
+
+.traject-c a.speciaal-knop {
+    background: #68924e
+}
+
+.traject-c a.speciaal-knop:hover {
+    background: #557740
+}
+
+.theaterchallenge a.speciaal-knop {
+    background: #d2422b
+}
+
+.theaterchallenge a.speciaal-knop:hover {
+    background: #ba3a26
+}
+
+.monkeyspoom a.speciaal-knop {
+    background: #47b6bf
+}
+
+.monkeyspoom a.speciaal-knop:hover {
+    background: #3a9da6
+}
+
+.naar-crew.link {
+    float: right;
+    clear: right
+}
+
+.kind .naar-crew {
+    float: left;
+    clear: left;
+    margin: 80px 0 16px
+}
+
+.kind .terug-naar-onderdeel {
+    float: right;
+    clear: right;
+    margin: 80px 0 16px
+}
+
+.blog a.link {
+    clear: right;
+    width: 280px;
+    margin: 74px 0 0 44px
+}
+
+.blogger-portret-cirkel {
+    float: left;
+    clear: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 44px 0 0;
+    border: 2px solid #474545;
+    border-radius: 50%
+}
+
+.blogger-portret-foto {
+    width: 96px;
+    height: 96px;
+    transition: opacity .3s;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.blogger-bio {
+    float: left;
+    clear: right;
+    max-width: 450px;
+    margin-top: 44px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 44px;
+    color: #827e7e
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+a.link:hover span {
+    text-decoration: underline
+}
+
+.theatergroep-zwerm .link {
+    background: #eda62d
+}
+
+.traject-c .link {
+    background: #68924e
+}
+
+.theaterchallenge .link {
+    background: #d2422b
+}
+
+.monkeyspoom .link {
+    background: #47b6bf
+}
+
+.boek-ticket {
+    float: left
+}
+
+.wie-zijn-wij .boek-ticket {
+    float: right;
+    margin: 0
+}
+
+.boek-ticket .ticket {
+    float: left;
+    width: 33px;
+    height: 18px;
+    margin-top: 7px;
+    margin-left: 12px;
+    background: url(/ticket@2x.png) no-repeat;
+    background-size: 33px 18px
+}
+
+.boek-ticket span {
+    width: 165px
+}
+
+.link span {
+    float: left;
+    padding: 0 12px
+}
+
+.blog .link span {
+    overflow: hidden;
+    width: 224px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.link .blokje {
+    float: right;
+    width: 32px;
+    height: 32px;
+    background: #474545
+}
+
+.link .blokje:after {
+    position: relative;
+    top: 8px;
+    left: 13px;
+    float: left;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #fff
+}
+
+.link:hover .blokje:after {
+    border-left: 8px solid #e47c95
+}
+
+.theatergroep-zwerm .link:hover .blokje:after {
+    border-left-color: #eda62d
+}
+
+.traject-c .link:hover .blokje:after {
+    border-left-color: #68924e
+}
+
+.theaterchallenge .link:hover .blokje:after {
+    border-left-color: #d2422b
+}
+
+.monkeyspoom .link:hover .blokje:after {
+    border-left-color: #47b6bf
+}
+
+a.link-vacatures {
+    display: block;
+    float: none;
+    width: 426px;
+    margin: 54px auto 16px
+}
+
+.link-vacatures span {
+    padding: 0 0 0 23px
+}
+
+.tekst {
+    margin: 32px 0
+}
+
+.tekst p:last-child {
+    margin-bottom: 0
+}
+
+.vacatures .tekst h2 + p {
+    clear: both
+}
+
+.contact-pagina-sociaal {
+    float: left;
+    width: 100%;
+    margin-bottom: 24px
+}
+
+.contact-pagina-sociaal a {
+    display: block;
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    transition-duration: .3s;
+    transition-property: background-color;
+    background-color: #e47c95;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 18px
+}
+
+.contact-pagina-sociaal-facebook {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" style="fill:white"/></svg>')
+}
+
+.contact-pagina-sociaal-youtube {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" style="fill:white"/></svg>')
+}
+
+.contact-pagina-sociaal-twitter {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" style="fill:white" /></svg>')
+}
+
+.contact-pagina-sociaal-instagram {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" style="fill:white" /></svg>')
+}
+
+.contact-pagina-sociaal a:hover {
+    background-color: #dc5675
+}
+
+.product-overzicht {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    margin: 32px auto 40px
+}
+
+.product-overzicht .hoofd {
+    margin-top: 18px
+}
+
+.product-overzicht ul {
+    overflow: auto
+}
+
+.product-overzicht li {
+    float: left
+}
+
+.product {
+    display: block;
+    float: left;
+    width: 320px;
+    height: 640px;
+    margin-bottom: 24px;
+    transition-duration: .3s;
+    transition-property: transform;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e47c95;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto
+}
+
+.product.theatergroep-zwerm {
+    background-color: #eda62d
+}
+
+.product.traject-c {
+    background-color: #68924e
+}
+
+.product.theaterchallenge {
+    background-color: #d2422b
+}
+
+.product.monkeyspoom {
+    background-color: #47b6bf
+}
+
+.product.actie:before {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    position: absolute;
+    z-index: 1000;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    transform: rotateZ(10deg);
+    text-align: center;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #e47c95;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale
+}
+
+.even .product.actie:before {
+    top: 328px
+}
+
+.product.theatergroep-zwerm.actie:before {
+    background: #eda62d
+}
+
+.product.traject-c.actie:before {
+    background: #68924e
+}
+
+.product.theaterchallenge.actie:before {
+    background: #d2422b
+}
+
+.product.monkeyspoom.actie:before {
+    background: #47b6bf
+}
+
+.product.speciaal:after {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    position: absolute;
+    z-index: 100;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    transform: rotateZ(10deg);
+    text-align: center;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #e47c95;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale
+}
+
+.product.actie.speciaal:after {
+    top: 63px;
+    transform: rotateZ(-10deg)
+}
+
+.even .product.speciaal:after {
+    top: 328px;
+    transform: rotateZ(10deg)
+}
+
+.even .product.actie.speciaal:after {
+    top: 383px;
+    transform: rotateZ(-10deg)
+}
+
+.product.theatergroep-zwerm.speciaal:after {
+    background: #eda62d
+}
+
+.product.traject-c.speciaal:after {
+    background: #68924e
+}
+
+.product.theaterchallenge.speciaal:after {
+    background: #d2422b
+}
+
+.product.monkeyspoom.speciaal:after {
+    background: #47b6bf
+}
+
+.no-touchevents .product:hover, .product:active {
+    -ms-transform: scale(.95) translateZ(0);
+    transform: scale(.95) translateZ(0);
+    color: #fff
+}
+
+.product-info {
+    position: relative;
+    height: 320px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    backface-visibility: hidden
+}
+
+.product-foto-box {
+    width: 320px;
+    height: 320px
+}
+
+.product-foto {
+    position: absolute;
+    z-index: 1;
+    width: 320px;
+    height: 320px;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    transition-property: opacity;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.product-foto-lader {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    transition-duration: 0s;
+    transition-property: background;
+    background: #fff url(/spinner@2x.gif) no-repeat center center/24px 24px
+}
+
+.product-foto.lazyloaded + .product-foto-lader {
+    background: 0 0
+}
+
+.no-touchevents .product:hover .product-foto, .product:active .product-foto {
+    z-index: 1;
+    opacity: .7;
+    background-color: #e47c95
+}
+
+.no-touchevents .product.theatergroep-zwerm:hover .product-foto, .product.theatergroep-zwerm:active .product-foto {
+    background-color: #eda62d
+}
+
+.no-touchevents .product.traject-c:hover .product-foto, .product.traject-c:active .product-foto {
+    background-color: #68924e
+}
+
+.no-touchevents .product.theaterchallenge:hover .product-foto, .product.theaterchallenge:active .product-foto {
+    background-color: #d2422b
+}
+
+.no-touchevents .product.monkeyspoom:hover .product-foto, .product.monkeyspoom:active .product-foto {
+    background-color: #47b6bf
+}
+
+.oneven .product .product-info::after {
+    position: absolute;
+    z-index: 100;
+    top: 320px;
+    left: 144px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 16px solid #dc5675;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent
+}
+
+.oneven .product.theatergroep-zwerm .product-info::after {
+    border-top-color: #e19614
+}
+
+.oneven .product.traject-c .product-info::after {
+    border-top-color: #557740
+}
+
+.oneven .product.theaterchallenge .product-info::after {
+    border-top-color: #ba3a26
+}
+
+.oneven .product.monkeyspoom .product-info::after {
+    border-top-color: #3a9da6
+}
+
+.even .product .product-info::after {
+    position: absolute;
+    z-index: 100;
+    top: -16px;
+    left: 144px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid #e47c95;
+    border-left: 16px solid transparent
+}
+
+.even .product.theatergroep-zwerm .product-info::after {
+    border-bottom-color: #eda62d
+}
+
+.even .product.traject-c .product-info::after {
+    border-bottom-color: #68924e
+}
+
+.even .product.theaterchallenge .product-info::after {
+    border-bottom-color: #d2422b
+}
+
+.even .product.monkeyspoom .product-info::after {
+    border-bottom-color: #47b6bf
+}
+
+.product-kopjes, .product-korte-beschrijving {
+    height: 160px
+}
+
+.product-korte-beschrijving {
+    background: #dc5675
+}
+
+.product-korte-beschrijving p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    width: 288px;
+    height: 114px;
+    -webkit-line-clamp: 8
+}
+
+.theatergroep-zwerm .product-korte-beschrijving {
+    background: #e19614
+}
+
+.traject-c .product-korte-beschrijving {
+    background: #557740
+}
+
+.theaterchallenge .product-korte-beschrijving {
+    background: #ba3a26
+}
+
+.monkeyspoom .product-korte-beschrijving {
+    background: #3a9da6
+}
+
+.product h3 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 16px 16px 0 16px;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.product p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 16px 16px
+}
+
+.product .product-kopjes .product-titel {
+    margin-right: 2px
+}
+
+.product .product-kopjes .leeftijd {
+    display: inline-block;
+    opacity: .6
+}
+
+.touchevents .product .product-kopjes .leeftijd {
+    display: inline-block
+}
+
+.product .product-kopjes .onderdeel-naam {
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 12px 16px 12px;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+p.tap-meer-lezen, p.klik-meer-info {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 16px 12px 16px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+p.tap-meer-lezen {
+    display: none
+}
+
+.touchevents p.klik-meer-info {
+    display: none
+}
+
+.touchevents p.tap-meer-lezen {
+    display: block
+}
+
+.crew-overzicht {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    margin: 32px auto 48px
+}
+
+.crew-overzicht ul {
+    overflow: auto
+}
+
+.crew-overzicht li {
+    float: left
+}
+
+.persoon {
+    float: left;
+    width: 320px;
+    height: 640px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #e47c95
+}
+
+.theatergroep-zwerm .persoon {
+    background-color: #eda62d
+}
+
+.traject-c .persoon {
+    background-color: #68924e
+}
+
+.theaterchallenge .persoon {
+    background-color: #d2422b
+}
+
+.monkeyspoom .persoon {
+    background-color: #47b6bf
+}
+
+.persoon.oprichter {
+    float: none;
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #474545;
+    background-color: #f3ddc9
+}
+
+.even .persoon.oprichter {
+    margin-bottom: 44px
+}
+
+.persoon .portret-foto-box {
+    width: 320px;
+    height: 320px
+}
+
+.persoon.oprichter .portret-foto-box {
+    width: 480px
+}
+
+.persoon .portret-foto {
+    position: absolute;
+    z-index: 1;
+    width: 320px;
+    height: 320px;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    transition-property: opacity;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.persoon .portret-foto[data-bg=""] {
+    background-color: rgba(0, 0, 0, .25)
+}
+
+.persoon.oprichter .portret-foto {
+    width: 480px
+}
+
+.portret-foto-lader {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    transition-duration: 0s;
+    transition-property: background;
+    background: #fff url(/spinner@2x.gif) no-repeat center center/24px 24px
+}
+
+.persoon.oprichter .portret-foto-lader {
+    width: 480px
+}
+
+.portret-foto.lazyloaded + .portret-foto-lader {
+    background: 0 0
+}
+
+.persoon .biografie {
+    position: relative;
+    height: 320px
+}
+
+.persoon.oprichter .biografie {
+    width: 480px;
+    background: #f3ddc9
+}
+
+.persoon .biografie-naam {
+    height: 160px
+}
+
+.persoon.oprichter .biografie-naam {
+    height: auto
+}
+
+.biografie-naam h3 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 16px 16px 0 16px;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.persoon.oprichter .biografie-naam h3 {
+    padding: 24px 23px 0;
+    color: #e47c95
+}
+
+.onderdeel-naam {
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 16px 0 16px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.persoon.oprichter .onderdeel-naam {
+    display: none;
+    margin: 0;
+    padding: 6px 23px 0 23px
+}
+
+.persoon .biografie-tekst {
+    width: 320px;
+    height: 160px;
+    background: #dc5675
+}
+
+.theatergroep-zwerm .persoon .biografie-tekst {
+    background: #e19614
+}
+
+.traject-c .persoon .biografie-tekst {
+    background: #557740
+}
+
+.theaterchallenge .persoon .biografie-tekst {
+    background: #ba3a26
+}
+
+.monkeyspoom .persoon .biografie-tekst {
+    background: #3a9da6
+}
+
+.persoon.oprichter .biografie-tekst {
+    width: 480px;
+    margin: 10px 0 0;
+    background: #f3ddc9
+}
+
+.persoon .biografie-tekst p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 16px 16px
+}
+
+.persoon.oprichter .biografie-tekst p {
+    line-height: 1.625;
+    padding: 3px 23px
+}
+
+.even .persoon .biografie::after {
+    position: absolute;
+    z-index: 100;
+    top: -16px;
+    left: 144px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid #e47c95;
+    border-left: 16px solid transparent
+}
+
+.theatergroep-zwerm .even .persoon .biografie::after {
+    border-bottom-color: #eda62d
+}
+
+.traject-c .even .persoon .biografie::after {
+    border-bottom-color: #68924e
+}
+
+.theaterchallenge .even .persoon .biografie::after {
+    border-bottom-color: #d2422b
+}
+
+.monkeyspoom .even .persoon .biografie::after {
+    border-bottom-color: #47b6bf
+}
+
+.even .persoon.oprichter .biografie:after {
+    left: 224px;
+    border-bottom: 16px solid #f3ddc9
+}
+
+.oneven .persoon .biografie::after {
+    position: absolute;
+    z-index: 100;
+    top: 320px;
+    left: 144px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 16px solid #dc5675;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent
+}
+
+.theatergroep-zwerm .oneven .persoon .biografie::after {
+    border-top-color: #e19614
+}
+
+.traject-c .oneven .persoon .biografie::after {
+    border-top-color: #557740
+}
+
+.theaterchallenge .oneven .persoon .biografie::after {
+    border-top-color: #ba3a26
+}
+
+.monkeyspoom .oneven .persoon .biografie::after {
+    border-top-color: #3a9da6
+}
+
+.oneven .persoon.oprichter .biografie:after {
+    left: 224px;
+    border-top: 16px solid #f3ddc9
+}
+
+.boekingen h2 {
+    float: left;
+    clear: both;
+    margin: 16px 0 16px 0
+}
+
+.boekingsformulier {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 16px 0 0
+}
+
+.boekingsformulier h2 {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.boekingsuitleg {
+    margin: 16px 0;
+    clear: both;
+}
+
+.product-selectie {
+    float: left;
+    clear: both;
+    margin: 16px 0 0
+}
+
+.product-selectie div {
+    margin-top: -29px;
+    padding-top: 29px
+}
+
+.boekingscontactgegevens {
+    float: left;
+    clear: both
+}
+
+.boekingsformulier input[type=text] {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 300;
+    line-height: inherit;
+    width: 275px;
+    margin: 0 10px 7px 0;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #474545;
+    border-color: rgba(61, 59, 59, .5)
+}
+
+.boekingsformulier input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin: 1px 6px 4px 0;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-property: background, border-color;
+    vertical-align: middle;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #474545;
+    border-color: rgba(0, 0, 0, .3);
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none
+}
+
+.boekingsformulier input:focus, .boekingsformulier textarea:focus {
+    outline: 0
+}
+
+.boek-product {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 6px;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.boekingsformulier input[type=checkbox].opde1sterij {
+    border-color: #dc5675
+}
+
+.boekingsformulier input[type=checkbox].opde1sterij:not(:disabled):hover {
+    border-color: #e47c95
+}
+
+.boekingsformulier input[type=checkbox].opde1sterij:active:not(:disabled) {
+    background: #dc5675
+}
+
+.boekingsformulier input[type=checkbox].opde1sterij:checked {
+    border-color: #e47c95;
+    background: #e47c95
+}
+
+.boekingsformulier .boek-product.opde1sterij {
+    background: #e47c95
+}
+
+.boekingsformulier input[type=checkbox].theatergroep-zwerm {
+    border-color: #e19614
+}
+
+.boekingsformulier input[type=checkbox].theatergroep-zwerm:not(:disabled):hover {
+    border-color: #eda62d
+}
+
+.boekingsformulier input[type=checkbox].theatergroep-zwerm:active:not(:disabled) {
+    background: #e19614
+}
+
+.boekingsformulier input[type=checkbox].theatergroep-zwerm:checked {
+    border-color: #eda62d;
+    background: #eda62d
+}
+
+.boek-product.theatergroep-zwerm {
+    background: #eda62d
+}
+
+.boekingsformulier input[type=checkbox].traject-c {
+    border-color: #557740
+}
+
+.boekingsformulier input[type=checkbox].traject-c:not(:disabled):hover {
+    border-color: #68924e
+}
+
+.boekingsformulier input[type=checkbox].traject-c:active:not(:disabled) {
+    background: #557740
+}
+
+.boekingsformulier input[type=checkbox].traject-c:checked {
+    border-color: #68924e;
+    background: #68924e
+}
+
+.boekingsformulier .boek-product.traject-c {
+    background: #68924e
+}
+
+.boekingsformulier input[type=checkbox].theaterchallenge {
+    border-color: #ba3a26
+}
+
+.boekingsformulier input[type=checkbox].theaterchallenge:not(:disabled):hover {
+    border-color: #d2422b
+}
+
+.boekingsformulier input[type=checkbox].theaterchallenge:active:not(:disabled) {
+    background: #ba3a26
+}
+
+.boekingsformulier input[type=checkbox].theaterchallenge:checked {
+    border-color: #d2422b;
+    background: #d2422b
+}
+
+.boekingsformulier .boek-product.theaterchallenge {
+    background: #d2422b
+}
+
+.boekingsformulier input[type=checkbox].monkeyspoom {
+    border-color: #3a9da6
+}
+
+.boekingsformulier input[type=checkbox].monkeyspoom:not(:disabled):hover {
+    border-color: #47b6bf
+}
+
+.boekingsformulier input[type=checkbox].monkeyspoom:active:not(:disabled) {
+    background: #3a9da6
+}
+
+.boekingsformulier input[type=checkbox].monkeyspoom:checked {
+    border-color: #47b6bf;
+    background: #47b6bf
+}
+
+.boek-product.monkeyspoom {
+    background: #47b6bf
+}
+
+.product-meer-info {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -1px;
+    text-transform: uppercase
+}
+
+.product-meer-info a {
+    color: #474545
+}
+
+.product-meer-info a:hover {
+    color: #474545;
+    color: rgba(61, 60, 60, .75)
+}
+
+.boekingstoevoegingen {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 300;
+    float: left;
+    clear: both;
+    width: 275px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #474545;
+    border-color: rgba(61, 59, 59, .5)
+}
+
+#boekingsbevestiging {
+    float: left;
+    clear: both;
+    margin: 36px 0 8px
+}
+
+.verstuur-boeking {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    display: none;
+    float: left;
+    height: 32px;
+    margin: 0;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-property: background;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border: 0;
+    border-radius: 0;
+    background: #e47c95;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.theatergroep-zwerm .verstuur-boeking {
+    background: #eda62d
+}
+
+.traject-c .verstuur-boeking {
+    background: #68924e
+}
+
+.theaterchallenge .verstuur-boeking {
+    background: #d2422b
+}
+
+.monkeyspoom .verstuur-boeking {
+    background: #47b6bf
+}
+
+.no-js .geen-js.verstuur-boeking {
+    display: block
+}
+
+.js .js.verstuur-boeking {
+    display: block
+}
+
+.verstuur-boeking:hover {
+    text-decoration: underline;
+}
+
+#boekingsbevestiging .blokje {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background: #474545
+}
+
+#boekingsbevestiging .blokje:after {
+    position: relative;
+    top: 8px;
+    left: 13px;
+    float: left;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #fff
+}
+
+#boekingsbevestiging:hover .blokje:after {
+    border-left-color: #e47c95
+}
+
+.theatergroep-zwerm #boekingsbevestiging:hover .blokje:after {
+    border-left-color: #eda62d
+}
+
+.traject-c #boekingsbevestiging:hover .blokje:after {
+    border-left-color: #68924e
+}
+
+.theaterchallenge #boekingsbevestiging:hover .blokje:after {
+    border-left-color: #d2422b
+}
+
+.monkeyspoom #boekingsbevestiging:hover .blokje:after {
+    border-left-color: #47b6bf
+}
+
+/* 
+.boekingen .tekst {
+    float: left;
+    clear: left;
+    margin-bottom:0
+}
+ */
+#boeking-verzonden {
+    display: none;
+    float: none;
+    margin: 36px 0 8px;
+}
+
+.formulier {
+    height: max(660px, 93vh);
+    width: 100%;
+}
+
+main img {
+    margin: 32px 0;
+    width: 100%
+}
+
+.agenda-overzicht {
+    min-height: calc(100vh - 448px);
+    margin: 32px auto 42px
+}
+
+.agenda-overzicht h3 {
+    font-weight: 300;
+    text-align: center
+}
+
+.agenda-overzicht table {
+    font-size: 14px;
+    font-weight: 500;
+    width: 940px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.agenda-overzicht tr {
+    color: #474545
+}
+
+.agenda-overzicht td {
+    padding: 6px 14px 6px 14px
+}
+
+.agenda-overzicht a {
+    text-decoration: underline
+}
+
+.agenda-overzicht a:hover {
+    text-decoration: none
+}
+
+tr.opde1sterij, tr.opde1sterij a {
+    color: #e47c95
+}
+
+tr.theatergroep-zwerm, tr.theatergroep-zwerm a {
+    color: #eda62d
+}
+
+tr.traject-c, tr.traject-c a {
+    color: #68924e
+}
+
+tr.theaterchallenge, tr.theaterchallenge a {
+    color: #d2422b
+}
+
+tr.monkeyspoom, tr.monkeyspoom a {
+    color: #47b6bf
+}
+
+#pijl {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    height: calc(44px +(env(safe-area-inset-bottom) *(2/3)));
+    /*cursor:pointer;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-delay: .3s;
+    transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+    transition-duration: .6s;
+    transition-property: transform;
+    transform: translateY(88px);
+    transform: translateY(calc(88px +(env(safe-area-inset-bottom) *(2/3))));
+    background-color: #fff;
+    background-color: rgba(254, 254, 254, .98);
+    /*background-image:url(/pijl_nieuw_opde1sterij@3x.png);background-repeat:no-repeat;background-position:50% 10px;background-size:52px 25px;*/
+    box-shadow: 0-.5px 1px #e0e0e0
+}
+
+@supports (-webkit-backdrop-filter: none) {
+    #pijl {
+        background-color: rgba(255, 255, 255, .9);
+        -webkit-backdrop-filter: blur(20px)
+    }
+}
+
+/* 
+@supports (-webkit-touch-callout: none) {
+    #pijl {
+        display:none !important
+    }
+}
+ */
+/*.theatergroep-zwerm #pijl{background-image:url(/pijl_nieuw_theatergroep-zwerm@3x.png)}.traject-c #pijl{background-image:url(/pijl_nieuw_traject-c-cultuuronderwijs@3x.png)}.theaterchallenge #pijl{background-image:url(/pijl_nieuw_theaterchallenge@3x.png)}.monkeyspoom #pijl{background-image:url(/pijl_nieuw_opde1sterij_blauw@3x.png)}*/
+#pijl a {
+    background: transparent;
+    color: #474545;
+    float: none;
+    clear: none;
+    margin: 6px auto;
+    text-decoration: none;
+    width: 270px
+}
+
+#pijl a:after {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #e47c95
+}
+
+#pijl a:hover {
+    text-decoration: underline
+}
+
+.theatergroep-zwerm #pijl a:after {
+    border-left-color: #eda62d
+}
+
+.traject-c #pijl a:after {
+    border-left-color: #68924e
+}
+
+.theaterchallenge #pijl a:after {
+    border-left-color: #d2422b
+}
+
+.monkeyspoom #pijl a:after {
+    border-left-color: #47b6bf
+}
+
+footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 294px;
+    background: #474545
+}
+
+footer h3 {
+    font-size: 13px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+    margin: 1px 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+footer h3 a {
+    text-decoration: none;
+    color: #fff
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+footer h3 a::after {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 6px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff
+}
+
+.nieuwsbrief-balk {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 32px;
+    background: #e47c95
+}
+
+.theatergroep-zwerm .nieuwsbrief-balk {
+    background: #eda62d
+}
+
+.traject-c .nieuwsbrief-balk {
+    background: #68924e
+}
+
+.theaterchallenge .nieuwsbrief-balk {
+    background: #d2422b
+}
+
+.monkeyspoom .nieuwsbrief-balk {
+    background: #47b6bf
+}
+
+/* 
+.nieuwsbrief-balk form {
+    width: 768px;
+    height: 25px;
+    margin: 7px auto 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing:antialiased
+}
+
+.nieuwsbrief-balk h3 {
+    width: 252px;
+    margin-left:14px
+}
+
+.nieuwsbrief-balk input {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    float: left;
+    height: 18px;
+    margin: 0 0 0 4px;
+    padding: 0 3px 0 3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474545;
+    border: 0;
+    border-radius: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing:antialiased
+}
+
+.nieuwsbrief-balk input:focus {
+    outline:0
+}
+
+input.nieuwsbrief-balk-e-mailadres {
+    width:198px
+}
+
+input.nieuwsbrief-balk-voornaam {
+    width: 144px;
+    margin-left:10px
+}
+
+.nieuwsbrief-balk-inschrijven {
+    float: left;
+    margin-right:14px
+}
+
+#nieuwsbrief-inschrijven-knop {
+    line-height: 18px;
+    height: 18px;
+    margin-left: 0;
+    padding: 0 20px 0 14px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-property: opacity;
+    text-align: left;
+    color: #fff;
+    background:0 0
+}
+
+#nieuwsbrief-inschrijven-knop:hover {
+    text-decoration:underline
+}
+
+#nieuwsbrief-inschrijven-knop:hover + .nieuwsbrief-balk-driehoekje {
+    border-left-color:#fff
+}
+
+.nieuwsbrief-balk-driehoekje {
+    float: left;
+    width: 0;
+    height: 0;
+    margin: 1px 0 0-8px;
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left:8px solid #dc5675
+}
+
+.theatergroep-zwerm .nieuwsbrief-balk-driehoekje {
+    border-left-color:#e19614
+}
+
+.traject-c .nieuwsbrief-balk-driehoekje {
+    border-left-color:#557740
+}
+
+.theaterchallenge .nieuwsbrief-balk-driehoekje {
+    border-left-color:#ba3a26
+}
+
+.monkeyspoom .nieuwsbrief-balk-driehoekje {
+    border-left-color:#3a9da6
+}
+ */
+.nieuwsbrief-balk a {
+    background: transparent;
+    color: #fff;
+    float: none;
+    clear: none;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 270px
+}
+
+.nieuwsbrief-balk a:after {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff
+}
+
+/* 
+.nieuwsbrief-balk a.link span {
+    width: auto;
+    padding:0
+}
+
+.nieuwsbrief-balk a.link .blokje {
+    float: left;
+    width: 0;
+    background: transparent;
+    position: relative;
+    left:-4px
+}
+ */
+.nieuwsbrief-balk a.link .blokje:after {
+    position: relative;
+    top: 11px;
+    left: 10px;
+    float: left;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff
+}
+
+.nieuwsbrief-balk a.link:hover {
+    text-decoration: underline
+}
+
+.nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left: 5px solid #fff
+}
+
+.nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left: 5px solid #dc5675
+}
+
+.theatergroep-zwerm .nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left-color: #e19614
+}
+
+.traject-c .nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left-color: #557740
+}
+
+.theaterchallenge .nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left-color: #ba3a26
+}
+
+.monkeyspoom .nieuwsbrief-balk a.link:hover .blokje:after {
+    border-left-color: #3a9da6
+}
+
+.midden {
+    position: relative;
+    top: 32px;
+    overflow: hidden;
+    width: 768px;
+    height: 252px;
+    margin: 0 auto
+}
+
+.midden h3 {
+    margin: 0 0 14px
+}
+
+.laatste-blogposts {
+    float: left;
+    width: 204px;
+    height: 136px;
+    margin: 18px 52px 0 14px
+}
+
+.laatste-blogposts h3 a {
+    color: #fff
+}
+
+.laatste-blogposts h3 a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+.laatste-blogposts ol {
+    float: left;
+    clear: both
+}
+
+.laatste-blogposts li {
+    float: left;
+    clear: both
+}
+
+.laatste-blogposts li:not(:last-child) {
+    margin-bottom: 5px
+}
+
+.laatste-blogposts li a {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    width: 204px;
+    height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.laatste-blogposts li a span {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 164px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.laatste-blogposts li a::after {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff
+}
+
+.laatste-blogposts li a:hover {
+    color: #fff
+}
+
+.laatste-blogposts li a:hover span {
+    text-decoration: underline
+}
+
+.laatste-blogposts li a .blogger-portret-mini-cirkel {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    margin-top: 0;
+    margin-right: 8px;
+    transition-duration: .3s;
+    transition-property: opacity;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.laatste-blogposts li a:hover .blogger-portret-mini-cirkel {
+    opacity: .75
+}
+
+.laatste-blogposts li a .blogger-portret-mini-foto {
+    width: 28px;
+    height: 28px;
+    transition: opacity .3s;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.laatste-blogposts li a:hover .blog-post-driehoekje {
+    border-left-color: #fff
+}
+
+.laatste-agenda {
+    font-size: 12px;
+    float: left;
+    overflow: hidden;
+    width: 204px;
+    height: 136px;
+    margin: 18px 10px 0 0;
+    color: #fff
+}
+
+.laatste-agenda h3 a {
+    color: #fff
+}
+
+.laatste-agenda h3 a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+.laatste-agenda ol {
+    float: left;
+    clear: both
+}
+
+.laatste-agenda li {
+    display: none;
+    float: left;
+    clear: both
+}
+
+.laatste-agenda li:not(:last-child) {
+    margin: 0 0 5px
+}
+
+.laatste-agenda li a {
+    display: block;
+    width: 204px;
+    height: 32px;
+    color: #fff
+}
+
+.laatste-agenda li a:hover {
+    color: #fff
+}
+
+.laatste-agenda li a:after {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff
+}
+
+.kalendertje {
+    font-size: 11px;
+    font-weight: 500;
+    float: left;
+    width: 32px;
+    text-transform: capitalize;
+    color: #fff
+}
+
+.dag-nummer {
+    line-height: 12px;
+    height: 12px;
+    padding: 2px;
+    transition-duration: .3s;
+    transition-property: background, color;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background: #e47c95
+}
+
+.theatergroep-zwerm > .kalendertje .dag-nummer {
+    background: #eda62d
+}
+
+.traject-c > .kalendertje .dag-nummer {
+    background: #68924e
+}
+
+.theaterchallenge > .kalendertje .dag-nummer {
+    background: #d2422b
+}
+
+.monkeyspoom > .kalendertje .dag-nummer {
+    background: #47b6bf
+}
+
+.laatste-agenda a:hover .dag-nummer {
+    color: #474545;
+    background: #fff
+}
+
+.maand {
+    line-height: 12px;
+    height: 12px;
+    padding: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: #dc5675
+}
+
+.theatergroep-zwerm > .kalendertje .maand {
+    background: #e19614
+}
+
+.traject-c > .kalendertje .maand {
+    background: #557740
+}
+
+.theaterchallenge > .kalendertje .maand {
+    background: #ba3a26
+}
+
+.monkeyspoom > .kalendertje .maand {
+    background: #3a9da6
+}
+
+.jaar {
+    display: none
+}
+
+.locatie {
+    font-size: 11px;
+    font-weight: 500;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    max-width: 154px;
+    margin: 8px 0 0 10px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.laatste-agenda a:hover .locatie {
+    text-decoration: underline
+}
+
+.instagram {
+    float: left;
+    overflow: hidden;
+    width: 270px;
+    height: 136px;
+    margin: 18px 14px 0 0
+}
+
+.instagram h3 a {
+    color: #fff
+}
+
+.instagram h3 a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+.laatste-instagram-post-link {
+    display: block;
+    height: 131px
+}
+
+.laatste-instagram-post-link:hover p {
+    text-decoration: underline
+}
+
+.laatste-instagram-post {
+    font-size: 11px;
+    font-weight: 500;
+    float: left;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.laatste-instagram-post a {
+    color: #fff
+}
+
+.laatste-instagram-post a:hover {
+    color: #fff
+}
+
+.instagram-post-linker-kolom {
+    float: left;
+    width: 60px;
+    height: 106px
+}
+
+.instagram-post-plaatje {
+    width: 60px;
+    height: 60px
+}
+
+.instagram-post-cirkel {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    transition-duration: .3s;
+    transition-property: opacity;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.instagram-post-cirkel:hover {
+    opacity: .75
+}
+
+.instagram-post-foto {
+    width: 56px;
+    height: 56px;
+    transition: opacity .3s;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.instagram-post-tijd {
+    line-height: 1.4;
+    width: 60px;
+    margin: 13px 0 0;
+    text-align: center;
+    letter-spacing: -.5px;
+    word-break: break-word;
+    color: #fff
+}
+
+.instagram-post-rechter-kolom {
+    line-height: 1.4;
+    float: left;
+    overflow: hidden;
+    width: 190px;
+    height: 106px;
+    margin: 0;
+    margin-left: 19px;
+    word-break: break-word;
+    color: #fff
+}
+
+.instagram-post-rechter-kolom .zichtbaar::before {
+    font-size: 35px;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -15px;
+    content: "“";
+    opacity: .3
+}
+
+.instagram-post-rechter-kolom p {
+    overflow: hidden;
+    margin: -2px 0 0
+}
+
+.instagram-post-rechter-kolom .driehoekje-rechts {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-resolution: 306dpi) {
+    .instagram-post-rechter-kolom .driehoekje-rechts {
+        margin-top: 4px
+    }
+}
+
+.extra-info-regel {
+    font-size: 11px;
+    font-weight: 500;
+    float: left;
+    margin: 24px 0 0 14px;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    word-break: keep-all;
+    color: #ededed
+}
+
+.extra-info-regel a {
+    text-decoration: none;
+    color: #ededed
+}
+
+.extra-info-regel a:hover {
+    text-decoration: underline;
+    color: #ededed
+}
+
+.extra-info-regel a::after {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff
+}
+
+.extra-info-regel-één {
+    display: none
+}
+
+.cjp-info {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 6px 0 0 14px
+}
+
+.cjp-info a {
+    text-decoration: none;
+    color: #fff
+}
+
+.cjp-info a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+.cjp-info a:after {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+    content: "";
+    transition-duration: .3s;
+    transition-property: border-left-color;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-resolution: 306dpi) {
+    .cjp-info a:after {
+        margin-top: 5px
+    }
+}
+
+.cjp-info p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ededed
+}
+
+.cjp-logo {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 40px;
+    height: 11px;
+    margin-right: 10px;
+    background-image: url(/logo_cjp_klein@2x.png);
+    background-repeat: no-repeat;
+    background-size: 40px 11px
+}
+
+.kleurbalk {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #e47c95 0, #e47c95 35%, #eda62d 35%, #eda62d 45%, #68924e 45%, #68924e 55%, #d2422b 55%, #d2422b 65%, #47b6bf 65%, #47b6bf 100%)
+}
+
+@media screen and (min-width: 1024px) {
+    .primair-onderwijs header, .voortgezet-onderwijs header, .bedrijven header, .particulieren header, .blog:not(.kind) header, .agenda header, .crew.hele-crew header, .monkeyspoom.crew header {
+        box-shadow: none
+    }
+}
+/*! mobiele-aanpassingen.css */
+
+@media screen and (max-width: 1023px) {
+    .achtergrond:empty::before {
+        padding-bottom: 56.25%
+    }
+
+    .video-wikkel {
+        padding-bottom: 56.25%
+    }
+
+    .achtergrond-lader {
+        margin-top: -56.25%
+    }
+
+    .achtergrond-lader:empty::before {
+        padding-bottom: 56.25%
+    }
+
+    .gecentreerd {
+        width: 384px
+    }
+
+    .randje {
+        background-image: none !important
+    }
+
+    .gecentreerd h1 {
+        width: 192px;
+        background-position: -4px 0
+    }
+
+    .theatergroep-zwerm .gecentreerd h1, .theaterchallenge .gecentreerd h1 {
+        background-position: -15px 0
+    }
+
+    .menu {
+        width: 194px
+    }
+
+    .menu.open {
+        height: 440px
+    }
+
+    .sub-menus {
+        width: 190px;
+        height: 324px
+    }
+
+    .sub-menus.filmpjes {
+        height: 360px
+    }
+
+    .sub-menus.portals {
+        height: 360px
+    }
+
+    .sub-menus.filmpjes.portals {
+        height: 396px
+    }
+
+    .sub-menus li {
+        letter-spacing: -.6px
+    }
+
+    .sub-menus li .menu-driehoekje {
+        margin-right: 5px
+    }
+
+    .menu-knop {
+        margin-left: 0
+    }
+
+    .menu-knop::after {
+        left: 0
+    }
+
+    .sociaal {
+        margin-left: 2px
+    }
+
+    .contact-box {
+        margin-left: 10px
+    }
+
+    .contact-box-straat, .contact-box-postcode, .contact-box .alleen-volledig {
+        display: none
+    }
+
+    .contact-box .alleen-mobiel {
+        display: inline
+    }
+
+    .secties-mobiel {
+        display: block
+    }
+
+    .secties-mobiel li {
+        background: #474545
+    }
+
+    .secties {
+        display: none
+    }
+
+    main {
+        width: 100%;
+        min-width: 320px
+    }
+
+    article {
+        width: 610px
+    }
+
+    article img {
+        width: 100%
+    }
+
+    .crew-overzicht li {
+        float: none
+    }
+
+    .extra-info-regel-één, .extra-info-regel-twee, .extra-info-regel-drie {
+        display: inline-block
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .product-overzicht {
+        width: 640px
+    }
+
+    .crew-overzicht {
+        width: 640px
+    }
+
+    .persoon.oprichter {
+        float: none;
+        margin: 0 auto 16px
+    }
+
+    .even .persoon.oprichter {
+        margin-bottom: 16px
+    }
+
+    .agenda-overzicht table {
+        width: 640px
+    }
+
+    .agenda-overzicht td {
+        padding: 6px 12px 6px 12px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .boek-ticket {
+        margin: 0 0 16px
+    }
+}
+
+@media screen and (max-width: 736px) {
+    main {
+        padding-bottom: 644px /*padding-bottom:762px*/
+    }
+
+    article {
+        width: 100%;
+        margin: 0 auto 27px
+    }
+
+    article h1 {
+        line-height: 20px;
+        position: static;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 6px;
+        padding-right: 36px;
+        padding-bottom: 6px;
+        padding-left: 16px
+    }
+
+    article h1:nth-child(n + 2) {
+        position: static;
+        margin-top: 32px
+    }
+
+    .wie-zijn-wij {
+        position: static;
+        overflow: hidden;
+        width: inherit;
+        margin-top: 0
+    }
+
+    .wie-zijn-wij article h1 {
+        margin: 0
+    }
+
+    .wie-zijn-wij .wie-zijn-wij-tekst {
+        font-size: 16px;
+        padding: 32px 0
+    }
+
+    .wie-zijn-wij .boek-ticket {
+        float: left
+    }
+
+    a.link-vacatures {
+        float: left;
+        width: auto;
+        margin-top: 18px
+    }
+
+    a.link-vacatures span {
+        padding: 0 12px
+    }
+
+    .leeftijd-doelgroep {
+        top: 0;
+        display: block;
+        padding-left: 0
+    }
+
+    .wie-zijn-wij .wie-zijn-wij-tekst {
+        position: static;
+        float: left;
+        padding: 14px 16px 18px 16px
+    }
+
+    .tekst {
+        margin: 0 16px 32px
+    }
+
+    a.actie-knop {
+        margin-left: 16px
+    }
+
+    a.speciaal-knop {
+        margin-left: 16px
+    }
+
+    article.speciaal a.speciaal-knop {
+        margin-top: 18px
+    }
+
+    article.actie.speciaal a.speciaal-knop {
+        margin-top: -30px
+    }
+
+    article.speciaal a.actie-knop {
+        margin-top: 18px
+    }/*.kenmerken{padding:0 16px}*/
+
+    .kind .terug-naar-onderdeel {
+        float: left;
+        clear: left;
+        margin: 0 0 16px
+    }
+
+    .naar-crew.link {
+        float: left;
+        clear: left
+    }
+
+    .kind .naar-crew {
+        margin: 0 0 16px
+    }
+
+    .contact-pagina-sociaal {
+        margin-left: 16px
+    }
+
+    .product-overzicht {
+        width: 320px
+    }
+
+    .product {
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .crew-overzicht {
+        width: 320px
+    }
+
+    .persoon {
+        float: none;
+        margin: 0 auto 16px
+    }
+
+    .persoon.oprichter {
+        width: 320px;
+        height: 754px
+    }
+
+    .persoon.oprichter .biografie {
+        width: 320px;
+        height: 440px
+    }
+
+    .persoon.oprichter .biografie-naam h3 {
+        padding: 16px 16px 0 16px
+    }
+
+    .persoon.oprichter .biografie-tekst {
+        width: 320px;
+        height: 320px
+    }
+
+    .persoon.oprichter .biografie-tekst p {
+        padding: 2px 16px
+    }
+
+    .oneven .persoon.oprichter .biografie::after {
+        top: 440px;
+        left: 144px
+    }
+
+    .even .persoon.oprichter .biografie::after {
+        left: 144px
+    }
+
+    .persoon.oprichter .portret {
+        width: 320px;
+        height: 320px
+    }
+
+    .persoon.oprichter .portret-foto-box {
+        width: 320px
+    }
+
+    .persoon.oprichter .portret-foto {
+        width: 320px
+    }
+
+    .persoon.oprichter .portret-foto-lader {
+        width: 320px
+    }
+
+    .agenda-overzicht table {
+        width: 320px;
+        text-align: center
+    }
+
+    .agenda-overzicht table, .agenda-overzicht tbody, .agenda-overzicht tr, .agenda-overzicht td {
+        display: block
+    }
+
+    .agenda-overzicht tr {
+        margin: 0 0 15px 0
+    }
+
+    .agenda-overzicht td {
+        padding: 0
+    }
+
+    .agenda-overzicht tr:first-child {
+        display: none
+    }
+
+    .blog a.link {
+        float: none;
+        margin: 0 auto 54px
+    }
+
+    .blog a.link:last-child {
+        margin-bottom: 16px
+    }
+
+    .blogger-portret-cirkel {
+        float: none;
+        margin: 32px auto 16px
+    }
+
+    .blogger-bio {
+        float: none;
+        max-width: 100%;
+        margin: 0 16px 4px;
+        text-align: center
+    }
+
+    .boekingsformulier {
+        margin: 16px 0
+    }
+
+    .boekingsformulier h2 {
+        margin: 16px 16px;
+    }
+
+    .boekingsuitleg {
+        margin: 16px 16px;
+    }
+
+    .product-selectie {
+        margin: 16px 10px 0 16px
+    }
+
+    .boekingscontactgegevens {
+        margin: 0 16px 0 16px
+    }
+
+    .boekingstoevoegingen {
+        margin: 16px 16px 0 16px
+    }
+
+    .boek-product {
+        font-size: 13px
+    }
+
+    .verstuur-boeking {
+        padding: 0 23px 0 23px
+    }
+
+    footer {
+        height: 644px /*height:762px*/
+    }/*.nieuwsbrief-balk{height:154px}*/
+
+/* 
+    .nieuwsbrief-balk form {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin: 13px auto 0
+    }
+
+    .nieuwsbrief-balk h3 {
+        float: none;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center
+    }
+
+    .nieuwsbrief-balk input {
+        display: block;
+        float: none;
+        width: 198px;
+        height: 22px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .nieuwsbrief-balk input.nieuwsbrief-balk-e-mailadres {
+        margin: 14px auto 0
+    }
+
+    .nieuwsbrief-balk input.nieuwsbrief-balk-voornaam {
+        margin: 10px auto 0
+    }
+
+    .nieuwsbrief-balk-inschrijven {
+        float: none;
+        margin: 0
+    }
+
+    #nieuwsbrief-inschrijven-knop {
+        width: 204px;
+        height: 22px;
+        margin-top: 17px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 12px;
+        transition-duration: .3s;
+        transition-property: background;
+        text-align: center;
+        background: #dc5675
+    }
+
+    .theatergroep-zwerm #nieuwsbrief-inschrijven-knop {
+        background: #e19614
+    }
+
+    .traject-c #nieuwsbrief-inschrijven-knop {
+        background: #557740
+    }
+
+    .theaterchallenge #nieuwsbrief-inschrijven-knop {
+        background: #ba3a26
+    }
+
+    .monkeyspoom #nieuwsbrief-inschrijven-knop {
+        background: #3a9da6
+    }
+
+    .nieuwsbrief-balk .nieuwsbrief-balk-inschrijven:hover #nieuwsbrief-inschrijven-knop {
+        text-decoration: none
+    }
+
+    #nieuwsbrief-inschrijven-knop:hover {
+        text-decoration: none;
+        background: #474545
+    }
+
+    .nieuwsbrief-balk-driehoekje {
+        display: none
+    }
+ */
+
+    .midden {
+        /*top:154px;*/
+        top: 40px;
+        width: auto;
+        height: 594px
+    }
+
+    .midden h3 {
+        margin: 0 0 14px;
+        text-align: center
+    }
+
+    .laatste-blogposts {
+        float: none;
+        width: auto;
+        height: 136px;
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .laatste-blogposts ol {
+        float: none;
+        width: 204px;
+        margin: 0 auto
+    }
+
+    .laatste-blogposts li {
+        float: none;
+        width: 100%
+    }
+
+    .laatste-blogposts a {
+        margin: 0 auto
+    }
+
+    .laatste-agenda {
+        float: none;
+        width: 100%;
+        height: 136px
+    }
+
+    .laatste-agenda ol {
+        float: none;
+        width: 204px;
+        margin: 0 auto
+    }
+
+    .laatste-agenda li {
+        float: none;
+        height: 32px
+    }
+
+    .instagram {
+        display: block;
+        float: none;
+        width: 280px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .instagram h3 {
+        display: block
+    }
+
+    .laatste-instagram-post {
+        margin-left: 0
+    }
+
+    .extra-info-regel {
+        float: none;
+        max-width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center
+    }
+
+    .extra-info-regel-extra-scheiding {
+        display: none
+    }
+
+    .cjp-info {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .boek-product-leeftijd {
+        display: none
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .gecentreerd {
+        width: 320px
+    }
+
+    .menu-knop {
+        margin-left: 0
+    }
+
+    .menu-knop::after {
+        left: 0
+    }
+
+    .sociaal {
+        margin-left: 4px
+    }
+
+    .contact-box {
+        float: left;
+        margin-left: 12px
+    }
+
+    .hoofd {
+        padding: 0 16px
+    }
+
+    a.link-vacatures span {
+        padding: 0 12px 0 11px
+    }
+
+    a.link-vacatures {
+        font-size: 12px;
+        width: auto
+    }
+
+    .product-overzicht {
+        margin-bottom: 16px
+    }
+}
+
+@media screen and (max-width: 375px) {
+    a.link-vacatures {
+        font-size: 12px;
+        letter-spacing: -.24px
+    }
+
+    .boek-product {
+        text-overflow: ellipsis;
+        max-width: 32ch;
+        display: inline-flex;
+        overflow: hidden;
+        white-space: nowrap;
+        letter-spacing: -.61px
+    }
+}
+
+@media screen and (max-width: 362px) {
+    a.link-vacatures {
+        font-size: 11px
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .blog a.link:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media screen and (max-width: 335px) {
+    a.link-vacatures {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .menu-knop {
+        margin-left: 5px
+    }
+
+    .theatergroep-zwerm .menu-knop, .theaterchallenge .menu-knop {
+        margin-left: 9px
+    }
+
+    .menu-knop::after {
+        left: 5px
+    }
+
+    .theatergroep-zwerm .menu-knop::after, .theaterchallenge .menu-knop::after {
+        left: 9px
+    }
+
+    #boeking-verzonden {
+        font-size: 11px
+    }
+
+    .sociaal {
+        margin-left: 1px
+    }
+
+    .contact-box {
+        float: left;
+        margin-left: 9px
+    }
+}
+
+.visueel-verborgen {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px
+}
