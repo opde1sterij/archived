@@ -30,6 +30,7 @@ defaults:
     korte-beschrijving: 
     trailer-embed-code: 
     filmpje-embed-code: 
+    formulier-link: 
     home-page: 
     assets:
     - path: ''
@@ -43,6 +44,7 @@ defaults:
     blogger: 
     trailer-embed-code: 
     filmpje-embed-code: 
+    formulier-link: 
     assets:
     - path: ''
       name: ''

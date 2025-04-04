@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="canonical" href="{{page.url | prepend: 'https://www.opde1sterij.nl'}}">
-		<link rel="stylesheet" href="/opde1sterij.min.css">
+		<link rel="stylesheet" href="/opde1sterij.css">
 		<script>
 			(function(d) {
 				var config = {
@@ -156,6 +156,7 @@
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						{% assign trailer = page.trailer-embed-code | default: 'geen trailer' %}{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
+						{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe src="{{page.formulier-link}}" frameborder="0" style="height: max(660px, 93vh); width: 100%;"></iframe>{% endif %}
 						{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
 					</div>{% endif %}{% endfor %}
 					{% assign vacatures-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/vacatures/"' | first %}{% if vacatures-page %}<a class="link link-vacatures" href="/vacatures/" title="Bekijk de vacatures">
@@ -343,6 +344,7 @@
 						{% assign sleutelwoorden = page.sleutelwoorden | default: 'geen sleutelwoorden' %}{% if sleutelwoorden != 'geen sleutelwoorden' %}<ul><li><span class="kenmerk-lijst-titel">Sleutelwoorden<span class="kapitalen-dubbelepunt">:</span></span> <span class="kenmerk-lijst-info">{{page.sleutelwoorden}}</span></li></ul>{% endif %}
 					</div>
 					{% assign filmpje = page.filmpje-embed-code | default: 'geen filmpje' %}{% if filmpje != 'geen filmpje' %}{{page.filmpje-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
+					{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe class="formulier" src="{{page.formulier-link}}" frameborder="0"></iframe>{% endif %}
 					{% if page.sectie %}<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
 						<h2>Boekingen</h2>
 						<p class="boekingsuitleg">Wil je deze voorstelling boeken?<br>Vul dan hieronder je gegevens in:</p>
@@ -391,12 +393,12 @@
 						<div class="blokje"></div>
 					</a>{% endif %}
 				</article>
-				{% endif %}<div id="pijl"><a href="https://opdeeersterij.activehosted.com/f/3" class="link"><span>Schrijf je in voor onze nieuwsbrief!</span><div class="blokje"></div></a></div>
+				{% endif %}<div id="pijl"><a href="https://opdeeersterij.activehosted.com/f/3" class="link">Schrijf je in voor onze nieuwsbrief!</a></div>
 			</main>
 
 			<footer>
-				<div class="nieuwsbrief">
-					<a href="https://opdeeersterij.activehosted.com/f/3" class="link"><span>Schrijf je in voor onze nieuwsbrief!</span><div class="blokje"></div></a>
+				<div class="nieuwsbrief-balk">
+					<a href="https://opdeeersterij.activehosted.com/f/3" title="Schrijf je in voor onze nieuwsbrief!" class="link">Schrijf je in voor onze nieuwsbrief!</a>
 <!-- 
 					<form action="https://theatergroepzwerm.us2.list-manage.com/subscribe/post?u=38266bd5740f0712f93ca691f&amp;id=5506a8f535" method="post">
 						<h3>Schrijf je in voor de nieuwsbrief!</h3>

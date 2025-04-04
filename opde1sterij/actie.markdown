@@ -2,6 +2,7 @@
 title: 'Kinderboekenweek 2025: Reserveer nu je plek!'
 date: 2024-04-01 08:08:00 +02:00
 position: 4
+formulier-link: https://opdeeersterij.activehosted.com/f/6
 assets:
 - path: "/uploads/8.png"
 ---
@@ -14,6 +15,6 @@ De **Kinderboekenweek 2025** staat in het teken van **"Vol avontuur"**, en Tg Zw
 
 Net als voorgaande jaren maken wij er een **Kinderboekenmaand** van: van maandag 29 september t/m vrijdag 31 oktober 2025.  
 
-📌 Zeker zijn van een plekje? Vul [hier het reserveringsformulier](https://opdeeersterij.activehosted.com/f/6) in.
+📌 Zeker zijn van een plekje? Vul hieronder het reserveringsformulier in.
 
 Mis het niet en beleef de magie van theater tijdens de Kinderboekenweek!
