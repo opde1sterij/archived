@@ -13,5 +13,5 @@ De inschrijving voor **schooljaar 2025-2026** is officieel gestart en ook dit ja
 🎬 Workshopdagen met TheaterChallenge
 📚 Kinderboekenweekvoorstelling 2025
 
-Vul het formulier hieronder in, dan nemen we zo snel mogelijk contact met je op. Weet je nog niet precies wat je wilt? Maak dan via de [link](https://calendly.com/opde1sterij/bellen-voor-meer-info-kcos) een belafspraak. We bespreken dan alle wensen en de mogelijkheden.
+Vul het formulier hieronder in, dan nemen we zo snel mogelijk contact met je op. Weet je nog niet precies wat je wilt? Maak dan via de [link](https://calendly.com/opde1sterij/bellen-voor-meer-info-kcos) een belafspraak. 
 
