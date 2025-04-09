@@ -1,7 +1,7 @@
 ---
 title: Nieuws
 date: 2025-01-22 06:41:00 +01:00
-position: 3
+position: 0
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur, voorstelling, voorstellingen,
   groep 3, groep 4, groep 5, groep 6, groep 7, groep 8, hele school, groep 3 t/m 8
 assets:

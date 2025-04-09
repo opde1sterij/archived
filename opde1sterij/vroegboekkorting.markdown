@@ -2,7 +2,7 @@
 title: Vroegboekkorting
 date: 2024-04-23 13:13:00 +02:00
 published: false
-position: 2
+position: 3
 assets:
 - path: "/uploads/vroegboekkorting-2024.jpg"
 author: info@opde1sterij.nl

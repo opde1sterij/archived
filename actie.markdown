@@ -1,7 +1,7 @@
 ---
 title: 'Kinderboekenweek 2025: Reserveer nu je plek!'
 date: 2024-04-01 08:08:00 +02:00
-position: 4
+position: 1
 formulier-link: https://opdeeersterij.activehosted.com/f/6
 assets:
 - path: "/uploads/8.png"

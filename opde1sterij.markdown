@@ -2,7 +2,7 @@
 title: Home
 date: 2024-05-30 07:00:00 +02:00
 permalink: "/"
-position: 0
+position: 2
 zoektermen: cultuureducatie, theater, klas, school, educatieve, voorstellingen, voorstelling
   in de klas, lessen, theaterlessen, workshops, theaterworkshops, muzieklessen, muziekeducatie,
   ouderavonden, docententrainingen, basisonderwijs, voortgezet onderwijs, theatergroep
