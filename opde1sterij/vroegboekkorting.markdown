@@ -1,5 +1,5 @@
 ---
-title: Vroegboekkorting
+title: Vroegboekkorting 2025-2026 – Alleen voor onze vaste klanten!
 date: 2025-04-15 21:13:00 +02:00
 position: 5
 formulier-link: https://opdeeersterij.activehosted.com/f/7
@@ -8,8 +8,6 @@ assets:
 - path: "/uploads/VBK%20vaste%20klanten%202025.png"
 author: info@opde1sterij.nl
 ---
-
-## 🎉 Vroegboekkorting 2025-2026 – Alleen voor onze vaste klanten!
 
 De meivakantie moet nog beginnen, maar jij krijgt als vaste klant alvast een sneak peek van onze jaarlijkse **vroegboekkorting** voor schooljaar **2025-2026**!
 
