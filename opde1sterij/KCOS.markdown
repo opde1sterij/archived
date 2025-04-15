@@ -2,8 +2,10 @@
 title: KCOS
 date: 2025-04-15 09:02:00 +02:00
 position: 1
-formulier-link: https://opdeeersterij.activehosted.com/f/7
+formulier-link: https://opdeeersterij.activehosted.com/f/8
 home-page: nee
+assets:
+- path: "/uploads/Ons%20aanbod%20via%20KCOS.png"
 ---
 
 De **KCOS-netwerkmiddag** is net geweest en dat betekent: het is weer tijd om cultuureducatie te kiezen! De inschrijving voor **schooljaar 2025-2026** is officieel gestart en ook dit jaar kun je via **KCOS** weer genieten van ons aanbod:
