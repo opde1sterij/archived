@@ -1,7 +1,6 @@
 ---
 title: Vroegboekkorting
-date: 2025-04-15 13:13:00 +02:00
-published: false
+date: 2025-04-15 21:13:00 +02:00
 position: 5
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 home-page: nee
