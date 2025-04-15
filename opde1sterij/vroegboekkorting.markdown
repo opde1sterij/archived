@@ -36,4 +36,4 @@ Deze actie geldt voor alle voorstellingen van **Theatergroep Zwerm** (PO en VO),
 
 Vul het formulier in, en wij nemen zo snel mogelijk contact met je op om alles samen af te stemmen.
 
-Heb je vragen of wil je overleggen? Bel ons via <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>, mail naar [boekingen@opde1sterij.nl](mailto: boekingen@opde1sterij.nl) of plan direct een [belafspraak in](https://calendly.com/opde1sterij/een-telefoontje-i-v-m-de-vroegboekkorting).
+Heb je vragen of wil je overleggen? Bel ons via <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>, mail naar [boekingen@opde1sterij.nl](mailto:boekingen@opde1sterij.nl) of plan direct een [belafspraak in](https://calendly.com/opde1sterij/een-telefoontje-i-v-m-de-vroegboekkorting).
