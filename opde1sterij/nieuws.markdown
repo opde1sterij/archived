@@ -25,9 +25,9 @@ Deze actie geldt voor alle PO- en VO-voorstellingen van **Theatergroep Zwerm** (
 - Je hebt als eerste keuze uit de beschikbare speeldata  
 - Je profiteert van een aantrekkelijke korting  
 - Je voorkomt teleurstelling: populaire weken zijn snel vol  
-- In de jaarplanning nog niet duidelijk? Dan kun je de speeldata ook later bepalen, in overleg
+- Is de jaarplanning nog niet duidelijk? Dan kun je de speeldata ook later bepalen, in overleg
 
-Gebruik maken van de Vroegboekkorting?
+### Gebruik maken van de Vroegboekkorting?
 
 Vul het formulier hieronder in, en wij nemen zo snel mogelijk contact met je op om alles samen af te stemmen.
 
