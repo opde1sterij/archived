@@ -35,7 +35,7 @@ Deze actie geldt voor alle voorstellingen van **Theatergroep Zwerm** (PO en VO),
 ✅ Wij houden alvast een plekje voor je vrij in onze agenda\
 ✅ Jij en je leerlingen zijn verzekerd van een inspirerende theaterdag
 
-### Klaar om een optie te nemen?
+### Gebruik maken van de Vroegboekkorting?
 
 Vul het formulier in, en wij nemen zo snel mogelijk contact met je op om alles samen af te stemmen.
 
