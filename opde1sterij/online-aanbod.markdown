@@ -2,7 +2,7 @@
 title: Online aanbod
 date: 2021-02-08 14:41:00 +01:00
 published: false
-position: 8
+position: 9
 korte-beschrijving: online aanbod
 trailer-embed-code: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vwLyG9S7488"
   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;

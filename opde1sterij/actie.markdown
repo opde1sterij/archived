@@ -1,7 +1,7 @@
 ---
 title: 'Kinderboekenweek 2025: Reserveer nu je plek!'
 date: 2024-04-01 08:08:00 +02:00
-position: 2
+position: 3
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur, voorstelling, voorstellingen,
   groep 3, groep 4, groep 5, groep 6, groep 7, groep 8, hele school, groep 3 t/m 8
 formulier-link: https://opdeeersterij.activehosted.com/f/6
