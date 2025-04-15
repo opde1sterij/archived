@@ -1,22 +1,42 @@
 ---
 title: Vroegboekkorting
-date: 2024-04-23 13:13:00 +02:00
+date: 2025-04-15 13:13:00 +02:00
 published: false
 position: 5
+formulier-link: https://opdeeersterij.activehosted.com/f/7
+home-page: nee
 assets:
-- path: "/uploads/vroegboekkorting-2024.jpg"
+- path: "/uploads/VBK%20vaste%20klanten%202025.png"
 author: info@opde1sterij.nl
 ---
 
-Het is weer tijd voor onze jaarlijkse vroegboekkorting omdat onze agenda elk jaar rond deze tijd al aardig vol begint te lopen en we graag een plekje voor je vrij houden. 
+## 🎉 Vroegboekkorting 2025-2026 – Alleen voor onze vaste klanten!
 
-* €100,- korting op 3 voorstellingen
-* €50,-  korting op 2 voorstellingen
-* €20,-  korting op 1 voorstelling
-* 10% korting op TheaterChallenge
+De meivakantie moet nog beginnen, maar jij krijgt als vaste klant alvast een sneak peek van onze jaarlijkse **vroegboekkorting** voor schooljaar **2025-2026**!
 
-Boek **vóór 19 juli 2024** een voorstelling van [Theatergroep Zwerm](https://www.opde1sterij.nl/theatergroep-zwerm/) voor schooljaar 2024-2025 en maak gebruik van de vroegboekkorting. Deze actie geldt voor alle voorstellingen van Theatergroep Zwerm voor zowel PO als VO (uitgezonderd de Kinderboekenweek-voorstelling). De voorstellingen vinden plaats op één dag. Uiteindelijke speeldata kunnen later vastgelegd worden.
+#### 🎁 Vroegboekkorting 2025/2026
 
-Boek **vóór 19 juli 2024** een workshopdag of voorstellingmaken van [TheaterChallenge](https://www.opde1sterij.nl/theaterchallenge/) voor schooljaar 2024-2025 en ontvang 10% korting.
+* **€100 korting** bij 3 voorstellingen
 
-Meer weten over deze korting? Neem dan contact met ons op via telefoon <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>, [mail](mailto:boekingen@opde1sterij.nl) of plan een [belafspraak](https://calendly.com/opde1sterij/een-telefoontje-i-v-m-de-vroegboekkorting) in.
+* **€50 korting** bij 2 voorstellingen
+
+* **€20 korting** bij 1 voorstelling
+
+* **10% korting** op een workshopdag van **TheaterChallenge**
+
+Deze actie geldt voor alle voorstellingen van **Theatergroep Zwerm** (PO en VO), met uitzondering van de Kinderboekenweek-voorstelling. Ook TheaterChallenge doet mee!
+
+**Let op:** boek vóór **18 juli 2025** om gebruik te maken van de vroegboekkorting.
+
+### Waarom nú al boeken?
+
+✅ Je kiest als eerste een datum die jou goed uitkomt\
+✅ Je profiteert van korting\
+✅ Wij houden alvast een plekje voor je vrij in onze agenda\
+✅ Jij en je leerlingen zijn verzekerd van een inspirerende theaterdag
+
+### Klaar om een optie te nemen?
+
+Vul het formulier in, en wij nemen zo snel mogelijk contact met je op om alles samen af te stemmen.
+
+Heb je vragen of wil je overleggen? Bel ons via **023 - 205 2482**, mail naar **boekingen@opde1sterij.nl** of plan direct een [belafspraak in](https://calendly.com/opde1sterij/een-telefoontje-i-v-m-de-vroegboekkorting).
