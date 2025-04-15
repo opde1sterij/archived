@@ -1,7 +1,7 @@
 ---
 title: Monkeyspoom
 date: 2015-09-05 20:48:00 +02:00
-position: 7
+position: 6
 onderdeel: true
 author: info@opde1sterij.nl
 korte-beschrijving: "**MonkeySpoom** traint docenten op een verfrissende manier. Een

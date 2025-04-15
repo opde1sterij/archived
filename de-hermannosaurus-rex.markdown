@@ -1,7 +1,7 @@
 ---
 title: De Hermannen – de Hermannosaurus rex
 date: 2019-12-09 16:15:00 +01:00
-position: 8
+position: 7
 korte-beschrijving: 'De Hermannosaurus rex: een knotsgekke voorstelling over duurzaamheid,
   creativiteit en het betere knutselwerk'
 filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube.com/embed/r4RXjNTndq0"

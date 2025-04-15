@@ -24,11 +24,11 @@ layout:
  		<lastmod>{{page.date | date_to_xmlschema}}</lastmod>
  -->
 	</url>
-	{% for subpage in page.pages reversed %}<url>
+	{% for subpage in page.pages reversed %}{% assign home-page = subpage.home-page | default: 'ja' %}{% if home-page != 'nee' %}<url>
 		<loc>https://www.opde1sterij.nl{{subpage.url}}</loc>
 		<lastmod>{{site.time | date_to_xmlschema}}</lastmod>
 <!-- 
 		<lastmod>{{subpage.date | date_to_xmlschema}}</lastmod>
  -->
-	</url>{% endfor %}{% endif %}{% endfor %}
+	</url>{% endif %}{% endfor %}{% endif %}{% endfor %}
 </urlset>
