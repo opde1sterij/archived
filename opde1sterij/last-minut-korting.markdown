@@ -1,5 +1,5 @@
 ---
-title: Last minut korting
+title: Last minute korting
 date: 2025-04-15 11:21:00 +02:00
 position: 4
 formulier-link: https://opdeeersterij.activehosted.com/f/9
