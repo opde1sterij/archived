@@ -6,6 +6,7 @@ formulier-link: https://opdeeersterij.activehosted.com/f/9
 home-page: nee
 assets:
 - path: "/uploads/LMK%202025.png"
+redirect_from: "/opde1sterij/last-minut-korting/"
 ---
 
  👀 We hebben je gemist dit jaar!  

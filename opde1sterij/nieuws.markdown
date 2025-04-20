@@ -5,7 +5,7 @@ position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 home-page: nee
 assets:
-- path: "/uploads/VBK%202025%20algemeen.png"
+- path: "/uploads/vroegboekkorting-2025-2026.jpg"
 author: info@opde1sterij.nl
 ---
 
