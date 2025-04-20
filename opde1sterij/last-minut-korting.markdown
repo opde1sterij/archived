@@ -4,6 +4,8 @@ date: 2025-04-15 11:21:00 +02:00
 position: 4
 formulier-link: https://opdeeersterij.activehosted.com/f/9
 home-page: nee
+assets:
+- path: "/uploads/LMK%202025.png"
 ---
 
  👀 We hebben je gemist dit jaar!  
