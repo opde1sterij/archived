@@ -5,7 +5,7 @@ position: 4
 formulier-link: https://opdeeersterij.activehosted.com/f/9
 home-page: nee
 assets:
-- path: "/uploads/LMK%202025.png"
+- path: "/uploads/last-minute-korting.jpg"
 redirect_from: "/opde1sterij/last-minut-korting/"
 ---
 
