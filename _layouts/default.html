@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<title>{% if page.url != '/' %}{{page.title}}{% if page.leeftijd %} ({{page.leeftijd}}){% endif %} - {% endif %}{% assign parent = page.url | split: '/' %}{% if parent[2] %}{{parent[1] | replace: '/', '' | replace: '-', ' ' | replace: 'opde1sterij', 'Home' | replace: 'theaterchallenge', 'TheaterChallenge' | capitalize | trim}} - {% endif %}{{site.title}}</title>
 		{% assign home-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/"' | first %}<meta name="description" content="{% if page.blogger %}{% assign blog-beschrijving = page.content | replace: '**', ''  | replace: '*', ' - '  | replace: '</em>', ' - ' | strip_html | strip_newlines | truncate: 160, "…" %}{{blog-beschrijving}}{% else %}{{page.korte-beschrijving}}{% if page.url != '/' %} {{home-page.korte-beschrijving}}{% endif %}{% endif %}">
-		<meta name="keywords" content="{% if page.zoektermen %}{{page.zoektermen}}{% else %}{{home-page.zoektermen}}{% endif %}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="canonical" href="{{page.url | prepend: 'https://www.opde1sterij.nl'}}">
