@@ -120,7 +120,7 @@
 							<p class="contact-box-straat">{{home-page.straat}} {{home-page.huisnummer}}</p>
 							<p class="contact-box-postcode">{{home-page.postcode}} {{home-page.plaats}}</p>
 							<p class="contact-box-e-mail"><a href="mailto:{{home-page.e-mailadres}}" title="Mail ons"><span class="alleen-mobiel">Mail ons</span> <span class="alleen-volledig">{{home-page.e-mailadres}}</span></a></p>
-							<p class="contact-box-bel">{{home-page.telefoonnummer}}<span class="alleen-mobiel"><br><a href="tel:{{home-page.esther-telefoonnummer}}" title="Bel Esther Hulst">Bel Esther</a></span><span class="alleen-volledig">&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class="alleen-mobiel"><br></span><a href="/contact/" title="Contact">Meer Info</a></p>
+							<p class="contact-box-bel">Tel: {{home-page.telefoonnummer}}<span class="alleen-mobiel"><br><a href="tel:{{home-page.esther-telefoonnummer}}" title="Bel Esther Hulst">Bel Esther</a></span><span class="alleen-volledig">&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class="alleen-mobiel"><br></span><a href="/contact/" title="Contact">Meer Info</a></p>
 						</div>
 					</aside>
 				</div>
@@ -152,7 +152,7 @@
 						{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
 					</div>{% endif %}{% endif %}{% endfor %}
 					{% assign vacatures-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/vacatures/"' | first %}{% if vacatures-page %}<a class="link link-vacatures" href="/vacatures/" title="Bekijk de vacatures">
-						<span>Werken bij Op de eerste rij? Bekijk de vacatures</span>
+						<span>Werken bij Op de eerste rij?</span>
 						<div class="blokje"></div>
 					</a>{% endif %}
 				</article>
