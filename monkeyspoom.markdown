@@ -1,7 +1,6 @@
 ---
 title: Monkeyspoom
 date: 2015-09-05 20:48:00 +02:00
-published: false
 position: 6
 korte-beschrijving: "**MonkeySpoom** traint docenten op een verfrissende manier. Een
   nieuwe kijk op jezelf, je werk, kinderen, onderwijs. MonkeySpoom: omdat je toe bent
