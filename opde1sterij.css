@@ -900,7 +900,7 @@ article {
     margin: 0 auto 54px
 }
 
-article h1 {
+article h2 {
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
@@ -917,34 +917,34 @@ article h1 {
     -webkit-font-smoothing: antialiased
 }
 
-article h1 a {
+article h2 a {
     text-decoration: none;
     color: #fff
 }
 
-article h1 a:hover {
+article h2 a:hover {
     text-decoration: underline;
     color: #fff
 }
 
-article h1:nth-child(n + 3) {
+article h2:nth-child(n + 3) {
     position: static;
     margin-top: 32px
 }
 
-.theatergroep-zwerm article h1 {
+.theatergroep-zwerm article h2 {
     background: #eda62d
 }
 
-.traject-c article h1 {
+.traject-c article h2 {
     background: #68924e
 }
 
-.theaterchallenge article h1 {
+.theaterchallenge article h2 {
     background: #d2422b
 }
 
-.monkeyspoom article h1 {
+.monkeyspoom article h2 {
     background: #47b6bf
 }
 
@@ -957,13 +957,17 @@ article h1:nth-child(n + 3) {
     opacity: .6
 }
 
+section {
+	float: left;
+}
+
 .wie-zijn-wij {
     position: absolute;
     width: 610px;
     margin-top: -255px
 }
 
-.wie-zijn-wij h1 {
+.wie-zijn-wij h2 {
     font-size: 15px;
     background: #474545
 }
@@ -992,7 +996,7 @@ article h1:nth-child(n + 3) {
     clear: both
 }
 
-article h2 {
+article h3 {
     font-size: 13px;
     font-weight: 500;
     line-height: 32px;
@@ -1007,19 +1011,19 @@ article h2 {
     -webkit-font-smoothing: antialiased
 }
 
-.theatergroep-zwerm main article h2 {
+.theatergroep-zwerm main article h3 {
     background: #eda62d
 }
 
-.traject-c main article h2 {
+.traject-c main article h3 {
     background: #68924e
 }
 
-.theaterchallenge main article h2 {
+.theaterchallenge main article h3 {
     background: #d2422b
 }
 
-.monkeyspoom main article h2 {
+.monkeyspoom main article h3 {
     background: #47b6bf
 }
 
@@ -1389,12 +1393,12 @@ a.link:hover span {
 a.link-vacatures {
     display: block;
     float: none;
-    width: 426px;
+    width: 264px;
     margin: 54px auto 16px
 }
 
 .link-vacatures span {
-    padding: 0 0 0 23px
+    padding: 0 0 0 16px
 }
 
 .tekst {
@@ -1405,7 +1409,7 @@ a.link-vacatures {
     margin-bottom: 0
 }
 
-.vacatures .tekst h2 + p {
+.vacatures .tekst h3 + p {
     clear: both
 }
 
@@ -1768,7 +1772,7 @@ a.link-vacatures {
     background: #3a9da6
 }
 
-.product h3 {
+.product h4 {
     font-size: 19px;
     font-weight: 500;
     line-height: 1.2;
@@ -1951,7 +1955,7 @@ p.tap-meer-lezen {
     height: auto
 }
 
-.biografie-naam h3 {
+.biografie-naam h4 {
     font-size: 19px;
     font-weight: 500;
     line-height: 1.2;
@@ -1963,7 +1967,7 @@ p.tap-meer-lezen {
     -webkit-font-smoothing: antialiased
 }
 
-.persoon.oprichter .biografie-naam h3 {
+.persoon.oprichter .biografie-naam h4 {
     padding: 24px 23px 0;
     color: #e47c95
 }
@@ -2092,7 +2096,7 @@ p.tap-meer-lezen {
     border-top: 16px solid #f3ddc9
 }
 
-.boekingen h2 {
+.boekingen h3 {
     float: left;
     clear: both;
     margin: 16px 0 16px 0
@@ -2105,7 +2109,7 @@ p.tap-meer-lezen {
     margin: 16px 0 0
 }
 
-.boekingsformulier h2 {
+.boekingsformulier h3 {
     display: block;
     clear: both;
     overflow: hidden;
@@ -2442,7 +2446,7 @@ main img {
     margin: 32px auto 42px
 }
 
-.agenda-overzicht h3 {
+.agenda-overzicht h4 {
     font-weight: 300;
     text-align: center
 }
@@ -2541,7 +2545,7 @@ tr.monkeyspoom, tr.monkeyspoom a {
     clear: none;
     margin: 6px auto;
     text-decoration: none;
-    width: 270px
+    width: 267px
 }
 
 #pijl a:after {
@@ -2586,7 +2590,7 @@ footer {
     background: #474545
 }
 
-footer h3 {
+footer h4 {
     font-size: 13px;
     font-weight: 500;
     float: left;
@@ -2598,17 +2602,17 @@ footer h3 {
     -webkit-font-smoothing: antialiased
 }
 
-footer h3 a {
+footer h4 a {
     text-decoration: none;
     color: #fff
 }
 
-footer h3 a:hover {
+footer h4 a:hover {
     text-decoration: underline;
     color: #fff
 }
 
-footer h3 a::after {
+footer h4 a::after {
     position: absolute;
     margin-top: 3px;
     margin-left: 6px;
@@ -2622,7 +2626,9 @@ footer h3 a::after {
 
 .nieuwsbrief-balk {
     position: absolute;
+/* 
     text-align: center;
+ */
     top: 0;
     width: 100%;
     height: 32px;
@@ -2654,7 +2660,7 @@ footer h3 a::after {
     -webkit-font-smoothing:antialiased
 }
 
-.nieuwsbrief-balk h3 {
+.nieuwsbrief-balk h4 {
     width: 252px;
     margin-left:14px
 }
@@ -2751,7 +2757,7 @@ input.nieuwsbrief-balk-voornaam {
     clear: none;
     margin: 0 auto;
     text-decoration: none;
-    width: 270px
+    width: 267px
 }
 
 .nieuwsbrief-balk a:after {
@@ -2830,7 +2836,7 @@ input.nieuwsbrief-balk-voornaam {
     margin: 0 auto
 }
 
-.midden h3 {
+.midden h4 {
     margin: 0 0 14px
 }
 
@@ -2841,11 +2847,11 @@ input.nieuwsbrief-balk-voornaam {
     margin: 18px 52px 0 14px
 }
 
-.laatste-blogposts h3 a {
+.laatste-blogposts h4 a {
     color: #fff
 }
 
-.laatste-blogposts h3 a:hover {
+.laatste-blogposts h4 a:hover {
     text-decoration: underline;
     color: #fff
 }
@@ -2952,11 +2958,11 @@ input.nieuwsbrief-balk-voornaam {
     color: #fff
 }
 
-.laatste-agenda h3 a {
+.laatste-agenda h4 a {
     color: #fff
 }
 
-.laatste-agenda h3 a:hover {
+.laatste-agenda h4 a:hover {
     text-decoration: underline;
     color: #fff
 }
@@ -3096,11 +3102,11 @@ input.nieuwsbrief-balk-voornaam {
     margin: 18px 14px 0 0
 }
 
-.instagram h3 a {
+.instagram h4 a {
     color: #fff
 }
 
-.instagram h3 a:hover {
+.instagram h4 a:hover {
     text-decoration: underline;
     color: #fff
 }
@@ -3320,7 +3326,10 @@ input.nieuwsbrief-balk-voornaam {
     bottom: 0;
     width: 100%;
     height: 10px;
+    background: linear-gradient(to right, #e47c95 0%, #e47c95 20%, #eda62d 20%, #eda62d 40%, #68924e 40%, #68924e 60%, #d2422b 60%, #d2422b 80%, #47b6bf 80%, #47b6bf 100%)
+/* 
     background: linear-gradient(to right, #e47c95 0, #e47c95 35%, #eda62d 35%, #eda62d 45%, #68924e 45%, #68924e 55%, #d2422b 55%, #d2422b 65%, #47b6bf 65%, #47b6bf 100%)
+ */
 }
 
 @media screen and (min-width: 1024px) {
@@ -3498,7 +3507,7 @@ input.nieuwsbrief-balk-voornaam {
         margin: 0 auto 27px
     }
 
-    article h1 {
+    article h2 {
         line-height: 20px;
         position: static;
         box-sizing: border-box;
@@ -3512,9 +3521,13 @@ input.nieuwsbrief-balk-voornaam {
         padding-left: 16px
     }
 
-    article h1:nth-child(n + 2) {
+    article h2:nth-child(n + 2) {
         position: static;
         margin-top: 32px
+    }
+    
+    section {
+    	margin: 32px 0 0;
     }
 
     .wie-zijn-wij {
@@ -3524,7 +3537,7 @@ input.nieuwsbrief-balk-voornaam {
         margin-top: 0
     }
 
-    .wie-zijn-wij article h1 {
+    .wie-zijn-wij article h2 {
         margin: 0
     }
 
@@ -3630,7 +3643,7 @@ input.nieuwsbrief-balk-voornaam {
         height: 440px
     }
 
-    .persoon.oprichter .biografie-naam h3 {
+    .persoon.oprichter .biografie-naam h4 {
         padding: 16px 16px 0 16px
     }
 
@@ -3715,7 +3728,7 @@ input.nieuwsbrief-balk-voornaam {
         margin: 16px 0
     }
 
-    .boekingsformulier h2 {
+    .boekingsformulier h3 {
         margin: 16px 16px;
     }
 
@@ -3755,7 +3768,7 @@ input.nieuwsbrief-balk-voornaam {
         margin: 13px auto 0
     }
 
-    .nieuwsbrief-balk h3 {
+    .nieuwsbrief-balk h4 {
         float: none;
         width: 100%;
         margin-right: auto;
@@ -3835,7 +3848,7 @@ input.nieuwsbrief-balk-voornaam {
         height: 594px
     }
 
-    .midden h3 {
+    .midden h4 {
         margin: 0 0 14px;
         text-align: center
     }
@@ -3888,7 +3901,7 @@ input.nieuwsbrief-balk-voornaam {
         margin-left: auto
     }
 
-    .instagram h3 {
+    .instagram h4 {
         display: block
     }
 
@@ -3965,7 +3978,9 @@ input.nieuwsbrief-balk-voornaam {
 @media screen and (max-width: 375px) {
     a.link-vacatures {
         font-size: 12px;
+/* 
         letter-spacing: -.24px
+ */
     }
 
     .boek-product {

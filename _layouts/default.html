@@ -24,7 +24,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "Organization",
+				"@type": "EducationalOrganization",
 				"url": "https://www.opde1sterij.nl",
 				"sameAs": [
 					"{{home-page.facebook}}",
@@ -45,7 +45,7 @@
 					"addressCountry": "NL",
 					"postalCode": "{{home-page.postcode}}"
 				},
-				"vatID": "NL852918550 B01",
+				"vatID": "{{home-page.btw-nummer}}",
 				"contactPoint": [{
 					"@type": "ContactPoint",
 					"telephone": "{{home-page.telefoonnummer}}",
@@ -73,7 +73,7 @@
 		<div class="wikkel">
 			<header>
 				<div class="gecentreerd">
-					{% if page.url contains '/theatergroep-zwerm/' %}<h1 title="Theatergroep Zwerm" style="background-image: url('/logo_nieuw_theatergroep-zwerm@3x.png')"><span class="visueel-verborgen">Theatergroep Zwerm</span></h1>{% elsif page.url contains '/traject-c/' %}<h1 title="Traject C" style="background-image: url('/logo_nieuw_traject-c-cultuuronderwijs@3x.png');"><span class="visueel-verborgen">Traject C</span></h1>{% elsif page.url contains '/theaterchallenge/' %}<h1 title="TheaterChallenge" style="background-image: url('/logo_nieuw_theaterchallenge@3x.png')"><span class="visueel-verborgen">TheaterChallenge</span></h1>{% elsif page.url contains '/monkeyspoom/' %}<h1 title="MonkeySpoom" style="background-image: url('/logo_nieuw_opde1sterij_blauw@3x.png')"><span class="visueel-verborgen">MonkeySpoom</span></h1>{% else %}<h1 title="{{site.title}}" style="background-image: url('/logo_nieuw_opde1sterij@3x.png')"><span class="visueel-verborgen">{{site.title}}</span></h1>{% endif %}
+					{% if page.url contains '/theatergroep-zwerm/' %}<h1 title="Theatergroep Zwerm" style="background-image: url('/logo_nieuw_theatergroep-zwerm@3x.png')"><span class="visueel-verborgen">Theatergroep Zwerm - {{site.title}}</span></h1>{% elsif page.url contains '/traject-c/' %}<h1 title="Traject C" style="background-image: url('/logo_nieuw_traject-c-cultuuronderwijs@3x.png');"><span class="visueel-verborgen">Traject C - {{site.title}}</span></h1>{% elsif page.url contains '/theaterchallenge/' %}<h1 title="TheaterChallenge" style="background-image: url('/logo_nieuw_theaterchallenge@3x.png')"><span class="visueel-verborgen">TheaterChallenge - {{site.title}}</span></h1>{% elsif page.url contains '/monkeyspoom/' %}<h1 title="MonkeySpoom" style="background-image: url('/logo_nieuw_opde1sterij_blauw@3x.png')"><span class="visueel-verborgen">MonkeySpoom - {{site.title}}</span></h1>{% else %}<h1 title="{{site.title}}" style="background-image: url('/logo_nieuw_opde1sterij@3x.png')"><span class="visueel-verborgen">{{site.title}}</span></h1>{% endif %}
 					<nav class="menu">
 						<div class="menu-knop" title="Open Menu">
 							<div class="menu-titel">Menu</div>
@@ -84,18 +84,18 @@
 						<div class="sub-menus{% assign portal-page = site.pages | where_exp: 'page', 'page.url == "/portal/"' | first %}{% if portal-page %} portals{% endif %}">
 							<ul class="onderdelen">
 								<li class="opde1sterij{% if page.url == '/' %} geselecteerd{% endif %}"><a href="/" title="Home"><div class="menu-driehoekje"></div>Home</a></li>
-								<li class="zwerm{%if page.url == '/theatergroep-zwerm' %} geselecteerd{% endif %}"><a href="/theatergroep-zwerm/" title="Aanbod Theatergroep Zwerm"><div class="menu-driehoekje"></div>Theatergroep Zwerm</a></li>
-								<li class="traject-c{% if page.url == '/traject-c' %} geselecteerd{% endif %}"><a href="/traject-c/" title="Aanbod Traject C Cultuuronderwijs"><div class="menu-driehoekje"></div>Traject C</a></li>
-								<li class="theaterchallenge{% if page.url == '/theaterchallenge' %} geselecteerd{% endif %}"><a href="/theaterchallenge/" title="Aanbod TheaterChallenge"><div class="menu-driehoekje"></div>TheaterChallenge</a></li>
-								<li class="monkeyspoom{% if page.url == '/monkeyspoom' %} geselecteerd{% endif %}"><a href="/monkeyspoom/" title="Aanbod Monkeyspoom"><div class="menu-driehoekje"></div>Monkeyspoom</a></li>
-								{% if portal-page %}<li class="portals{% if page.url == '/portals' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/portals/" title="Portals">Portals</a></li>{% endif %}
+								<li class="zwerm{%if page.url == '/theatergroep-zwerm/' %} geselecteerd{% endif %}"><a href="/theatergroep-zwerm/" title="Aanbod Theatergroep Zwerm"><div class="menu-driehoekje"></div>Theatergroep Zwerm</a></li>
+								<li class="traject-c{% if page.url == '/traject-c/' %} geselecteerd{% endif %}"><a href="/traject-c/" title="Aanbod Traject C Cultuuronderwijs"><div class="menu-driehoekje"></div>Traject C</a></li>
+								<li class="theaterchallenge{% if page.url == '/theaterchallenge/' %} geselecteerd{% endif %}"><a href="/theaterchallenge/" title="Aanbod TheaterChallenge"><div class="menu-driehoekje"></div>TheaterChallenge</a></li>
+								<li class="monkeyspoom{% if page.url == '/monkeyspoom/' %} geselecteerd{% endif %}"><a href="/monkeyspoom/" title="Aanbod Monkeyspoom"><div class="menu-driehoekje"></div>Monkeyspoom</a></li>
+								{% if portal-page %}<li class="portals{% if page.url == '/portals/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/portals/" title="Portals">Portals</a></li>{% endif %}
 							</ul>
 							<ul class="secties-mobiel" hidden>
-								<li class="primair-onderwijs{% if page.url == '/primair-onderwijs' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/primair-onderwijs/" title="Aanbod Primair Onderwijs">Primair Onderwijs</a></li>
-								<li class="voortgezet-onderwijs{% if page.url == '/voortgezet-onderwijs' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/voortgezet-onderwijs/" title="Aanbod Voortgezet Onderwijs">Voortgezet Onderwijs</a></li>
-								<li class="agenda{% if page.url == '/agenda' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></li>
-								<li class="blog{% if page.url == '/blog' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/blog/" title="Bekijk ons blog">Blog</a></li>
-								<li class="over-ons{% if page.url == '/over-ons' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/over-ons/" title="Over Op de eerste rij">Over Ons</a></li>
+								<li class="primair-onderwijs{% if page.url == '/primair-onderwijs/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/primair-onderwijs/" title="Aanbod Primair Onderwijs">Primair Onderwijs</a></li>
+								<li class="voortgezet-onderwijs{% if page.url == '/voortgezet-onderwijs/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/voortgezet-onderwijs/" title="Aanbod Voortgezet Onderwijs">Voortgezet Onderwijs</a></li>
+								<li class="agenda{% if page.url == '/agenda/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></li>
+								<li class="blog{% if page.url == '/blog/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/blog/" title="Bekijk ons blog">Blog</a></li>
+								<li class="over-ons{% if page.url == '/over-ons/' %} geselecteerd{% endif %}"><div class="menu-driehoekje"></div><a href="/over-ons/" title="Over Op de eerste rij">Over Ons</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -133,8 +133,8 @@
 			{% endif %}
 			<main>
 				{% if page.url == '/' %}<article>
-					<div class="wie-zijn-wij">
-						<h1>{{page.kopje}}</h1>
+					<section class="wie-zijn-wij" aria-labelledby="wie-zijn-wij">
+						<h2>{{page.kopje}}</h2>
 						<div class="wie-zijn-wij-tekst">
 							{{content | strip_newlines | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						</div>
@@ -143,21 +143,21 @@
 							<span>Klik hier om te boeken</span>
 							<div class="blokje"></div>
 						</a>
-					</div>{% assign pages = site.pages | sort: 'position' | where_exp: 'sub-page', 'sub-page.dir contains "opde1sterij"' %}
-					{% for page in pages %}{% if page.title %}{% if page.home-page != 'nee'%}<h1 id='{{page.title | replace: ' ', '-' | replace: '!', '' | downcase}}'><a href="{{page.url}}" title="{{page.title}}">{{page.title}}</a></h1>
+					</section>{% assign pages = site.pages | sort: 'position' | where_exp: 'sub-page', 'sub-page.dir contains "opde1sterij"' %}
+					{% for page in pages %}{% if page.title %}{% if page.home-page != 'nee'%}<section aria-labelledby="{{page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><h2 id="{{page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><a href="{{page.url}}" title="{{page.title}}">{{page.title}}</a></h2>
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						{% assign trailer = page.trailer-embed-code | default: 'geen trailer' %}{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
 						{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe class="formulier" src="{{page.formulier-link}}" frameborder="0"></iframe>{% endif %}
 						{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
-					</div>{% endif %}{% endif %}{% endfor %}
+					</div></section>{% endif %}{% endif %}{% endfor %}
 					{% assign vacatures-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/vacatures/"' | first %}{% if vacatures-page %}<a class="link link-vacatures" href="/vacatures/" title="Bekijk de vacatures">
 						<span>Werken bij Op de eerste rij?</span>
 						<div class="blokje"></div>
 					</a>{% endif %}
 				</article>
 				{% elsif page.url == '/primair-onderwijs/' or page.url == '/voortgezet-onderwijs/' or page.url == '/bedrijven/' or page.url == '/particulieren/' %}
-				<h1 class="hoofd">{{page.title}}</h1>
+				<h2 class="hoofd">{{page.title}}</h2>
 				<div class="product-overzicht">
 					<ul>{% assign secties = site.pages | where_exp: 'sectie-page', 'sectie-page.sectie-naam' | reverse %}{% assign onderdelen = site.pages | where_exp: 'onderdeel-page', 'onderdeel-page.onderdeel == true' | sort: 'position' %}{% for onderdeel in onderdelen %}{% assign pages = site.pages | where_exp: 'sub-page', 'sub-page.dir contains onderdeel.dir' | where_exp: 'sub-page', 'sub-page.sectie contains page.sectie-naam' | sort: 'position' %}
 						{% for page in pages %}{% include producten.html %}{% endfor %}
@@ -165,7 +165,7 @@
 					{% if page.url == '/bedrijven/' or page.url == '/particulieren/' %}<a style="display: block; text-align: center;" href="/contact/" title="Contact">Meer Info</a>{% endif %}
 				</div>
 				{% elsif page.url == '/theatergroep-zwerm/' or page.url == '/traject-c/' or page.url == '/theaterchallenge/' or page.url == '/monkeyspoom/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<img', '<img class="lazyload"' | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
@@ -180,20 +180,20 @@
 					</a>{% endif %}
 				</article>
 				<div class="product-overzicht">
-					<h1 class="hoofd">Aanbod {{page.title}}</h1>
+					<h2 class="hoofd">Aanbod {{page.title}}</h2>
 					<ul>{% assign pages = site.pages | sort: 'position' | where_exp: 'sub-page', 'sub-page.url contains page.dir' | where_exp: 'sub-page', 'sub-page.sectie' %}
 						{% for page in pages %}{% include producten.html %}{% endfor %}
 					</ul>
 					{% if page.url == '/monkeyspoom/' %}<a style="display: block; text-align: center;" href="/contact/" title="Contact">Meer Info</a><br>{% endif %}
 				</div>
 				{% elsif page.url contains '/crew/' %}
-				<h1 class="hoofd">{{page.title}}</h1>
+				<h2 class="hoofd">{{page.title}}</h2>
 				<div class="crew-overzicht">
 					<ul>{% assign parent = page.url | split: '/' %}{% if parent[2] %}{% assign crew-onderdeel = parent[1] | downcase | replace: '/', '' | replace: '-', ' ' | replace: 'Traject C - cultuuronderwijs', 'Traject C' %}{% else %}{% assign crew-onderdeel = '' %}{% endif %}{% assign crew = site.crew | sort: 'position' %}{% if crew != 0 %}{% for crew-lid in crew %}{% if crew-lid.onderdeel contains crew-onderdeel %}
 						{% capture omenom %}{% cycle 'oneven', 'even' %}{% endcapture %}<li class="{{omenom}}"{% if crew-lid.title == 'Esther Hulst' %} style="width: 100%;"{% endif %}{% if page.url contains 'monkeyspoom' %}{% if crew-lid.title == 'David Meijer' %} style="width: 100%;"{% endif %}{% endif %}>{% if omenom == 'oneven' %}
 							<div class="{% if crew-lid.title == 'Esther Hulst' %}persoon oprichter{% else %}persoon{% endif %}"{% if page.url contains 'monkeyspoom' %}{% if crew-lid.title == 'David Meijer' %} style="float: none; margin-left: auto; margin-right: auto;"{% endif %}{% endif %}>
 								<div class="biografie">
-									<div class="biografie-naam"><h3>{{crew-lid.title}}</h3><p class="onderdeel-naam">{% if crew-lid.title == 'Esther Hulst' %}Op de eerste rij{% else %}{{crew-lid.onderdeel}}{% endif %}</p></div>
+									<div class="biografie-naam"><h4>{{crew-lid.title}}</h4><p class="onderdeel-naam">{% if crew-lid.title == 'Esther Hulst' %}Op de eerste rij{% else %}{{crew-lid.onderdeel}}{% endif %}</p></div>
 									<div class="biografie-tekst"><p>{{crew-lid.content | strip_html | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}</p></div>
 								</div>
 								<div class="portret-foto-box">
@@ -209,7 +209,7 @@
 									<div class="portret-foto-lader"></div>
 								</div>
 								<div class="biografie">
-									<div class="biografie-naam"><h3>{{crew-lid.title}}</h3><p class="onderdeel-naam">{% if crew-lid.title == 'Esther Hulst' %}Op de eerste rij{% else %}{{crew-lid.onderdeel}}{% endif %}</p></div>
+									<div class="biografie-naam"><h4>{{crew-lid.title}}</h4><p class="onderdeel-naam">{% if crew-lid.title == 'Esther Hulst' %}Op de eerste rij{% else %}{{crew-lid.onderdeel}}{% endif %}</p></div>
 									<div class="biografie-tekst"><p>{{crew-lid.content | strip_html | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}</p></div>
 								</div>
 							</div>
@@ -217,7 +217,7 @@
 					</ul>
 				</div>
 				{% elsif page.url == '/boekingen/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
 						<p class="boekingsuitleg">Selecteer wat je wilt boeken:</p>
 						<div class="product-selectie">{% assign onderdelen = site.pages | where_exp: 'onderdeel-page', 'onderdeel-page.onderdeel == true' | sort: 'position' %}{% for onderdeel in onderdelen %}{% assign pages = site.pages | where_exp: 'sub-page', 'sub-page.dir contains onderdeel.dir' | where_exp: 'sub-page', 'sub-page.sectie' | sort: 'position' %}
@@ -257,7 +257,7 @@
 					</div>
 				</article>
 				{% elsif page.url == '/agenda/' %}<div class="agenda-overzicht">
-					<h1 class="hoofd">{{page.title}}</h1>
+					<h2 class="hoofd">{{page.title}}</h2>
 					<table>
 						<thead>
 							<tr>
@@ -271,7 +271,7 @@
 					</table>
 				</div>
 				{% elsif page.url == '/contact/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<img', '<img class="lazyload"' | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
@@ -288,17 +288,17 @@
 					</a>
 				</article>
 				{% elsif page.url == '/privacy/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<div class="tekst">{{page.content | markdownify | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}</div>
 				</article>
 				{% elsif page.url == '/portals/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<img', '<img class="lazyload"' | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
 				</article>
 				{% elsif page.url == '/blog/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					{% for post in site.posts %}{% assign blogger = post.blogger | slugify | default: 'opde1sterij' %}{% assign blogpostafbeelding = post.assets[0].path | default: 'geen afbeelding' %}
 					<div class="blogger-portret-cirkel"><noscript><div class="blogger-portret-foto" style="background-image: url('{% if blogpostafbeelding != 'geen afbeelding' %}{{blogpostafbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg' }}{% endif %}')"></div></noscript><div class="blogger-portret-foto lazyload" data-bg="{% if blogpostafbeelding != 'geen afbeelding' %}{{blogpostafbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg' }}{% endif %}"></div></div>
 					<a class="link" href="{{post.url}}" title="Blog post: {{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m-%Y'}}"><span>{{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m-%Y'}}</span><div class="blokje"></div></a>{% endfor %}
@@ -307,7 +307,7 @@
 					<a class="link" href="{{post.url}}" title="Blog post: {{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m-%Y'}}"><span>{{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m-%Y'}}</span><div class="blokje"></div></a>{% endfor %}
 				</article>
 				{% elsif page.blogger %}<article>
-					<h1>{{page.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{page.date | date: '%-d-%-m-%Y'}}</h1>
+					<h2>{{page.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{page.date | date: '%-d-%-m-%Y'}}</h2>
 					<div class="tekst">
 						{{content | markdownify | replace: '<img', '<img class="lazyload"' | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
@@ -319,26 +319,26 @@
 					{% endif %}
 				</article>
 				{% elsif page.url == '/vacatures/' %}<article>
-					<h1>{{page.title}}</h1>
+					<h2>{{page.title}}</h2>
 					<div class="tekst">
 						{% assign filmpje = page.filmpje-embed-code | default: 'geen filmpje' %}{% if filmpje != 'geen filmpje' %}{{page.filmpje-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
 						{{page.content | markdownify | replace: '<img', '<img class="lazyload"' | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>
 				</article>
 				{% else %}<article class="{% if page.actie %}actie{% endif %} {% if page.speciaal %}speciaal{% endif %}">
-					<h1>{{page.title}}{% if page.leeftijd %} <span class="leeftijd-doelgroep">({{page.leeftijd}})</span>{% endif %}</h1>
-					{% if page.actie %}<a class="actie-knop" href='/opde1sterij/{{page.actie | replace: ' ', '-' | replace: '!', '' | downcase}}/'>{{page.actie | downcase | replace: 'vroegboekkorting', 'vroegboek korting' | replace: 'onlineaanbod', 'online aanbod' | replace: '!', ''}}➔</a>{% endif %}
-					{% if page.speciaal %}<a class="speciaal-knop" href='/opde1sterij/{{page.speciaal | replace: ' ', '-' | replace: '!', '' | downcase}}/'>{{page.speciaal | replace: 'coronaproof', 'corona proof' | replace: '!', ''}}➔</a>{% endif %}
+					<h2>{{page.title}}{% if page.leeftijd %} <span class="leeftijd-doelgroep">({{page.leeftijd}})</span>{% endif %}</h2>
+					{% if page.actie %}<a class="actie-knop" href="/opde1sterij/{{page.actie | replace: ' ', '-' | replace: '!', '' | downcase}}/">{{page.actie | downcase | replace: 'vroegboekkorting', 'vroegboek korting' | replace: 'onlineaanbod', 'online aanbod' | replace: '!', ''}}➔</a>{% endif %}
+					{% if page.speciaal %}<a class="speciaal-knop" href="/opde1sterij/{{page.speciaal | replace: ' ', '-' | replace: '!', '' | downcase}}/">{{page.speciaal | replace: 'coronaproof', 'corona proof' | replace: '!', ''}}➔</a>{% endif %}
 					<div class="tekst">{% assign paragraphs = page.content | markdownify | split: '</p>' %}
 						{{paragraphs[0] | replace: '<iframe', '<div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>' | append: '</p>'}}
-						{% assign kenmerken = page.kenmerken | default: 'geen kenmerken' %}{% if kenmerken != 'geen kenmerken' %}{% assign kenmerken-split = page.kenmerken | split:'; ' %}<div class="kenmerken"><h2>Kenmerken</h2><ul>{% for kenmerk in kenmerken-split %}<li><span class="kenmerk-lijst-titel">{{kenmerk | replace:':', '<span class="kapitalen-dubbelepunt">:</span></span><span class="kenmerk-lijst-info">'}}</span></li>{% endfor %}</ul></div>{% endif %}
+						{% assign kenmerken = page.kenmerken | default: 'geen kenmerken' %}{% if kenmerken != 'geen kenmerken' %}{% assign kenmerken-split = page.kenmerken | split:'; ' %}<div class="kenmerken"><h3>Kenmerken</h3><ul>{% for kenmerk in kenmerken-split %}<li><span class="kenmerk-lijst-titel">{{kenmerk | replace:':', '<span class="kapitalen-dubbelepunt">:</span></span><span class="kenmerk-lijst-info">'}}</span></li>{% endfor %}</ul></div>{% endif %}
 						{% for paragraph in paragraphs offset:1 %}{{paragraph | replace: '<iframe', '<div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div>' | append: '</p>'}}{% endfor %}
 						{% assign sleutelwoorden = page.sleutelwoorden | default: 'geen sleutelwoorden' %}{% if sleutelwoorden != 'geen sleutelwoorden' %}<ul><li><span class="kenmerk-lijst-titel">Sleutelwoorden<span class="kapitalen-dubbelepunt">:</span></span> <span class="kenmerk-lijst-info">{{page.sleutelwoorden}}</span></li></ul>{% endif %}
 					</div>
 					{% assign filmpje = page.filmpje-embed-code | default: 'geen filmpje' %}{% if filmpje != 'geen filmpje' %}{{page.filmpje-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
 					{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe class="formulier" src="{{page.formulier-link}}" frameborder="0"></iframe>{% endif %}
 					{% if page.sectie %}<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
-						<h2>Boekingen</h2>
+						<h3>Boekingen</h3>
 						<p class="boekingsuitleg">Wil je deze voorstelling boeken?<br>Vul dan hieronder je gegevens in:</p>
 						<div class="boekingscontactgegevens">
 							<input checked hidden type="checkbox" name="product" value="{{page.title}} ({{page.leeftijd}})" class="{{page.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ' '}}">
@@ -365,7 +365,7 @@
 							<div class="blokje"></div>
 						</div>
 					</form>
-					<h2 id="boeking-verzonden">&#10004; Gelukt! We nemen snel contact met je op!</h2>
+					<h3 id="boeking-verzonden">&#10004; Gelukt! We nemen snel contact met je op!</h3>
 					<div class="tekst">
 						{% assign contact-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/contact/"' | first %}{{contact-page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 					</div>{% endif %}
@@ -387,19 +387,19 @@
 				</div>
 				<div class="midden">
 					<div class="laatste-blogposts">
-						<h3><a href="/blog/" title="Bekijk ons blog">Blog</a></h3>
+						<h4><a href="/blog/" title="Bekijk ons blog">Blog</a></h4>
 						<ol>
 							{% for post in site.posts limit:3 %}{% assign blogger = post.blogger | slugify | default: 'opde1sterij' %}<li><a href="{{post.url}}" title="Blogpost: {{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m'}}"><div class="blogger-portret-mini-cirkel"><noscript><div class="blogger-portret-mini-foto" style="background-image: url('{% if blogger != 'opde1sterij' %}/uploads/{{blogger}}.jpg{% endif %}')"></div></noscript><div class="blogger-portret-mini-foto lazyload" data-bg="{% if blogger != 'opde1sterij' %}/uploads/{{blogger}}.jpg{% endif %}"></div></div><span>{{post.title}}&nbsp;&nbsp;|&nbsp;&nbsp;{{post.date | date: '%-d-%-m'}}</span></a></li>{% endfor %}
 						</ol>
 					</div>
 					<div class="laatste-agenda">
-						<h3><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></h3>
-						<noscript><h3>Zet JavaScript aan en hier zullen data verschijnen.</h3></noscript>
+						<h4><a href="/agenda/" title="Bekijk onze agenda">Agenda</a></h4>
+						<noscript><h4>Zet JavaScript aan en hier zullen data verschijnen.</h4></noscript>
 						<ol></ol>
 					</div>
 					<div class="instagram">
-						<h3><a href="https://www.instagram.com/opde1sterij" title="Ga naar onze Instagram" rel="noopener noreferrer">Instagram</a></h3>
-						<noscript><h3>Zet JavaScript aan en hier zal een post verschijnen.</h3></noscript>
+						<h4><a href="https://www.instagram.com/opde1sterij" title="Ga naar onze Instagram" rel="noopener noreferrer">Instagram</a></h4>
+						<noscript><h4>Zet JavaScript aan en hier zal een post verschijnen.</h4></noscript>
 						<div class="laatste-instagram-post"></div>
 					</div>
 					<div class="extra-info-regel"><span class="extra-info-regel-één">{{home-page.straat}} {{home-page.huisnummer}}&nbsp;&nbsp;|&nbsp;&nbsp;{{home-page.postcode}} {{home-page.plaats}}<span class="extra-info-regel-extra-scheiding">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span><span class="extra-info-regel-twee">KvK: {{home-page.kvk-nummer}}&nbsp;&nbsp;|&nbsp;&nbsp;btw-nummer: {{home-page.btw-nummer}}</span><span class="extra-info-regel-drie"><span class="extra-info-regel-extra-scheiding">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="/privacy/" title="Over privacy en cookies op deze site">Over privacy en cookies</a></span></div>
@@ -418,7 +418,9 @@
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
 			ga('create', '{{home-page.analytics}}', 'auto'); ga('set', 'forceSSL', true); ga('set', 'anonymizeIp', true); ga('send', 'pageview')
 		</script>
+<!-- 
 		<script src="https://google-analytics.com/analytics.js" async defer></script>
+ -->
 	</body>
 
 </html>

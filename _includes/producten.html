@@ -4,7 +4,7 @@
 								{% if omenom == 'oneven' %}<div>
 									<div class="product-info">
 										<div class="product-kopjes">
-											<h3><span class="product-titel">{{page.title}}</span>{% if page.leeftijd %} <span class="leeftijd">{{page.leeftijd}}</span>{% endif %}</h3>
+											<h4><span class="product-titel">{{page.title}}</span>{% if page.leeftijd %} <span class="leeftijd">{{page.leeftijd}}</span>{% endif %}</h4>
 											<p class="onderdeel-naam">{% assign parent = page.url | split: '/' %}{{parent[1] | replace: '/', '' | replace: '-', ' ' | capitalize}}</p>
 											<p class="tap-meer-lezen">Tap om meer te lezen</p>
 											<p class="klik-meer-info">Klik voor meer info</p>
@@ -25,7 +25,7 @@
 									</div>
 									<div class="product-info">
 										<div class="product-kopjes">
-											<h3><span class="product-titel">{{page.title}}</span>{% if page.leeftijd %} <span class="leeftijd">{{page.leeftijd}}</span>{% endif %}</h3>
+											<h4><span class="product-titel">{{page.title}}</span>{% if page.leeftijd %} <span class="leeftijd">{{page.leeftijd}}</span>{% endif %}</h4>
 											<p class="onderdeel-naam">{% assign parent = page.url | split: '/' %}{{parent[1] | replace: '/', '' | replace: '-', ' ' | capitalize}}</p>
 											<p class="tap-meer-lezen">Tap om meer te lezen</p>
 											<p class="klik-meer-info">Klik voor meer info</p>
