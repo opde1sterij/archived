@@ -6,9 +6,6 @@
 		{% assign home-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/"' | first %}<meta name="description" content="{% if page.blogger %}{% assign blog-beschrijving = page.content | replace: '**', ''  | replace: '*', ' - '  | replace: '</em>', ' - ' | strip_html | strip_newlines | truncate: 160, "…" %}{{blog-beschrijving}}{% else %}{{page.korte-beschrijving}}{% if page.url != '/' %} {{home-page.korte-beschrijving}}{% endif %}{% endif %}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="{% if page.url == '/agenda/' %}{% else %}{% if page.home-page == 'nee'%}noindex, nofollow{% else %}index, follow{% endif %}{% endif %}">
-<!-- 
-		<meta name="format-detection" content="telephone=no">
- -->
 		<link rel="canonical" href="{{page.url | prepend: 'https://www.opde1sterij.nl'}}">
 		<link rel="stylesheet" href="/opde1sterij.css">
 		<script>
@@ -419,8 +416,6 @@
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
 			ga('create', '{{home-page.analytics}}', 'auto'); ga('set', 'forceSSL', true); ga('set', 'anonymizeIp', true); ga('send', 'pageview')
 		</script>
-<!-- 
 		<script src="https://google-analytics.com/analytics.js" async defer></script>
- -->
 	</body>
 </html>
