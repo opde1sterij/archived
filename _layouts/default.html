@@ -148,7 +148,7 @@
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						{% assign trailer = page.trailer-embed-code | default: 'geen trailer' %}{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
-						{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe class="formulier" src="{{page.formulier-link}}" frameborder="0"></iframe>{% endif %}
+						{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<div class="formulier _form_{{formulier | replace: 'https://opdeeersterij.activehosted.com/f/', ''}}"></div>{% endif %}
 						{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
 					</div></section>{% endif %}{% endif %}{% endfor %}
 					{% assign vacatures-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/vacatures/"' | first %}{% if vacatures-page %}<a class="link link-vacatures" href="/vacatures/" title="Bekijk de vacatures">
@@ -336,7 +336,7 @@
 						{% assign sleutelwoorden = page.sleutelwoorden | default: 'geen sleutelwoorden' %}{% if sleutelwoorden != 'geen sleutelwoorden' %}<ul><li><span class="kenmerk-lijst-titel">Sleutelwoorden<span class="kapitalen-dubbelepunt">:</span></span> <span class="kenmerk-lijst-info">{{page.sleutelwoorden}}</span></li></ul>{% endif %}
 					</div>
 					{% assign filmpje = page.filmpje-embed-code | default: 'geen filmpje' %}{% if filmpje != 'geen filmpje' %}{{page.filmpje-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
-					{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<iframe class="formulier" src="{{page.formulier-link}}" frameborder="0"></iframe>{% endif %}
+					{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<div class="formulier _form_{{formulier | replace: 'https://opdeeersterij.activehosted.com/f/', ''}}"></div>{% endif %}
 					{% if page.sectie %}<form id="gform" class="boekingsformulier" method="POST" data-email="boekingen@opde1sterij.nl" action="https://script.google.com/macros/s/AKfycbxt2pvOSYmUvfsPWTlzCZYbpcs4I_U3Tamry3aUa0eG708wJUc/exec">
 						<h3>Boekingen</h3>
 						<p class="boekingsuitleg">Wil je deze voorstelling boeken?<br>Vul dan hieronder je gegevens in:</p>
@@ -413,12 +413,14 @@
 
 		<script src="/lazysizes.min.js" async=""></script>
 		<script src="/opde1sterij.js"></script>
+		{% if page.formulier-link %}<script src="{{page.formulier-link | replace: 'https://opdeeersterij.activehosted.com/f/', 'https://opdeeersterij.activehosted.com/f/embed.php?id='}}" async=""></script>{% endif %}
 		{% if page.sectie %}<script src="/boekingen.js"></script>{% endif %}
 		<script>
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
 			ga('create', '{{home-page.analytics}}', 'auto'); ga('set', 'forceSSL', true); ga('set', 'anonymizeIp', true); ga('send', 'pageview')
 		</script>
+<!-- 
 		<script src="https://google-analytics.com/analytics.js" async defer></script>
+ -->
 	</body>
-
 </html>

@@ -1402,7 +1402,7 @@ a.link-vacatures {
 }
 
 .tekst {
-    margin: 32px 0
+    margin: 32px 0 36px;
 }
 
 .tekst p:last-child {
@@ -2096,6 +2096,10 @@ p.tap-meer-lezen {
     border-top: 16px solid #f3ddc9
 }
 
+.formulier {
+	margin: 8px 0 43px;
+}
+
 .boekingen h3 {
     float: left;
     clear: both;
@@ -2429,11 +2433,6 @@ p.tap-meer-lezen {
     display: none;
     float: none;
     margin: 36px 0 8px;
-}
-
-.formulier {
-    height: max(660px, 101vh);
-    width: 100%;
 }
 
 main img {
