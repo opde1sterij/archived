@@ -1,7 +1,7 @@
 ---
 title: Theatergroep Zwerm
 date: 2015-09-05 20:47:00 +02:00
-position: 3
+position: 2
 onderdeel: true
 author: info@opde1sterij.nl
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
