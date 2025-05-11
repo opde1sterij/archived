@@ -3,7 +3,6 @@ title: Nieuws
 date: 2025-05-11 10:12:00 +02:00
 position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
-home-page: nee
 assets:
 - path: "/uploads/vroegboekkorting-2025-2026.jpg"
 author: info@opde1sterij.nl
