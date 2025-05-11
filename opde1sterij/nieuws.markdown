@@ -1,6 +1,6 @@
 ---
 title: Nieuws
-date: 2025-04-15 10:12:00 +02:00
+date: 2025-05-11 10:12:00 +02:00
 position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 home-page: nee
