@@ -2339,7 +2339,7 @@ p.tap-meer-lezen {
     float: left;
     height: 32px;
     margin: 0;
-    padding: 0 15px 0 15px;
+    padding: 0 12px 0 12px;
     cursor: pointer;
     transition-duration: .3s;
     transition-property: background;
@@ -3727,20 +3727,38 @@ input.nieuwsbrief-balk-voornaam {
     }
 
     .boekingsformulier {
-        margin: 16px;
+        margin: 16px 0
+    }
+
+    .boekingsformulier h3 {
+        margin: 16px 16px;
+    }
+
+    .boekingsuitleg {
+        margin: 16px 16px;
     }
 
     .product-selectie {
         margin: 16px 10px 0 16px
     }
 
+    .boekingscontactgegevens {
+        margin: 0 16px 0 16px
+    }
+
+    .boekingstoevoegingen {
+        margin: 16px 16px 0 16px
+    }
+
     .boek-product {
         font-size: 13px
     }
 
+/* 
     .verstuur-boeking {
         padding: 0 23px 0 23px
     }
+ */
 
     footer {
         height: 656px /*height:762px*/
