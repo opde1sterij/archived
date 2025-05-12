@@ -171,7 +171,8 @@ body {
 }
 
 p {
-    margin: 14px 0
+	clear: both;
+    margin: 16px 0;
 }
 
 a {
@@ -866,9 +867,9 @@ main {
     width: 1024px;
     min-width: 320px;
     height: 100%;
-    min-height: calc(100vh - 294px - 106px);
+    min-height: calc(100vh - 306px - 106px);
     margin: 0 auto;
-    padding-bottom: 294px
+    padding-bottom: 306px
 }
 
 b, strong {
@@ -908,8 +909,7 @@ article h2 {
     width: 590px;
     height: 32px;
     margin: -32px 0 32px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 10px;
     text-transform: uppercase;
     color: #fff;
     background: #e47c95;
@@ -959,6 +959,7 @@ article h2:nth-child(n + 3) {
 
 section {
 	float: left;
+	margin: 0 0 24px;
 }
 
 .wie-zijn-wij {
@@ -991,18 +992,14 @@ section {
     overflow: hidden;
     margin: 16px 0
 }
-
-.kenmerken p {
-    clear: both
-}
-
-article h3 {
+ 
+ article h3 {
     font-size: 13px;
     font-weight: 500;
     line-height: 32px;
     float: left;
     height: 32px;
-    margin: 16px 0;
+	margin: 16px 0;
     padding: 0 10px;
     text-transform: uppercase;
     color: #fff;
@@ -1250,11 +1247,13 @@ a.speciaal-knop:hover, a.speciaal-knop:active {
     margin: 80px 0 16px
 }
 
+/* 
 .blog a.link {
     clear: right;
     width: 280px;
     margin: 74px 0 0 44px
 }
+ */
 
 .blogger-portret-cirkel {
     float: left;
@@ -1402,7 +1401,7 @@ a.link-vacatures {
 }
 
 .tekst {
-    margin: 32px 0 36px;
+    margin: 24px 0 36px;
 }
 
 .tekst p:last-child {
@@ -2585,7 +2584,7 @@ footer {
     bottom: 0;
     width: 100%;
     min-width: 320px;
-    height: 294px;
+    height: 306px;
     background: #474545
 }
 
@@ -2843,7 +2842,7 @@ input.nieuwsbrief-balk-voornaam {
     float: left;
     width: 204px;
     height: 136px;
-    margin: 18px 52px 0 14px
+    margin: 24px 52px 0 14px
 }
 
 .laatste-blogposts h4 a {
@@ -2953,7 +2952,7 @@ input.nieuwsbrief-balk-voornaam {
     overflow: hidden;
     width: 204px;
     height: 136px;
-    margin: 18px 10px 0 0;
+    margin: 24px 10px 0 0;
     color: #fff
 }
 
@@ -3098,7 +3097,7 @@ input.nieuwsbrief-balk-voornaam {
     overflow: hidden;
     width: 270px;
     height: 136px;
-    margin: 18px 14px 0 0
+    margin: 24px 14px 0 0
 }
 
 .instagram h4 a {
@@ -3498,7 +3497,7 @@ input.nieuwsbrief-balk-voornaam {
 
 @media screen and (max-width: 736px) {
     main {
-        padding-bottom: 644px /*padding-bottom:762px*/
+        padding-bottom: 656px /*padding-bottom:762px*/
     }
 
     article {
@@ -3512,12 +3511,8 @@ input.nieuwsbrief-balk-voornaam {
         box-sizing: border-box;
         width: 100%;
         height: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 6px;
-        padding-right: 36px;
-        padding-bottom: 6px;
-        padding-left: 16px
+        margin: 0;
+        padding: 6px 24px 6px 16px
     }
 
     article h2:nth-child(n + 2) {
@@ -3526,7 +3521,7 @@ input.nieuwsbrief-balk-voornaam {
     }
     
     section {
-    	margin: 32px 0 0;
+    	margin: 24px 0 0;
     }
 
     .wie-zijn-wij {
@@ -3547,6 +3542,14 @@ input.nieuwsbrief-balk-voornaam {
 
     .wie-zijn-wij .boek-ticket {
         float: left
+    }
+    
+    article h3 {
+        line-height: 16px;
+        box-sizing: border-box;
+        height: auto;
+        margin: 16px 0;
+        padding: 6px 10px 6px 10px
     }
 
     a.link-vacatures {
@@ -3724,27 +3727,11 @@ input.nieuwsbrief-balk-voornaam {
     }
 
     .boekingsformulier {
-        margin: 16px 0
-    }
-
-    .boekingsformulier h3 {
-        margin: 16px 16px;
-    }
-
-    .boekingsuitleg {
-        margin: 16px 16px;
+        margin: 16px;
     }
 
     .product-selectie {
         margin: 16px 10px 0 16px
-    }
-
-    .boekingscontactgegevens {
-        margin: 0 16px 0 16px
-    }
-
-    .boekingstoevoegingen {
-        margin: 16px 16px 0 16px
     }
 
     .boek-product {
@@ -3756,7 +3743,7 @@ input.nieuwsbrief-balk-voornaam {
     }
 
     footer {
-        height: 644px /*height:762px*/
+        height: 656px /*height:762px*/
     }/*.nieuwsbrief-balk{height:154px}*/
 
 /* 

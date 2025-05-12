@@ -1,5 +1,5 @@
 ---
-title: Nieuws
+title: "\U0001F3AD Vroegboekkorting 2025-2026 – Boek nu en bespaar!"
 date: 2025-05-11 10:12:00 +02:00
 position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
@@ -7,8 +7,6 @@ assets:
 - path: "/uploads/vroegboekkorting-2025-2026.jpg"
 author: info@opde1sterij.nl
 ---
-
-## 🎭 Vroegboekkorting 2025-2026 – Boek nu en bespaar!
 
 Het schooljaar is nog in volle gang, maar bij **Op de eerste rij** kijken we alvast vooruit. Wil jij in schooljaar **2025-2026** verzekerd zijn van inspirerende voorstellingen of workshops op jouw school? Dan is dit hét moment om te boeken!
 
