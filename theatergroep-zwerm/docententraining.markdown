@@ -18,4 +18,4 @@ sleutelwoorden:
 speciaal: 
 ---
 
-Een training voor docententeams door de acteurs van Theatergroep Zwerm. Zij gaan de dialoog aan met duizenden leerlingen op jaarbasis, daarom staan ze middenin de leefwereld van de jongere. Alle kennis en ervaring die ze hierbij op doen delen ze graag met andere docenten. Een training vol verassende inzichten en praktische handvatten.
+Een training voor docententeams door de acteurs van Theatergroep Zwerm. Zij gaan de dialoog aan met duizenden leerlingen op jaarbasis, daarom staan ze middenin de leefwereld van de jongere. Alle kennis en ervaring die ze hierbij op doen delen ze graag met andere docenten. Een training vol verrassende inzichten en praktische handvatten.
