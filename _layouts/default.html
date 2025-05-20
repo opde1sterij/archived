@@ -145,9 +145,10 @@
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						{% assign trailer = page.trailer-embed-code | default: 'geen trailer' %}{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}
-						{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<div class="formulier _form_{{formulier | replace: 'https://opdeeersterij.activehosted.com/f/', ''}}"></div>{% endif %}
-						{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
-					</div></section>{% endif %}{% endif %}{% endfor %}
+					</div>
+					{% assign formulier = page.formulier-link | default: 'geen formulier' %}{% if formulier != 'geen formulier' %}<div class="formulier _form_{{formulier | replace: 'https://opdeeersterij.activehosted.com/f/', ''}}"></div>{% endif %}
+					{% if page.assets[0].path != '' %}<noscript><img src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{% assign extension = page.assets[0].path | split: '.' | last %}{% if extension == 'png' %}{{page.assets[0].path | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg'}}{% else %}{{page.assets[0].path}}{% endif %}" style="width: 100%; margin: 16px 0 0;">{% endif %}
+					</section>{% endif %}{% endif %}{% endfor %}
 					{% assign vacatures-page = site.pages | where_exp: 'sub-page', 'sub-page.url == "/vacatures/"' | first %}{% if vacatures-page %}<a class="link link-vacatures" href="/vacatures/" title="Bekijk de vacatures">
 						<span>Werken bij Op de eerste rij?</span>
 						<div class="blokje"></div>
@@ -410,7 +411,7 @@
 
 		<script src="/lazysizes.min.js" async=""></script>
 		<script src="/opde1sterij.js"></script>
-		{% if page.formulier-link %}<script src="{{page.formulier-link | replace: 'https://opdeeersterij.activehosted.com/f/', 'https://opdeeersterij.activehosted.com/f/embed.php?id='}}" async=""></script>{% endif %}
+		{% if page.url == '/' %}{% for page in pages %}{% if page.formulier-link %}{% assign formulier-link = page.formulier-link %}{% endif %}{% endfor %}{% endif %}{% if page.formulier-link %}{% assign formulier-link = page.formulier-link %}{% endif %}{% if formulier-link != 'nee'%}<script src="{{formulier-link | replace: 'https://opdeeersterij.activehosted.com/f/', 'https://opdeeersterij.activehosted.com/f/embed.php?id='}}" async=""></script>{% endif %}
 		{% if page.sectie %}<script src="/boekingen.js"></script>{% endif %}
 		<script>
 			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

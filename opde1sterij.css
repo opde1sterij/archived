@@ -959,7 +959,7 @@ article h2:nth-child(n + 3) {
 
 section {
 	float: left;
-	margin: 0 0 24px;
+	margin: 0 0 44px;
 }
 
 .wie-zijn-wij {
@@ -2098,7 +2098,7 @@ p.tap-meer-lezen {
 }
 
 .formulier {
-	margin: 8px 0 43px;
+	margin: 16px 0;
 }
 
 .boekingen h3 {
@@ -2437,7 +2437,7 @@ p.tap-meer-lezen {
 }
 
 main img {
-    margin: 32px 0;
+    margin: 16px 0!important;
     width: 100%
 }
 
@@ -3499,7 +3499,7 @@ input.nieuwsbrief-balk-voornaam {
 
 @media screen and (max-width: 736px) {
     main {
-        padding-bottom: 656px /*padding-bottom:762px*/
+        padding-bottom: 672px
     }
 
     article {
@@ -3523,7 +3523,7 @@ input.nieuwsbrief-balk-voornaam {
     }
     
     section {
-    	margin: 24px 0 0;
+    	margin: 32px 0 0;
     }
 
     .wie-zijn-wij {
@@ -3763,7 +3763,7 @@ input.nieuwsbrief-balk-voornaam {
  */
 
     footer {
-        height: 656px /*height:762px*/
+        height: 672px /*height:762px*/
     }/*.nieuwsbrief-balk{height:154px}*/
 
 /* 
@@ -3851,7 +3851,7 @@ input.nieuwsbrief-balk-voornaam {
         /*top:154px;*/
         top: 40px;
         width: auto;
-        height: 594px
+        height: 622px
     }
 
     .midden h4 {
