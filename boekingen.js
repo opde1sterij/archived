@@ -1,8 +1,4 @@
-function validateHuman(honeypot) {
-  if (honeypot) {  //if hidden form filled up
-    return true;
-  }
-}
+// https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
 
 function getFormData() {
   var form = document.getElementById("gform");
@@ -23,13 +19,15 @@ function getFormData() {
     var str = ""; // declare empty string outside of loop to allow
                   // it to be appended to for each item in the loop
     if(elements[k].type === "checkbox"){ // special case for Edge's html collection
-      str = str + elements[k].checked + ", "; // take the string and append 
+      if(elements[k].checked){
+        str = str + elements[k].value + ", "; // take the string and append 
                                               // the current checked value to 
                                               // the end of it, along with 
                                               // a comma and a space
-      data[k] = str.slice(0, -2); // remove the last comma and space 
+        data[k] = str.slice(0, -2); // remove the last comma and space 
                                   // from the  string to make the output 
                                   // prettier in the spreadsheet
+      }
     } else if(elements[k].length){
       for(var i = 0; i < elements[k].length; i++){
         if(elements[k].item(i).checked){
@@ -52,21 +50,15 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
 
-  /* OPTION: Remove this comment to enable SPAM prevention, see README.md
-  if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-    return false;
-  }
-  */
-
-  var url = event.target.action;  //
+  var url = event.target.action;
   var xhr = new XMLHttpRequest();
   xhr.open('POST', url);
   // xhr.withCredentials = true;
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.onreadystatechange = function() {
-      document.getElementById('boekingsbevestiging').style.display = 'none'; // hide form
+      document.getElementById('boekingsbevestiging').style.display = 'none';
       document.getElementById('boeking-verzonden').style.display = 'inline-block';
-      window.scrollTo(0, 0);
+//       window.scrollTo(0, 0);
       return;
   };
   // url encode form data for sending as post data
