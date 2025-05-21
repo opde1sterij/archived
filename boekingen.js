@@ -53,12 +53,10 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   var url = event.target.action;
   var xhr = new XMLHttpRequest();
   xhr.open('POST', url);
-  // xhr.withCredentials = true;
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.onreadystatechange = function() {
       document.getElementById('boekingsbevestiging').style.display = 'none';
       document.getElementById('boeking-verzonden').style.display = 'inline-block';
-//       window.scrollTo(0, 0);
       return;
   };
   // url encode form data for sending as post data
