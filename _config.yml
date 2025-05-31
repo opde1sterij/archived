@@ -11,10 +11,10 @@ collections:
     title: Posts
     output: true
     author: info@opde1sterij.nl
-    korte-beschrijving: Elke woensdag een nieuwe blog van de Op de eerste rij crew.
+    korte-beschrijving: Elke maand een nieuwe blog van de Op de eerste rij crew.
     assets:
-    - path: "/uploads/elke-woensdag-een-nieuwe-blog.jpg"
-      name: elke-woensdag-een-nieuwe-blog
+    - path: "/uploads/Elke%20woensdag%20een%20nieuwe%20blog.png"
+      name: elke-maand-een-nieuwe-blog
     - path: "/uploads/blog.jpg"
       name: blog
   uploads:
