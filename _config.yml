@@ -13,7 +13,7 @@ collections:
     author: info@opde1sterij.nl
     korte-beschrijving: Elke maand een nieuwe blog van de Op de eerste rij crew.
     assets:
-    - path: "/uploads/Elke%20woensdag%20een%20nieuwe%20blog.png"
+    - path: "/uploads/Elke%20maand%20een%20nieuwe%20blog.png"
       name: elke-maand-een-nieuwe-blog
     - path: "/uploads/blog.jpg"
       name: blog
