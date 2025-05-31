@@ -10,4 +10,4 @@ Kinderen en jongeren op een positieve manier eigenaarschap laten ervaren via cre
 ### Visie
 Een mens leert meer, sneller en beter wanneer deze mede-eigenaar is van een creatie.
 
-Op de eerste rij is een ervaren vernieuwer in Cultuureducatie. **Op de eerste rij** bestaat uit: **TheaterChallenge, Traject C en Theatergroep Zwerm**. Bij ons vind je inspirerende workshops, prikkelende educatieve voorstellingen, spetterende lessenreeksen, interessante ouderavonden en ook docententrainingen. Allemaal vanuit de visie dat **een mens meer, sneller en beter leert wanneer deze mede-eigenaar is**. 
+Op de eerste rij is een ervaren vernieuwer in Cultuureducatie. **Op de eerste rij** bestaat uit: **TheaterChallenge, Traject C en Theatergroep Zwerm**. Bij ons vind je inspirerende workshops, prikkelende educatieve voorstellingen, spetterende lessenreeksen, interessante ouderavonden en ook docententrainingen. Allemaal vanuit de visie dat **een mens meer, sneller en beter leert wanneer deze mede-eigenaar is**.
