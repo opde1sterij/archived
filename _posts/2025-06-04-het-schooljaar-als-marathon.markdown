@@ -3,7 +3,7 @@ title: Het schooljaar als marathon
 date: 2025-06-04 06:50:00 +02:00
 blogger: Esther Hulst
 assets:
-- path: "/uploads/marathon.png"
+- path: "/uploads/marathon.jpg"
 ---
 
 *Door: Esther Hulst*

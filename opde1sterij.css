@@ -1346,7 +1346,7 @@ a.link:hover span {
 
 .blog .link span {
     overflow: hidden;
-    width: 224px;
+    width: 320px;
     white-space: nowrap;
     text-overflow: ellipsis
 }
@@ -3639,7 +3639,9 @@ input.nieuwsbrief-balk-voornaam {
 
     .persoon.oprichter {
         width: 320px;
+/* 
         height: 754px
+ */
     }
 
     .persoon.oprichter .biografie {
@@ -3708,8 +3710,14 @@ input.nieuwsbrief-balk-voornaam {
     }
 
     .blog a.link {
+/* 
         float: none;
-        margin: 0 auto 54px
+ */
+        margin: 0 20px 54px
+    }
+    
+    .blog a.link span {
+    	width: 277px;
     }
 
     .blog a.link:last-child {
@@ -3982,6 +3990,10 @@ input.nieuwsbrief-balk-voornaam {
         overflow: hidden;
         white-space: nowrap;
         letter-spacing: -.61px
+    }
+    
+    .blog a.link span {
+    	width: 224px
     }
 }
 
