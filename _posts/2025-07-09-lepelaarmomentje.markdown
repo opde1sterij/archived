@@ -1,7 +1,6 @@
 ---
 title: Lepelaarmomentje
 date: 2025-07-09 07:15:00 +02:00
-published: false
 blogger: Esther Hulst
 assets:
 - path: "/uploads/Lepelaar_Jesse_Zwart_1.jpg"
