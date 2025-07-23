@@ -1,6 +1,7 @@
 ---
 title: "\U0001F3AD Vroegboekkorting 2025-2026 – Boek nu en bespaar!"
 date: 2025-05-11 10:12:00 +02:00
+published: false
 position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 assets:
