@@ -1248,7 +1248,7 @@ a.speciaal-knop:hover, a.speciaal-knop:active {
 }
 
 /* 
-.blog a.link {
+.blog article a.link {
     clear: right;
     width: 280px;
     margin: 74px 0 0 44px
@@ -3709,19 +3709,17 @@ input.nieuwsbrief-balk-voornaam {
         display: none
     }
 
-    .blog a.link {
-    	width: 335px;
-/* 
+    .blog article a.link {
         float: none;
- */
-        margin: 0 20px 54px
+        margin: 0 auto 54px;
+        width: 335px;
     }
     
-    .blog a.link span {
+    .blog article a.link span {
     	width: 277px
     }
 
-    .blog a.link:last-child {
+    .blog article a.link:last-child {
         margin-bottom: 16px
     }
 
@@ -3952,7 +3950,7 @@ input.nieuwsbrief-balk-voornaam {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
     .gecentreerd {
         width: 320px
     }
@@ -3993,17 +3991,19 @@ input.nieuwsbrief-balk-voornaam {
         letter-spacing: -.61px
     }
     
-    .blog a.link {
+    .blog article a.link {
+    	float: none;
+    	margin: 0 auto 54px;
     	width: 280px
     }
     
-    .blog a.link span {
+    .blog article a.link span {
     	width: 224px
     }
 }
 
 @media screen and (max-width: 340px) {
-    .blog a.link:last-child {
+    .blog article a.link:last-child {
         margin-bottom: 0
     }
 }
