@@ -1,9 +1,10 @@
 ---
 title: Lepelaarmomentje
 date: 2025-07-09 07:15:00 +02:00
+permalink: l/blog/9-7-2025-lepelaarmomentje/
 blogger: Esther Hulst
 assets:
-- path: "/uploads/Lepelaar_Jesse_Zwart_1.jpg"
+- path: "/uploads/lepelaarmomentje.jpg"
 ---
 
 Vanochtend zag ik een lepelaar vliegen. Dat vind ik zó mooi. Mijn hele dag kan dan al niet meer stuk. Elke keer als ik naar kantoor fiets, hoop ik op zo’n encounter.

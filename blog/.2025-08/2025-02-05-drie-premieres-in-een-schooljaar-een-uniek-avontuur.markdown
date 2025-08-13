@@ -1,6 +1,7 @@
 ---
 title: 'Drie premières in één schooljaar: een uniek avontuur!'
 date: 2025-02-05 19:33:00 +01:00
+permalink: "/blog/5-2-2025-drie-premieres-in-een-schooljaar-een-uniek-avontuur/"
 blogger: Esther Hulst
 assets:
 - path: "/uploads/drie-premieres-in-een-schooljaar-een-uniek-avontuur.jpg"

@@ -1,6 +1,7 @@
 ---
 title: Vliegende start van 2025
 date: 2025-01-22 10:45:00 +01:00
+permalink: "/blog/22-1-2025-vliegende-start-van-2025/"
 blogger: Esther Hulst
 assets:
 - path: "/uploads/vliegende-start-van-2025.jpg"

@@ -1,6 +1,7 @@
 ---
 title: 40 jaar! Ik?
 date: 2025-02-12 10:34:00 +01:00
+permalink: "/blog/12-2-2025-40-jaar-ik/"
 blogger: Esther Hulst
 assets:
 - path: "/uploads/40-jaar-ik.jpg"

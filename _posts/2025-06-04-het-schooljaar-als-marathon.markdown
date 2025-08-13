@@ -1,9 +1,10 @@
 ---
 title: Het schooljaar als marathon
 date: 2025-06-04 06:50:00 +02:00
+permalink: "/blog/4-6-2025-het-schooljaar-als-marathon/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/marathon.jpg"
+- path: "/uploads/het-schooljaar-als-marathon.jpg"
 ---
 
 *Door: Esther Hulst*
