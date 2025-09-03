@@ -1,7 +1,6 @@
 ---
 title: Het schooljaar is begonnen!
 date: 2025-09-03 19:15:00 +02:00
-published: false
 blogger: Eesther Hulst
 ---
 
