@@ -240,7 +240,7 @@ $(function() {
 // 		instagramProfiel = virtueelDocument.find('.profile-name-top').first().text().trim();
 // 		instagramItemImgLink = virtueelDocument.find('.post-image').first().attr('src');
 // 		if (instagramItemImgLink != undefined && instagramItemImgLink.indexOf('instagram') >= 0) {
-// 			itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=112&q=76&output=jpg'
+// 			itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=168&q=77&output=jpg'
 // 		}
 // 		var instagramItemBericht = virtueelDocument.find('.photo-info .photo-action-description').first().text().trim();
 // 		if (instagramItemBericht != undefined && instagramItemBericht != '') {
@@ -270,12 +270,12 @@ $(function() {
 			htmlDocument = document.implementation.createHTMLDocument('virtueel');
 			virtueelDocument = $(greatfonData, htmlDocument);
 			instagramProfiel = virtueelDocument.find('h1').first().text().trim();
-			instagramItemImgLink = virtueelDocument.find('.card img').first().attr('src');
+			instagramItemImgLink = virtueelDocument.find('.group a img').first().attr('src');
 			if (instagramProfiel == '@opde1sterij') {
 				if (instagramItemImgLink != undefined) {
-					itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=112&q=76&output=jpg'
+					itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=168&q=77&output=jpg'
 				}
-				instagramItemBericht = virtueelDocument.find('.card .card-body p').first().html().replace(/<br\s*\/?>/gi,' ').trim();
+				instagramItemBericht = virtueelDocument.find('.group p').first().html().replace(/<br\s*\/?>/gi,' ').trim();
 				if (instagramItemBericht != undefined && instagramItemBericht != '') {
 					itemBericht = instagramItemBericht;
 				}

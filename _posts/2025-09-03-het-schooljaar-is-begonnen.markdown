@@ -1,9 +1,9 @@
 ---
 title: Het schooljaar is begonnen!
 date: 2025-09-03 07:15:00 +02:00
-blogger: Eesther Hulst
+blogger: Esther Hulst
 assets:
-- path: "/uploads/blog%20wk%2036.png"
+- path: "/uploads/het-schooljaar-is-begonnen.jpg"
 ---
 
 *Door: Esther Hulst*
