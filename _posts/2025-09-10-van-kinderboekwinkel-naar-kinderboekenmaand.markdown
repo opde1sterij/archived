@@ -18,4 +18,4 @@ En zo geschiedde. De eerste keer nog met een klein decor, inmiddels met een grot
 
 Ik ben trots dat het ons al vijf jaar achter elkaar lukt om volledig uit eigen middelen een productie te maken. En dat we er inmiddels een heuse KinderboekenMAAND van hebben gemaakt. Zodra ik deze blog online heb gezet, begin ik aan de digitale lesbrief, die altijd ook een schrijfopdracht bevat.
 
-En wil jij onze avonturenvoorstelling ook bij jou op school? Dat kan: er zijn nog een paar plekjes vrij in de agenda. Neem contact op, [bel](tel.:0232052482), [mail](mailto:esther@opde1sterij.nl) of maak een [belafspraak](https://calendly.com/opde1sterij/bellen-over-de-kinderboekenweek) dan komen we er samen zeker uit!
+En wil jij onze avonturenvoorstelling ook bij jou op school? Dat kan: er zijn nog een paar plekjes vrij in de agenda. Neem contact op, [bel](<a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>), [mail](mailto:esther@opde1sterij.nl) of maak een [belafspraak](https://calendly.com/opde1sterij/bellen-over-de-kinderboekenweek) dan komen we er samen zeker uit!
