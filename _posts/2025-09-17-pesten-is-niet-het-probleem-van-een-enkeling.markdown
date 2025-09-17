@@ -2,6 +2,8 @@
 title: Pesten is niet het probleem van een enkeling
 date: 2025-09-17 20:38:00 +02:00
 blogger: Esther Hulst
+assets:
+- path: "/uploads/blogpoast%2017%20sept.png"
 ---
 
 *Door Esther Hulst*
