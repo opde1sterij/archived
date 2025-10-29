@@ -22,11 +22,11 @@ Natuurlijk kijk ik ook specifiek naar onderwijs en cultuur. Dat is waar ik werk,
 
 Nu ik dit zo opschrijf, denk ik: sommige politici zouden nog best wat lessen cultuureducatie kunnen gebruiken.
 
-Mijn oproep aan jou: **ga stemmen. Gebruik je stemrecht. En stem met jouw eigen kleine samenleving in gedachten.
-**
+Mijn oproep aan jou: **ga stemmen. Gebruik je stemrecht. En stem met jouw eigen kleine samenleving in gedachten.**
 
 PS. Via de links hieronder vind je nuttige artikelen over de huidige verkiezingen en cultuureducatie.
-[De creative coalitie](https://www.decreatievecoalitie.nl/nieuws/doorgelicht-politieke-partijen-cultuur-media)
-[Cultuurconnectie](https://www.cultuurconnectie.nl/actueel/nieuws/cultuureducatie-in-de-verkiezingsprogramma-s-waar-staan-de-partijen)
-[Kunstenbond](https://kunstenbond.nl/verkiezingen-op-komst-wat-zeggen-de-partijen-over-cultuur/)
-[Kunsten'92](https://www.kunsten92.nl/eerste-hulp/)
+
+* [De creative coalitie](https://www.decreatievecoalitie.nl/nieuws/doorgelicht-politieke-partijen-cultuur-media)
+* [Cultuurconnectie](https://www.cultuurconnectie.nl/actueel/nieuws/cultuureducatie-in-de-verkiezingsprogramma-s-waar-staan-de-partijen)
+* [Kunstenbond](https://kunstenbond.nl/verkiezingen-op-komst-wat-zeggen-de-partijen-over-cultuur/)
+* [Kunsten'92](https://www.kunsten92.nl/eerste-hulp/)
