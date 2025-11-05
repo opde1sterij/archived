@@ -9,7 +9,7 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-Het nieuwste nummer van vakblad van12tot18 met thema **Burgerschap** is uit. Esther Hulst, oprichter van Op de eerste rij, schreef een artikel over de vraag: hoe ga je concreet aan de slag met de nieuwe kerndoelen burgerschap?
+Het nieuwste nummer van vakblad **van12tot18** met thema **Burgerschap** is uit. Esther Hulst, oprichter van *Op de eerste rij*, schreef een artikel over de vraag: hoe ga je concreet aan de slag met de nieuwe kerndoelen burgerschap?
 
 In 'Open het gesprek door de juiste vragen te stellen' deelt Esther praktische inzichten uit gesprekken met duizenden leerlingen. De kern? Leerlingen gaan pas 'aan' als ze ergens iets bij voelen – als ze zich herkennen, boos worden of helemaal meeleven. Dán durven ze een mening te vormen.
 
