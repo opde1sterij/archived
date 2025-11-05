@@ -2,6 +2,8 @@
 title: Deze week geen blog, maar toch ook wel...
 date: 2025-11-05 09:35:00 +01:00
 blogger: Esther Hulst
+assets:
+- path: "/uploads/Scherm%C2%ADafbeelding%202025-11-05%20om%2009.31.01.png"
 ---
 
 Deze week geen blog op onze website en toch ook wél: namelijk een artikel in het nieuwste nummer van vakblad van12tot18!
