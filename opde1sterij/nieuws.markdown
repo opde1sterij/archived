@@ -1,7 +1,6 @@
 ---
 title: Esther schrijft artikel in vakblad van12tot18 over burgerschap
 date: 2025-05-11 09:31:00 +02:00
-published: false
 position: 0
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 assets:
