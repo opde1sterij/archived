@@ -1,11 +1,13 @@
 ---
-title: Esther schrijft artikel in vakblad van12tot18 over burgerschap
+title: Nieuws
 date: 2025-11-05 09:12:00 +01:00
 position: 0
 assets:
 - path: "/uploads/Scherm%C2%ADafbeelding%202025-11-05%20om%2009.31.01.png"
 author: info@opde1sterij.nl
 ---
+
+**Esther schrijft artikel in vakblad van12tot18 over burgerschap**
 
 Het nieuwste nummer van vakblad **van12tot18** met thema **Burgerschap** is uit. Esther Hulst, oprichter van *Op de eerste rij*, schreef een artikel over de vraag: hoe ga je concreet aan de slag met de nieuwe kerndoelen burgerschap?
 
