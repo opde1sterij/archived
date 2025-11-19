@@ -2,6 +2,8 @@
 title: opnieuw aangewakkerd
 date: 2025-11-19 14:33:00 +01:00
 blogger: Esther Hulst
+assets:
+- path: "/uploads/aangewakkerd.png"
 ---
 
 Afgelopen maandag werd mijn passie opnieuw aangewakkerd. Ik zat op de bank terwijl de talkshow Eva op stond. Daar werd professor Bas Bloem geïnterviewd. Hij is dé Parkinson-expert van Nederland en sprak enthousiast over zijn onderzoek naar de effecten van kunst maken op Parkinsonpatiënten. Wat bleek? Kunst maken – in welke vorm dan ook, zolang patiënten maar creatief en scheppend bezig zijn – heeft enorme voordelen. Ze raken in een flow, en hun klachten verdwijnen of nemen in elk geval af. Hun levensgeluk stijgt aanzienlijk.
