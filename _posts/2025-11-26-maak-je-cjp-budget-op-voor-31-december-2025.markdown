@@ -41,7 +41,7 @@ Niet omdat het moet. Niet voor de verkoop. Maar omdat cultuureducatie nuttig, le
 Heb je nog CJP-budget over? Of weet je niet precies hoeveel er nog beschikbaar is?
 
 **Neem contact met ons op:**
-* Telefoon: [023 - 205 2482](phone:0232052482)
+* Telefoon: <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a> 
 * Mail: [info@opde1sterij.nl](mailto: info@opde1sterij.nl)
 * Plan een [belafspraak](https://calendly.com/opde1sterij/bellen-over-het-cjp-cultuurkaart-budget) in
 * Of vul ondertstaand formulier in
