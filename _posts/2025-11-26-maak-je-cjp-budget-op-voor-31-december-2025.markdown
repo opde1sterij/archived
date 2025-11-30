@@ -9,9 +9,7 @@ assets:
 
 *Door: Esther Hulst*
 
-Het einde van het jaar nadert en daarmee ook de deadline voor het CJP-cultuurkaartbudget. En we gaan eerlijk zijn: elk jaar blijft er miljoenen euro's aan cultuurbudget liggen. Geld dat bedoeld is voor jouw leerlingen, voor cultuureducatie, voor die verrijkende voorstellingen en workshops die een verschil maken.
-
-Daarom roept CJP ook dit jaar alle aanbieders op om scholen te attenderen op hun resterende budget. En dat doen we graag. Niet om te pushen, maar voor de goede zaak: zodat dit mooie budget daadwerkelijk terechtkomt waar het voor bedoeld is. Bij de leerlingen.
+Het einde van het jaar nadert en daarmee ook de deadline voor het CJP-cultuurkaartbudget. Daarom roept CJP ook dit jaar alle aanbieders op om scholen te attenderen op hun resterende budget. En dat doen we graag. Niet om te pushen, maar voor de goede zaak: zodat dit mooie budget daadwerkelijk terechtkomt waar het voor bedoeld is. Bij de leerlingen.
 
 **Waarom we bellen en mailen**
 Je zou kunnen denken: "Nou ja, vervelende verkooppraatjes weer." Maar dit is anders. CJP ziet elk jaar een aanzienlijk bedrag onbenut blijven, soms wel de helft van het schoolbudget. Dat is zonde. Voor je leerlingen, voor je school, én voor het cultuurbudget van volgend jaar.
@@ -26,21 +24,17 @@ Geen probleem. Je kunt je budget ook nu al reserveren voor activiteiten die ná 
 4. CJP betaalt ons uit 
 5. Wij verzorgen de activiteit op het afgesproken moment in 2026
 
-**"We weten nog niet precies wat we willen..."**
-Ook dat is geen probleem. Je kunt je budget bij ons reserveren zonder concrete plannen. Zodra je besloten hebt welke voorstelling of workshop het beste past, plannen we het in. Zo voorkom je dat het budget onbenut blijft, en houd je alle opties open.
-
 **Meer cultuur, groter budget**
 Door je CJP-budget volledig te benutten, bereik je drie dingen:
 1. Een rijker cultureel aanbod voor je leerlingen dit en volgend schooljaar
 2. Een groter budget volgend jaar voor je school
-3. Geen verspilling van geld dat specifiek geoormerkt is voor cultuureducatie
+3. Geld dat specifiek voor cultuureducatie is geoormerkt, wordt daar ook aan besteed
 
 **Dus daarom bellen en mailen we**
 Niet omdat het moet. Niet voor de verkoop. Maar omdat cultuureducatie nuttig, leuk en noodzakelijk is. Omdat we graag zien dat dit budget terechtkomt bij leerlingen. En omdat CJP ons vraagt om jullie hierop te attenderen.
 
-Heb je nog CJP-budget over? Of weet je niet precies hoeveel er nog beschikbaar is?
-
-**Neem contact met ons op:**
+**Heb je nog CJP-budget over?**
+Neem contact met ons op:
 * Telefoon: <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a> 
 * Mail: [info@opde1sterij.nl](mailto: info@opde1sterij.nl)
 * Plan een [belafspraak](https://calendly.com/opde1sterij/bellen-over-het-cjp-cultuurkaart-budget) in
