@@ -3,7 +3,7 @@ title: Een PR (persoonlijk record)!
 date: 2025-12-10 15:25:00 +01:00
 blogger: Esther Hulst
 assets:
-- path: "/uploads/pr.png"
+- path: "/uploads/pr%20blog.png"
 ---
 
 Vandaag heb ik een persoonlijk record (PR) behaald met bankdrukken: 50 kilo. Jarenlang kwam ik niet verder dan 47,5 kilo, maar vandaag is het eindelijk gelukt. De vloek van de 50 kilo is verbroken.
