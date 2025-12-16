@@ -1,7 +1,7 @@
 ---
 title: Blozen voor beginners
 date: 2021-02-24 16:30:00 +01:00
-position: 4
+position: 5
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
   voorstelling, educatief theater, educatie, theater in de klas, voorstellingen in
   de klas, toneelstuk, interactief, ckv, groep 8, groep 7, seksualiteit, grenzen,

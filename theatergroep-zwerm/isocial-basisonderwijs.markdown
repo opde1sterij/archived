@@ -1,7 +1,7 @@
 ---
 title: iSocial PO
 date: 2015-09-05 20:52:00 +02:00
-position: 5
+position: 6
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
   voorstelling, educatief theater, educatie, theater in de klas, voorstellingen in
   de klas, interactief, ckv, bovenbouw, basisonderwijs, ouderavonden, social media,

@@ -1,8 +1,7 @@
 ---
 title: Circus Alfabet
 date: 2025-12-16 08:07:00 +01:00
-published: false
-position: 8
+position: 2
 korte-beschrijving: Circus Alfabet is een kleurrijke voorstelling over hoe bijzonder
   het is als letters ineens betekenis krijgen, als woorden verhalen worden en als
   er nieuwe werelden voor je opengaan.

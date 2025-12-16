@@ -1,7 +1,7 @@
 ---
 title: Help, ik ben de baas
 date: 2024-02-20 17:20:00 +01:00
-position: 6
+position: 7
 zoektermen: 'Kinderboekenweek, lekker eigenwijs, '
 korte-beschrijving: Help, ik ben de baas is een multimediale voorstelling over eigenwijs
   zijn, verantwoordelijkheid krijgen en kleine veranderingen met grootse gevolgen.
