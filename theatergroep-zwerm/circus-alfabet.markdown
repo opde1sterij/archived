@@ -22,10 +22,12 @@ sleutelwoorden:
 speciaal: 
 ---
 
-**Bibi gaat vandaag niet naar school. De juffen en meesters hebben een studiedag. Iedereen moet werken, behalve Buurman Zonneveld. Vroeger paste Buurvrouw Zonneveld, Anky, altijd op Bibi, maar zij is er niet meer. Zou Meneer Zonneveld op haar kunnen passen?** Bibi vindt het stom dat ze niet naar school kan. Ze kan nét lezen en vindt het fantastisch! Overal om zich heen ontdekt ze woorden, verhalen, nieuwe werelden! Maar dan merkt ze iets: Buurman Zonneveld kan helemaal niet zo goed lezen. De letters zijn voor hem zwarte spaghetti op een wit bord, zwierende acrobaten in het circus.
+**Circus Alfabet is een kleurrijke voorstelling over hoe bijzonder het is als letters ineens betekenis krijgen, als woorden verhalen worden en als er nieuwe werelden voor je opengaan. Speciaal voor kinderen van groep 3 en 4 die net zelf ervaren hoe geweldig lezen is, en voor alle ouders die dit bijzondere moment mee willen vieren.**
+
+**Bibi gaat vandaag niet naar school. De juffen en meesters hebben een studiedag. Iedereen moet werken, behalve Buurman Zonneveld. Vroeger paste Buurvrouw Zonneveld, Anky, altijd op Bibi, maar zij is er niet meer. Zou Meneer Zonneveld op haar kunnen passen?** 
+
+Bibi vindt het stom dat ze niet naar school kan. Ze kan nét lezen en vindt het fantastisch! Overal om zich heen ontdekt ze woorden, verhalen, nieuwe werelden! Maar dan merkt ze iets: Buurman Zonneveld kan helemaal niet zo goed lezen. De letters zijn voor hem zwarte spaghetti op een wit bord, zwierende acrobaten in het circus.
 
 Bibi snapt het niet: hoe kun je leven zonder te lezen? Zonder alle verhalen die in boeken zitten? Zonder het “hartenboek” vol herinneringen dat Anky voor hem schreef? Bibi besluit hem te helpen.
-
-**Circus Alfabet is een kleurrijke voorstelling over hoe bijzonder het is als letters ineens betekenis krijgen, als woorden verhalen worden en als er nieuwe werelden voor je opengaan. Speciaal voor kinderen van groep 3 en 4 die net zelf ervaren hoe geweldig lezen is – en voor alle ouders die dit bijzondere moment mee willen vieren.**
 
 *Deze voorstelling is tot stand gekomen mede dankzij Biblioktheek Barneveld*
