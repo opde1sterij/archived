@@ -1,9 +1,10 @@
 ---
 title: Deze week geen blog, maar toch ook wel...
 date: 2025-11-05 09:35:00 +01:00
-blogger: Esther Hulst
+permalink: "/blog/5-11-2025-deze-week-geen-blog-maar-toch-ook-wel-puntje-puntje-puntje/"
 assets:
-- path: "/uploads/Scherm%C2%ADafbeelding%202025-11-05%20om%2009.31.01.png"
+- path: "/uploads/deze-week-geen-blog-maar-toch-ook-wel-puntje-puntje-puntje.jpg"
+blogger: Esther Hulst
 ---
 
 Deze week geen blog op onze website en toch ook wél: namelijk een artikel in het nieuwste nummer van vakblad van12tot18!

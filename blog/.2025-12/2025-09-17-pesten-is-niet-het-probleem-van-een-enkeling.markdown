@@ -1,9 +1,10 @@
 ---
 title: Pesten is niet het probleem van een enkeling
 date: 2025-09-17 20:38:00 +02:00
+permalink: "/blog/17-9-2025-pesten-is-niet-het-probleem-van-een-enkeling/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/blogpoast%2017%20sept.png"
+- path: "/uploads/pesten-is-niet-het-probleem-van-een-enkeling.jpg"
 ---
 
 *Door Esther Hulst*

@@ -3,7 +3,7 @@ title: Nieuws
 date: 2025-11-05 09:12:00 +01:00
 position: 0
 assets:
-- path: "/uploads/Scherm%C2%ADafbeelding%202025-11-05%20om%2009.31.01.png"
+- path: "/uploads/deze-week-geen-blog-maar-toch-ook-wel-puntje-puntje-puntje.jpg"
 author: info@opde1sterij.nl
 ---
 

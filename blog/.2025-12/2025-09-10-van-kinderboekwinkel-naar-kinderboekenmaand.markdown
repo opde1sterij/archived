@@ -1,9 +1,10 @@
 ---
 title: Van kinderboekwinkel naar KinderboekenMAAND
 date: 2025-09-10 12:43:00 +02:00
+permalink: "/blog/10-9-2025-van-kinderboekwinkel-naar-kinderboekenmaand/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/8.png"
+- path: "/uploads/van-kinderboekwinkel-naar-kinderboekenmaand.jpg"
 ---
 
 *Door Esther Hulst*

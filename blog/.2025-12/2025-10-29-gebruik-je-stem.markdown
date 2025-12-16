@@ -1,9 +1,10 @@
 ---
 title: Gebruik je stem
 date: 2025-10-29 08:50:00 +01:00
+permalink: "/blog/29-10-2025-gebruik-je-stem/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/verkiezingen.pdf"
+- path: "/uploads/gebruik-je-stem.jpg"
 ---
 
 **Door: Esther Hulst**
