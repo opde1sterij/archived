@@ -27,3 +27,5 @@ speciaal:
 Bibi snapt het niet: hoe kun je leven zonder te lezen? Zonder alle verhalen die in boeken zitten? Zonder het “hartenboek” vol herinneringen dat Anky voor hem schreef? Bibi besluit hem te helpen.
 
 **Circus Alfabet is een kleurrijke voorstelling over hoe bijzonder het is als letters ineens betekenis krijgen, als woorden verhalen worden en als er nieuwe werelden voor je opengaan. Speciaal voor kinderen van groep 3 en 4 die net zelf ervaren hoe geweldig lezen is – en voor alle ouders die dit bijzondere moment mee willen vieren.**
+
+*Deze voorstelling is tot stand gekomen mede dankzij Biblioktheek Barneveld*
