@@ -11,8 +11,8 @@ kenmerken: 'Vanaf: sept 2024; Soort project: voorstelling in de klas; Doelgroep:
   45 min nabespreking); Aangeboden in: heel Nederland; Max. aantal deelnemers: 64
   leerlingen of 2 klassen; Maakt gebruik van: digibord; lesmateriaal: digitale educatiekit;
   SLO-kerndoelen: 1, 4, 5, 6, 36, 42, 48, 50, 51, 52, 54, 55, 56 ; Prijs: 1 voorstelling
-  per dag €865,- <br> 2 voorstellingen per dag €1395,- <br> 3 voorstellingen per dag
-  €1840,- <br> De prijzen zijn excl. btw en excl. reiskosten; Te boeken vanaf: schooljaar
+  per dag €895,- <br> 2 voorstellingen per dag €1450,- <br> 3 voorstellingen per dag
+  €1895,- <br> De prijzen zijn excl. btw en excl. reiskosten; Te boeken vanaf: schooljaar
   24-25'
 sectie: vo
 leeftijd: VO

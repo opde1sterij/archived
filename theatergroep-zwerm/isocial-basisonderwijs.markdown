@@ -24,8 +24,8 @@ kenmerken: 'Soort project: voorstelling in de klas; Doelgroep: groep 5 t/m 8 ook
   onderwijs; Tijdsduur: 1,5 uur (45 min voorstelling en 45 min nabespreking); Aangeboden
   in: heel Nederland; Max. aantal deelnemers: 64 leerlingen of 2 klassen; Maakt gebruik
   van: digibord; SLO-kerndoelen: 2, 3, 54, 55, 56 ; Prijs: 1 voorstelling per dag
-  €690,- <br> 2 voorstellingen per dag €1150,- <br> 3 voorstellingen per dag €1545,-
-  <br> Prijzen zijn excl. btw en excl. reiskosten; '
+  €720,- <br> 2 voorstellingen per dag €1195,- <br> 3 voorstellingen per dag €1595,-
+  <br>  Prijzen zijn excl. btw en excl. reiskosten; '
 leeftijd: groep 5, 6, 7 en 8
 actie: 
 sleutelwoorden: 
