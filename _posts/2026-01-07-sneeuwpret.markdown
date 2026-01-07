@@ -20,7 +20,7 @@ Wegens de sneeuw vandaag geen blog. Of nou ja, een hele korte. Want ook bij ons 
 * Nog meer lessen geven met Traject C  
 * en ook met TheaterChallenge staan we nooit stil.
 * En nog allerlei plannetjes waar we nu nog niets over kunnen zeggen...
-* 
+
 Daarnaast is 2026 ook een herdenkingsjaar: het is 75 jaar geleden dat mijn opa en oma aankwamen op de Lloydkade in Rotterdam. Dit jaar herdenken en vieren we 75 jaar Molukkers in Nederland. Daar draag ik met trots mijn steentje aan bij, met de voorstelling Stamppot en Papeda, die we dit jaar ruim 25 keer (en hopelijk nog veel vaker) mogen spelen.
 
 Om al deze redenen heb ik zin in 2026. Een nieuw jaar dat dankzij de sneeuw zo heerlijk rustig begint. Vroeger liep ik als een soort Grinch door de wereld zodra er sneeuw lag. Want sneeuw betekent problemen met vervoer en bereikbaarheid. Het betekent: veel regelen, veel bellen, nóg meer mailen. Voorstellingen die uitvallen, lessen die verplaatst moeten worden...
