@@ -8,7 +8,7 @@ assets:
 
 *Door: Esther Hulst*
 
-Dit jaar herdenken en vieren we 75 jaar Molukkers in Nederland. In maart 1951 kwamen mijn opa en oma aan in Rotterdam en begon hun leven in Nederland. Vijfenzeventig jaar later speel ik de [voorstelling Stamppot & Papeda](https://www.opde1sterij.nl/theatergroep-zwerm/stamppot-en-papeda/) door het hele land.
+**Dit jaar herdenken en vieren we 75 jaar Molukkers in Nederland.** In maart 1951 kwamen mijn opa en oma aan in Rotterdam en begon hun leven in Nederland. Vijfenzeventig jaar later speel ik de [voorstelling Stamppot & Papeda](https://www.opde1sterij.nl/theatergroep-zwerm/stamppot-en-papeda/) door het hele land.
 
 Een voorstelling waarin Molukse gebruiken, familie, eten en ook de geschiedenis een grote rol spelen.
 
