@@ -13,9 +13,9 @@ sectie: po
 kenmerken: 'Soort project: voorstelling in theater of op school; Doelgroep: groep
   3, 4 en ouders/verzorgers; Tijdsduur: 45 min (35 min voorstelling en 10 min meet
   + greet); Aangeboden in: heel Nederland; Aantal deelnemers: max. 90; SLO-kerndoelen:
-  34, 54, 55 & 56 ; Prijs: 1 voorstelling per dag €995,- <br> 2 voorstellingen per
-  dag €1350,- <br> 3 voorstellingen per dag €1750,- <br>  Prijzen zijn excl. btw en
-  excl. reiskosten; '
+  1, 2, 3, 34, 37, 38, 54, 55 & 56 ; Prijs: 1 voorstelling per dag €995,- <br> 2 voorstellingen
+  per dag €1350,- <br> 3 voorstellingen per dag €1750,- <br>  Prijzen zijn excl. btw
+  en excl. reiskosten; '
 leeftijd: groep 3, 4 en ouders/verzorgers
 actie: 
 sleutelwoorden: 
