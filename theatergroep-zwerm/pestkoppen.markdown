@@ -4,9 +4,10 @@ date: 2018-05-30 16:26:00 +02:00
 position: 4
 korte-beschrijving: De voorstelling PestKoppen, met interactieve nabespreking, onderzoekt
   samen met de leerlingen waar plagen ophoudt en pesten begint.
-filmpje-embed-code: <iframe width="560" height="315" src="https://youtu.be/54LS8dRYBcM?si=J47CWj9s5qiMLkEi"
+filmpje-embed-code: <iframe width="560" height="315" src="https://www.youtube.com/embed/54LS8dRYBcM?si=fR6Knmmhy1eRCk5V"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
 assets:
 - path: "/uploads/PestKoppen.jpg"
   name: PestKoppen
