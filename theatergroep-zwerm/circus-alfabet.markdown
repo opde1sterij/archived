@@ -6,7 +6,7 @@ korte-beschrijving: Circus Alfabet is een kleurrijke voorstelling over hoe bijzo
   het is als letters ineens betekenis krijgen, als woorden verhalen worden en als
   er nieuwe werelden voor je opengaan.
 assets:
-- path: "/uploads/circus-alfabet.png"
+- path: "/uploads/Circus%20Alfabet-0e1d90.jpg"
   name: circus alfabet
 author: info@opde1sterij.nl
 sectie: po
