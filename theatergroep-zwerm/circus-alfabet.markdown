@@ -15,7 +15,7 @@ kenmerken: 'Soort project: voorstelling in theater of op school; Doelgroep: groe
   + greet); Aangeboden in: heel Nederland; Aantal deelnemers: max. 90; SLO-kerndoelen:
   1, 2, 3, 34, 37, 38, 54, 55 & 56 ; Prijs: 1 voorstelling per dag €995,- <br> 2 voorstellingen
   per dag €1350,- <br> 3 voorstellingen per dag €1750,- <br>  Prijzen zijn excl. btw
-  en excl. reiskosten; '
+  en excl. reiskosten;  Te boeken vanaf: maart 2026'
 leeftijd: groep 3, 4 en ouders/verzorgers
 actie: 
 sleutelwoorden: 
