@@ -30,4 +30,4 @@ Bibi vindt het stom dat ze niet naar school kan. Ze kan nét lezen en vindt het 
 
 Bibi snapt het niet: hoe kun je leven zonder te lezen? Zonder alle verhalen die in boeken zitten? Zonder het “hartenboek” vol herinneringen dat Anky voor hem schreef? Bibi besluit hem te helpen.
 
-*Deze voorstelling is tot stand gekomen mede dankzij Biblioktheek Barneveld*
+*Deze voorstelling is tot stand gekomen mede dankzij Bibliotheek Barneveld*
