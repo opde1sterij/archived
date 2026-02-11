@@ -260,27 +260,57 @@ $(function() {
 // // 		plaatsInstagramPost();
 // 		instagramPostViaGreatfon()
 // 	});
-	instagramPostViaGreatfon()
-	function instagramPostViaGreatfon() {
+// 	instagramPostViaGreatfon()
+// 	function instagramPostViaGreatfon() {
+// 		$.ajax({
+// 		url: 'https://opde1sterij-origin.dplyd.workers.dev/' + encodeURIComponent('https://greatfon.com/v/opde1sterij'),
+// 			timeout: 10000
+// 		})
+// 		.done(function(greatfonData) {
+// 			htmlDocument = document.implementation.createHTMLDocument('virtueel');
+// 			virtueelDocument = $(greatfonData, htmlDocument);
+// 			instagramProfiel = virtueelDocument.find('h1').first().text().trim();
+// 			instagramItemImgLink = virtueelDocument.find('.group a img').first().attr('src');
+// 			if (instagramProfiel == '@opde1sterij') {
+// 				if (instagramItemImgLink != undefined) {
+// 					itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=168&q=77&output=jpg'
+// 				}
+// 				instagramItemBericht = virtueelDocument.find('.group p').first().html().replace(/<br\s*\/?>/gi,' ').trim();
+// 				if (instagramItemBericht != undefined && instagramItemBericht != '') {
+// 					itemBericht = instagramItemBericht;
+// 				}
+// 				itemTijdGeleden = "Laatste Post";
+// 			}
+// 			plaatsInstagramPost();
+// 		})
+// 		.fail(function() {
+// 			plaatsInstagramPost();
+// 		});
+// 	}
+
+	instagramPost()
+	function instagramPost() {
 		$.ajax({
-		url: 'https://opde1sterij-origin.dplyd.workers.dev/' + encodeURIComponent('https://greatfon.com/v/opde1sterij'),
+			url: 'https://opde1sterij-origin.dplyd.workers.dev/instagram',
+			dataType: 'json',
 			timeout: 10000
 		})
-		.done(function(greatfonData) {
-			htmlDocument = document.implementation.createHTMLDocument('virtueel');
-			virtueelDocument = $(greatfonData, htmlDocument);
-			instagramProfiel = virtueelDocument.find('h1').first().text().trim();
-			instagramItemImgLink = virtueelDocument.find('.group a img').first().attr('src');
-			if (instagramProfiel == '@opde1sterij') {
-				if (instagramItemImgLink != undefined) {
-					itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=168&q=77&output=jpg'
-				}
-				instagramItemBericht = virtueelDocument.find('.group p').first().html().replace(/<br\s*\/?>/gi,' ').trim();
-				if (instagramItemBericht != undefined && instagramItemBericht != '') {
-					itemBericht = instagramItemBericht;
-				}
-				itemTijdGeleden = "Laatste Post"
+		.done(function(data) {
+			instagramItemLink = data[0].url
+			if (instagramItemLink != undefined) {
+				itemLink = instagramItemLink
 			}
+			instagramItemImgLink = data[0].imageURL
+			if (instagramItemImgLink != undefined) {
+				itemImgLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImgLink) + '&w=168&q=77&output=jpg'
+			}
+			instagramItemBericht = data[0].description
+			if (instagramItemBericht != undefined && instagramItemBericht != '') {
+				itemBericht = instagramItemBericht;
+			}
+	
+			itemTijdGeleden = "Laatste Post";
+
 			plaatsInstagramPost();
 		})
 		.fail(function() {
@@ -288,28 +318,28 @@ $(function() {
 		});
 	}
 
-	function vertaalTijd() {
-		var itemTijdGeledenVertaling = {
-			seconds: 'seconden',
-			second: 'seconde',
-			minutes: 'minuten',
-			minute: 'minuut',
-			hours: 'uur',
-			hour: 'uur',
-			days: 'dagen',
-			day: 'dag',
-			weeks: 'weken',
-			week: 'week',
-			months: 'maanden',
-			month: 'maand',
-			years: 'jaar',
-			year: 'jaar',
-			ago: 'geleden'
-		};
-		itemTijdGeleden = instagramItemTijdGeleden.replace(/seconds|second|minutes|minute|hours|hour|days|day|weeks|week|months|month|years|year|ago/gi, function(matched) {
-			return itemTijdGeledenVertaling[matched];
-		});
-	}
+// 	function vertaalTijd() {
+// 		var itemTijdGeledenVertaling = {
+// 			seconds: 'seconden',
+// 			second: 'seconde',
+// 			minutes: 'minuten',
+// 			minute: 'minuut',
+// 			hours: 'uur',
+// 			hour: 'uur',
+// 			days: 'dagen',
+// 			day: 'dag',
+// 			weeks: 'weken',
+// 			week: 'week',
+// 			months: 'maanden',
+// 			month: 'maand',
+// 			years: 'jaar',
+// 			year: 'jaar',
+// 			ago: 'geleden'
+// 		};
+// 		itemTijdGeleden = instagramItemTijdGeleden.replace(/seconds|second|minutes|minute|hours|hour|days|day|weeks|week|months|month|years|year|ago/gi, function(matched) {
+// 			return itemTijdGeledenVertaling[matched];
+// 		});
+// 	}
 
 	function plaatsInstagramPost() {
 		var itemAfbeelding = '<a href="' + itemLink + '" title="Bekijk op Instagram" rel="noopener noreferrer"><div class="instagram-post-cirkel lazyload" data-bg="/instagram_nieuw.jpg"><div class="instagram-post-foto lazyload" data-bg="' + itemImgLink + '" referrerpolicy="no-referrer"></div></div></a>';

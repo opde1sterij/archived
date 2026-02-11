@@ -3190,7 +3190,9 @@ input.nieuwsbrief-balk-voornaam {
 .instagram-post-rechter-kolom {
     line-height: 1.4;
     float: left;
+/* 
     overflow: hidden;
+ */
     width: 190px;
     height: 106px;
     margin: 0;
