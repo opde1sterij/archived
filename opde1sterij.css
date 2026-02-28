@@ -932,6 +932,17 @@ article h2:nth-child(n + 3) {
     margin-top: 32px
 }
 
+article .formulier h2 {
+    position: static;
+    box-sizing: initial;
+    width: unset;
+    height: auto;
+    margin: 0;
+    padding: unset;
+    text-transform: unset;
+    background: unset
+}
+
 .theatergroep-zwerm article h2 {
     background: #eda62d
 }

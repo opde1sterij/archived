@@ -222,7 +222,7 @@
 							{% for page in pages %}<div id="{{page.title | slugify | replace: 'de-hermannen-', ''}}">
 								<input type="checkbox" name="product" value="{{page.title}} ({{page.leeftijd}})" class="{{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}"> <span class="boek-product {{onderdeel.dir | replace: '/de-hermannosaurus-rex/', 'opde1sterij' | replace: '/', ''}}">{{page.title | replace: ' – de Hermannosaurus rex', ''}}{% if page.leeftijd %}&nbsp;&nbsp;<span class="boek-product-leeftijd">({{page.leeftijd}})</span>{% endif %}</span>&nbsp;&nbsp;&nbsp;<span class="product-meer-info"><a href="{{page.url}}" title="Over {{page.title}}">info</a></span>
 							</div>
-							{% endfor %}{% if forloop.last == false %}<br>{% endif %}{% endfor %}<br>
+							{% endfor %}{% if forloop.rindex > 2 %}<br>{% endif %}{% endfor %}<br>
 						</div>
 						<div class="boekingscontactgegevens">
 							<p>Vul je gegevens in:</p>
@@ -260,9 +260,9 @@
 						<thead>
 							<tr>
 								<td width="20%">Datum</td>
-								<td width="20%">Stad</td>
+								<td width="20%">Plaats</td>
 								<td width="25%">Onderdeel</td>
-								<td width="35%">Wat</td>
+								<td width="35%">Voorstelling</td>
 							</tr>
 						</thead>
 						<tbody></tbody>
