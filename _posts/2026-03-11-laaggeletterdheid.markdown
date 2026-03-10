@@ -1,15 +1,16 @@
 ---
 title: Laaggeletterdheid
-date: 2026-02-04 08:15:00 +01:00
+date: 2026-03-11 08:15:00 +01:00
+permalink: "/blog/4-2-2026-laaggeletterdheid/"
 published: false
 blogger: Esther Hulst
 assets:
-- path: "/uploads/Circus%20Alfabet.jpg"
+- path: "/uploads/circus-alfabet.jpg"
 ---
 
 *door: Esther Hulst*
 
-Ik kan me geen leven zonder letters voorstellen. Zonder lezen en schrijven. Als theatermaker is dát mijn gereedschap: letters die woorden vormen, woorden die een verhaal maken, een verhaal dat wordt beleefd door personages, personages doe worden gespeeld door acteurs. Zo komen letters uit leven.
+Ik kan me geen leven zonder letters voorstellen. Zonder lezen en schrijven. Als theatermaker is dát mijn gereedschap: letters die woorden vormen, woorden die een verhaal maken, een verhaal dat wordt beleefd door personages, personages die worden gespeeld door acteurs. Zo komen letters tot leven.
 
 Als kleuter kon ik niet wachten om naar school te gaan. Ik had mijn hele jonge leven uitgekeken naar dat ene moment: leren lezen. Wat een teleurstelling was die eerste schooldag… Want leren lezen gebeurde pas in groep 3.
 

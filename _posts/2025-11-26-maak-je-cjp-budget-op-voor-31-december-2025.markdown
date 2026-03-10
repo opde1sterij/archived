@@ -1,7 +1,7 @@
 ---
 title: Maak je CJP-budget op voor 31 december 2025!
 date: 2025-11-26 15:08:00 +01:00
-permalink: l/blog/26-11-2025-maak-je-cjp-budget-op-voor-31-december-2025/
+permalink: "/blog/26-11-2025-maak-je-cjp-budget-op-voor-31-december-2025/"
 blogger: Esther Hulst
 formulier-link: https://opdeeersterij.activehosted.com/f/13
 assets:

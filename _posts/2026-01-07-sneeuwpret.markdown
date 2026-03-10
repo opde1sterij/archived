@@ -1,9 +1,10 @@
 ---
 title: Sneeuwpret
 date: 2026-01-07 19:53:00 +01:00
+permalink: "/blog/7-1-2026-sneeuwpret/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/IMG_1132.jpg"
+- path: "/uploads/sneeuwpret.jpg"
 ---
 
 *Door: Esther Hulst*

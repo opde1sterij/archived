@@ -1,9 +1,10 @@
 ---
 title: 75 jaar Molukkers in Nederland
 date: 2026-01-14 14:51:00 +01:00
+permalink: "/blog/14-1-2026-75-jaar-molukkers-in-nederland/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/blog%2014%20jan.jpg"
+- path: "/uploads/75-jaar-molukkers-in-nederland.jpg"
 ---
 
 *Door: Esther Hulst*
