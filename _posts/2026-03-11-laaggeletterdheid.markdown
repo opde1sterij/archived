@@ -2,13 +2,12 @@
 title: Laaggeletterdheid
 date: 2026-03-11 08:15:00 +01:00
 permalink: "/blog/4-2-2026-laaggeletterdheid/"
-published: false
 blogger: Esther Hulst
 assets:
 - path: "/uploads/circus-alfabet.jpg"
 ---
 
-*door: Esther Hulst*
+*Door: Esther Hulst*
 
 Ik kan me geen leven zonder letters voorstellen. Zonder lezen en schrijven. Als theatermaker is dát mijn gereedschap: letters die woorden vormen, woorden die een verhaal maken, een verhaal dat wordt beleefd door personages, personages die worden gespeeld door acteurs. Zo komen letters tot leven.
 
