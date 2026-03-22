@@ -12,15 +12,13 @@ author: info@opde1sterij.nl
 Voor meer informatie mail:
 [info@opde1sterij.nl](mailto:info@opde1sterij.nl)
 
-Of bel:  
-Algemeen: <a href="tel:+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>  
- 
+Of bel: <a href="tel:\+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>
 
 Op de eerste rij<br>
 Broedplaats Bogota<br>
 Haarlemmerstraatweg 79<br>
 1165 MK Halfweg<br>
-Kantoor: BB 17
+Kantoor: BB 01
 
 KvK: 58190767<br>
 btw-nummer: NL852918550 B01
