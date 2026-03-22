@@ -1,7 +1,7 @@
 ---
 title: Stamppot en papeda
 date: 2024-11-05 08:12:00 +01:00
-position: 1
+position: 2
 zoektermen: culturele achtergrond; koloniaal verleden, gedeelde geschiedenis, gebruiken
   en rituelen
 korte-beschrijving: "\"Stamppot en papeda” is een multimediale voorstelling over je

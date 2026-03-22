@@ -1,7 +1,7 @@
 ---
 title: CLOSE
 date: 2015-09-05 20:54:00 +02:00
-position: 12
+position: 13
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
   voorstelling, educatief theater, educatie, theater in de klas, voorstellingen in
   de klas, toneelstuk, interactief, ckv, middelbare scholieren, middelbaar onderwijs,

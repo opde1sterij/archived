@@ -1,7 +1,7 @@
 ---
 title: iSocial VO
 date: 2015-09-05 20:53:00 +02:00
-position: 11
+position: 12
 zoektermen: Theatergroep zwerm, tg zwerm, op de eerste rij, schoolvoorstelling, educatieve
   voorstelling, educatief theater, educatie, theater in de klas, voorstellingen in
   de klas, interactief, ckv, media, social media, mediawijsheid, middelbare school,

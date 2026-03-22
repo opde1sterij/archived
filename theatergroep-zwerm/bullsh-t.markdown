@@ -1,7 +1,7 @@
 ---
 title: Bullsh*t
 date: 2024-02-20 05:36:00 +01:00
-position: 8
+position: 9
 korte-beschrijving: Bullsh*t volgt drie leerlingen die te maken krijgen met fake news,
   desinformatie, AI en de gevolgen daarvan.
 assets:

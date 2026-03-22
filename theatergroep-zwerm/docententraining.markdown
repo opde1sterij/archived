@@ -1,7 +1,7 @@
 ---
 title: Docententraining
 date: 2018-11-21 15:40:00 +01:00
-position: 14
+position: 15
 korte-beschrijving: Alle kennis en ervaring die de acteurs van Theatergroep Zwerm
   op doen delen ze graag met andere docenten. Een training vol verrassende inzichten
   en praktische handvatten, over de leefwereld van de jongere.

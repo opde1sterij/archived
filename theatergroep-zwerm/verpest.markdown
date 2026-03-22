@@ -1,7 +1,7 @@
 ---
 title: VerPest
 date: 2018-05-30 16:23:00 +02:00
-position: 9
+position: 10
 korte-beschrijving: De voorstelling VerPest onderzoekt samen met de leerlingen waar
   plagen ophoudt en pesten begint. Na de voorstelling is er een interactief nagesprek.
   Samen met de leerlingen worden de ingewikkelde systemen en rolpatronen van pesten
