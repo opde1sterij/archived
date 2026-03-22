@@ -26,3 +26,5 @@ sectie: po
 Hij is in ieder geval dol op acteren, dansen en zingen. Hij leeft voor musical! En dat komt goed uit. Want de klas moet een voorstelling maken en Philine heeft enorme plankenkoorts.
 
 "Help, ik heb plankenkoorts" is een multimediale voorstelling over kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht.
+
+Voor de Kinderboekenweek 2026 maakt Tg Zwerm weer een speciale voorstelling: *Help, ik heb plankenkoorts*. Dit is alweer het zesde avontuur van Sam en Philine. De vijf eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt Tg Zwerm er wederom een **KinderboekenMAAND** van. "Help, ik heb plankenkoorts" speelt van **maandag 28 september t/m vrijdag 30 oktober 2026**, natuurlijk passend bij het thema van de Kinderboekenweek 2026.
