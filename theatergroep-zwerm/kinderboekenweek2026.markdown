@@ -17,6 +17,8 @@ kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook 
   voorstelling per dag €825,- <br> 2 voorstellingen per dag €1075,- <br> 3 voorstellingen
   per dag €1325,- <br>  4 voorstellingen per dag €1695,- <br>  Prijzen zijn excl.
   btw en excl. reiskosten; '
+leeftijd: groep 3, 4, 5, 6, 7, 8
+sectie: po
 ---
 
 **Sam is verhuisd. Zijn ouders hebben werk in het buitenland gekregen en dus is Philines beste vriend zomaar weg. Ze mist hem verschrikkelijk. Maar in zijn huis woont nu een nieuw gezin, met een jongen die ook Sam heet. Sam 2.0 is net zo oud als Philine, zit bij haar in de klas én de meester heeft hem ook nog eens náást haar gezet. Wat een toeval. Maar is hij wel net zo aardig als de oude Sam?**

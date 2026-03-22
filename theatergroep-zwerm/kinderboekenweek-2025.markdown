@@ -1,7 +1,7 @@
 ---
 title: Help, ik ben een held
 date: 2025-01-22 11:07:00 +01:00
-position: 1
+position: 7
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur
 korte-beschrijving: "“Help, ik ben een held” is een multimediale voorstelling over
   vriendschap, avontuur en het ontdekken dat je eigen fantasie misschien wel de grootste
