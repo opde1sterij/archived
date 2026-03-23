@@ -1,21 +1,21 @@
 ---
-title: Help, ik heb plankenkoorts
+title: Help, ik heb de hoofdrol
 date: 2026-03-22 10:04:00 +01:00
 position: 0
 zoektermen: Kinderboekenweek, Kinderboekenweek 2026, spot aan
-korte-beschrijving: '"Help, ik heb plankenkoorts" is een multimediale voorstelling
-  over kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch
-  meer durft dan je dacht.'
+korte-beschrijving: '"Help, ik heb de hoofdrol" is een multimediale voorstelling over
+  kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer
+  durft dan je dacht.'
 assets:
 - path: "/uploads/ChatGPT%20Image%2022%20mrt%202026,%2009_31_07.png"
 kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook speciaal
   onderwijs; Tijdsduur: 40 min (30 min voorstelling en 10 min meet + greet); Aangeboden
   in: heel Nederland; Aantal deelnemers: max. 90 op school, max. 150 in theater; Lesmateriaal:
   digitale interactieve lesbrief; SLO-kerndoelen: 34, 54, 55 & 56 ; Prijs op school:
-  1 voorstelling per dag €625,- <br> 2 voorstellingen per dag €895,- <br> 3 voorstellingen
-  per dag €1075,- <br> 4 voorstellingen per dag €1395,- <br> ; Prijs in theater: 1
-  voorstelling per dag €825,- <br> 2 voorstellingen per dag €1075,- <br> 3 voorstellingen
-  per dag €1325,- <br>  4 voorstellingen per dag €1695,- <br>  Prijzen zijn excl.
+  1 voorstelling per dag €645,- <br> 2 voorstellingen per dag €925,- <br> 3 voorstellingen
+  per dag €1155,- <br> 4 voorstellingen per dag €1435,- <br> ; Prijs in theater: 1
+  voorstelling per dag €855,- <br> 2 voorstellingen per dag €1105,- <br> 3 voorstellingen
+  per dag €1365,- <br>  4 voorstellingen per dag €1745,- <br>  Prijzen zijn excl.
   btw en excl. reiskosten; '
 leeftijd: groep 3, 4, 5, 6, 7, 8
 sectie: po
@@ -25,6 +25,6 @@ sectie: po
 
 Hij is in ieder geval dol op acteren, dansen en zingen. Hij leeft voor musical! En dat komt goed uit. Want de klas moet een voorstelling maken en Philine heeft enorme plankenkoorts.
 
-"Help, ik heb plankenkoorts" is een multimediale voorstelling over kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht.
+"Help, ik heb de hoofdrol" is een multimediale voorstelling over kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht.
 
-Voor de Kinderboekenweek 2026 maakt Tg Zwerm weer een speciale voorstelling: *Help, ik heb plankenkoorts*. Dit is alweer het zesde avontuur van Sam en Philine. De vijf eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt Tg Zwerm er wederom een **KinderboekenMAAND** van. "Help, ik heb plankenkoorts" speelt van **maandag 28 september t/m vrijdag 30 oktober 2026**, natuurlijk passend bij het thema van de Kinderboekenweek 2026.
+Voor de Kinderboekenweek 2026 maakt Tg Zwerm weer een speciale voorstelling: *Help, ik heb plankenkoorts*. Dit is alweer het zesde avontuur van Sam en Philine. De vijf eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt Tg Zwerm er wederom een **KinderboekenMAAND** van. "Help, ik heb de hoofdrol" speelt van **maandag 28 september t/m vrijdag 30 oktober 2026**, natuurlijk passend bij het thema van de Kinderboekenweek 2026.
