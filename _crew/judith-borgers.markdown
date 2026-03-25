@@ -1,7 +1,7 @@
 ---
 title: Judith Borgers
 date: 2019-09-04 15:12:00 +02:00
-position: 4
+position: 5
 onderdeel: theatergroep zwerm
 assets:
 - path: "/uploads/judith-borgers.jpg"

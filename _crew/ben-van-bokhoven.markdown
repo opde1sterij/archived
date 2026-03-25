@@ -1,7 +1,7 @@
 ---
 title: Ben van Bokhoven
 date: 2015-09-27 02:05:00 +02:00
-position: 3
+position: 4
 onderdeel: theatergroep zwerm, theaterchallenge
 blogger-bio: Ben werkt als theaterdocent en acteur bij Op de eerste rij. Daarnaast
   helpt hij Sinterklaas een handje in de drukke feestmaand met zijn bedrijf Sinterklaas

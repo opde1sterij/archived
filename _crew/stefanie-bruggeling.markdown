@@ -1,7 +1,7 @@
 ---
 title: Stefanie Bruggeling
 date: 2018-01-21 10:35:00 +01:00
-position: 7
+position: 8
 onderdeel: vibes
 blogger-bio: Stefanie is 4e jaars student Docent-Muziek en stagiaire bij Op de eerste
   rij. Ze was even haar enthousiasme voor lesgeven kwijt maar inmiddels heeft ze haar

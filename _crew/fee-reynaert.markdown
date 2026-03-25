@@ -1,7 +1,7 @@
 ---
 title: Fee Reynaert
 date: 2020-09-09 15:55:00 +02:00
-position: 15
+position: 16
 onderdeel: theatergroep zwerm
 blogger-bio: 'Fee is zangeres, (zang/muziek) docente én actrice bij Tg Zwerm. Als
   gastblogger schrijft ze met haar bijzondere blik over alles wat ze beleeft. '

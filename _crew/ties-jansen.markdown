@@ -1,7 +1,7 @@
 ---
 title: Ties Jansen
 date: 2024-04-30 16:05:00 +02:00
-position: 10
+position: 11
 onderdeel: theatergroep zwerm
 assets:
 - path: "/uploads/ties-jansen.jpg"

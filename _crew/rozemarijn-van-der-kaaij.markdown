@@ -1,7 +1,7 @@
 ---
 title: Rozemarijn van der Kaaij
 date: 2020-09-09 16:12:00 +02:00
-position: 11
+position: 12
 onderdeel: theatergroep zwerm, theaterchallenge
 assets:
 - path: "/uploads/Rozemarijn.jpeg"
