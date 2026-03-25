@@ -1,8 +1,9 @@
 ---
 title: 23 maart 1951
 date: 2026-03-24 14:48:00 +01:00
-published: false
 blogger: Esther Hulst
+assets:
+- path: "/uploads/image.jpg"
 ---
 
 *Door: Esther Hulst*
@@ -45,3 +46,5 @@ Ik zie het bij generatiegenoten en bij de generaties na mij: koester de cultuur 
 Daarom maak ik theater. Om nieuwe verhalen te vertellen. Verhalen die voortkomen uit die onuitputtelijke inspiratiebron. Zoals bijvoorbeeld *[Stamppot en papeda](https://www.opde1sterij.nl/theatergroep-zwerm/stamppot-en-papeda/)*. 
 
 "Stamppot en papeda" is een voorstelling waarin twee werelden elkaar ontmoeten, net als bij mij thuis. Met humor, muziek en verhalen neem ik je mee in een mix van culturen, smaken en herinneringen. Soms herkenbaar, soms een beetje anders, maar altijd met een glimlach. Wil je er meer over weten?  Klik op de [link](https://www.opde1sterij.nl/theatergroep-zwerm/stamppot-en-papeda/) voor meer info over de voorstelling. Of lees deze eerdere [blog](https://www.opde1sterij.nl/blog/14-1-2026-75-jaar-molukkers-in-nederland/) waarin ik uitgebreid vertel over hoe deze voorstelling is ontstaan.
+
+Foto: David Meijer
