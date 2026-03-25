@@ -1,7 +1,7 @@
 ---
 title: Neal Jansen
 date: 2024-04-30 16:05:00 +02:00
-position: 10
+position: 9
 onderdeel: theatergroep zwerm
 assets:
 - path: "/uploads/neal-jansen.jpg"

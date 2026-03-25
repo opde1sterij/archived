@@ -1,7 +1,7 @@
 ---
 title: Robbie Aldjufri
 date: 2017-12-12 19:48:00 +01:00
-position: 3
+position: 2
 onderdeel: theatergroep zwerm, theaterchallenge
 blogger-bio: Robbie Aldjufri speelt al 2,5 jaar bij Tg Zwerm. Daarnaast maakt en speelt
   hij eigen voorstellingen en geeft hij les. Heeft hij een verloofde en twee kinderen.
@@ -14,5 +14,5 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-Acteur en gespreksleider bij Tg Zwerm in iSocial, Close, InControl en VerPest voor Voortgezet Onderwijs en iSocial, PestKoppen en Blozen voor beginners voor Primair Onderwijs.
+Actrice en gespreksleider bij Tg Zwerm in iSocial, Close, InControl, VerPest en Bullsh*t voor Voortgezet Onderwijs en iSocial, PestKoppen, Blozen voor beginners en Ai, ai, ai voor Primair Onderwijs.
 Docent bij TheaterChallenge.
