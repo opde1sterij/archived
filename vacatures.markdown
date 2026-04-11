@@ -5,7 +5,7 @@ position: 8
 zoektermen: Audities, acteren, acteur, acteur gezocht, vacature, educatief theater
 korte-beschrijving: Werken bij Op de eerste rij? Bekijk de vacatures.
 assets:
-- path: "/uploads/wij-zoeken-acteurs-m-v-x.jpg"
+- path: "/uploads/5.jpg"
   name: vacature
 - path: "/uploads/gezocht-administratieve-duizendpoot.jpg"
   name: vacature-administratieve-duizendpoot
@@ -26,7 +26,6 @@ Spelen vanaf eind augustus 2026
 * Speeldagen zijn maandag t/m vrijdag
 * Repeteren in juni (in overleg)
 
-
 Wat vragen wij?
 * HBO acteeropleiding of docent theater opleiding 
 * Leeftijd tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
@@ -34,7 +33,6 @@ Wat vragen wij?
 * Affiniteit met de doelgroep, de thema's van de voorstelling en educatief theater
 * Iemand die veel wil spelen, graag hard werkt en vroeg opstaan geen probleem vindt
 * In het bezit van een rijbewijs
-
 
 Wat bieden wij?
 * Veel en regelmatig spelen (maar met veel flexibiliteit)
