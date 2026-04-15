@@ -1,7 +1,7 @@
 ---
 title: Vacatures
 date: 2026-04-11 22:52:00 +02:00
-position: 8
+position: 9
 zoektermen: Audities, acteren, acteur, acteur gezocht, vacature, educatief theater
 korte-beschrijving: Werken bij Op de eerste rij? Bekijk de vacatures.
 assets:

@@ -1,7 +1,7 @@
 ---
 title: Help, ik heb de hoofdrol
 date: 2026-03-22 10:04:00 +01:00
-position: 0
+position: 1
 zoektermen: Kinderboekenweek, Kinderboekenweek 2026, spot aan
 korte-beschrijving: '"Help, ik heb de hoofdrol" is een multimediale voorstelling over
   kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer

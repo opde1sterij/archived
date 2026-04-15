@@ -1,7 +1,7 @@
 ---
 title: TheaterChallenge
 date: 2015-09-05 20:47:00 +02:00
-position: 3
+position: 4
 onderdeel: true
 author: info@opde1sterij.nl
 korte-beschrijving: TheaterChallenge verzorgt theaterworkshops voor het basis-, voortgezet
