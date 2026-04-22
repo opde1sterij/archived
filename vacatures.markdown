@@ -29,6 +29,7 @@ Spelen vanaf eind augustus 2026
 Wat vragen wij?
 * HBO acteeropleiding of docent theater opleiding 
 * Leeftijd tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
+* Voor mannelijke rol zoekt Tg Zwerm acteur
 * Woonachtig in Amsterdam of Haarlem (en omgeving)
 * Affiniteit met de doelgroep, de thema's van de voorstelling en educatief theater
 * Iemand die veel wil spelen, graag hard werkt en vroeg opstaan geen probleem vindt
