@@ -23,7 +23,8 @@ Wat we vragen:
 
 Wat we bieden: Veel speeldagen, flexibiliteit, een professioneel team en ruimte voor je eigen ontwikkeling.
 
-📅 Auditie:  𝗱𝗶𝗻𝘀𝗱𝗮𝗴 𝟭𝟮 𝗺𝗲𝗶 𝟮𝟬𝟮𝟲 📩 reageren voor ma 4 mei 2026. 
+📅 Auditie:  𝗱𝗶𝗻𝘀𝗱𝗮𝗴 𝟭𝟮 𝗺𝗲𝗶 𝟮𝟬𝟮𝟲 📩 reageren voor **vrij 1 mei 2026**. 
+
 → Lees de [volledige vacature](https://www.opde1sterij.nl/vacatures/)
 
 
