@@ -1,7 +1,6 @@
 ---
-title: 'Kinderboekenweek 2025: Reserveer nu je plek!'
-date: 2024-04-01 08:08:00 +02:00
-published: false
+title: 'Kinderboekenweek 2026: Reserveer nu je plek!'
+date: 2026-04-22 08:08:00 +02:00
 position: 3
 zoektermen: Kinderboekenweek, Kinderboekenweek 2025, vol avontuur, voorstelling, voorstellingen,
   groep 3, groep 4, groep 5, groep 6, groep 7, groep 8, hele school, groep 3 t/m 8
@@ -11,12 +10,12 @@ assets:
 - path: "/uploads/kinderboekenweek-2025-reserveer-nu-je-plek.jpg"
 ---
 
-De **Kinderboekenweek 2025** staat in het teken van **"Vol avontuur"**, en Tg Zwerm neemt je mee op een onvergetelijke reis met de voorstelling **“Help, ik ben een held”**. Dit multimediale theaterstuk over vriendschap, avontuur en de kracht van fantasie is geschikt voor groep 3 t/m 8. Net als voorgaande jaren maken wij er een **Kinderboekenmaand** van: van maandag 29 september t/m vrijdag 31 oktober 2025. 
+De **Kinderboekenweek 2026** staat in het teken van **"Spot aan!"**, en Tg Zwerm neemt je mee op een bijzonder avontuur met de voorstelling **"Help, ik heb de hoofdrol"**. Dit multimediale theaterstuk over plankenkoorts, kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht, is geschikt voor groep 3 t/m 8. 
 
-📅 **Wanneer?** Van maandag 29 september t/m vrijdag 31 oktober 2025.  
-🎭 **Voor wie?** Scholen, bibliotheken en cultuurliefhebbers die de Kinderboekenweek extra bijzonder willen maken.  
-🌟 **Waarom nu reserveren?** Vorige edities waren razendsnel volgeboekt!   
+Net als voorgaande jaren maken wij er een Kinderboekenmaand van: van maandag 28 september t/m vrijdag 30 oktober 2026. 
 
-📌 Zeker zijn van een plekje? Vul hieronder het reserveringsformulier in.
+📅 **Wanneer?** Van maandag 28 september t/m vrijdag 30 oktober 2026. 
+🎭 **Voor wie?** Scholen, bibliotheken en cultuurliefhebbers die de Kinderboekenweek extra bijzonder willen maken. 
+🌟 **Waarom nu reserveren?** Vorige edities waren razendsnel volgeboekt! 📌 
 
-Mis het niet en beleef de magie van theater tijdens de Kinderboekenweek!
+Zeker zijn van een plekje? Vul hieronder het reserveringsformulier in. Mis het niet en beleef de magie van theater tijdens de Kinderboekenweek!
