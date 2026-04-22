@@ -7,7 +7,7 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-### **Theatergroep Zwerm zoekt acteur (M/X) 🎭**
+# **Theatergroep Zwerm zoekt acteur (M/X) 🎭**
 Stel je voor: elke keer een andere school, een andere groep, een ander gesprek. Jij speelt een voorstelling met thema’s die jongeren écht bezighouden — seksualiteit, consent, pesten, social media, nepnieuws, liefde, AI — en leidt daarna zelf de nabespreking.
 
 𝗗𝗮𝘁 𝗶𝘀 𝘄𝗲𝗿𝗸𝗲𝗻 𝗯𝗶𝗷 𝗧𝗵𝗲𝗮𝘁𝗲𝗿𝗴𝗿𝗼𝗲𝗽 𝗭𝘄𝗲𝗿𝗺.
@@ -15,11 +15,11 @@ Stel je voor: elke keer een andere school, een andere groep, een ander gesprek. 
 We spelen dit schooljaar al meer dan 𝟰𝟬𝟬 𝘃𝗼𝗼𝗿𝘀𝘁𝗲𝗹𝗹𝗶𝗻𝗴𝗲𝗻 door heel Nederland en zijn op zoek naar professionele acteurs die dit volgend jaar met ons team willen doen.
 
 Wat we vragen: 
-✔️ HBO acteeropleiding 
-✔️ Tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
-✔️ Amsterdam of Haarlem en omgeving 
-✔️ Rijbewijs
-✔️ Affiniteit met de doelgroep
+* ✔️ HBO acteeropleiding 
+* ✔️ Tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
+* ✔️ Amsterdam of Haarlem en omgeving 
+* ✔️ Rijbewijs
+* ✔️ Affiniteit met de doelgroep
 
 Wat we bieden: Veel speeldagen, flexibiliteit, een professioneel team en ruimte voor je eigen ontwikkeling.
 
@@ -27,8 +27,7 @@ Wat we bieden: Veel speeldagen, flexibiliteit, een professioneel team en ruimte 
 → Lees de [volledige vacature](https://www.opde1sterij.nl/vacatures/)
 
 
-
-### **Esther schrijft artikel in vakblad van12tot18 over burgerschap**
+# **Esther schrijft artikel in vakblad van12tot18 over burgerschap**
 
 Het nieuwste nummer van vakblad **van12tot18** met thema **Burgerschap** is uit. Esther Hulst, oprichter van *Op de eerste rij*, schreef een artikel over de vraag: hoe ga je concreet aan de slag met de nieuwe kerndoelen burgerschap?
 
