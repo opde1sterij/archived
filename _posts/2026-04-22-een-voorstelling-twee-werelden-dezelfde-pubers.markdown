@@ -10,7 +10,7 @@ assets:
 
 Elk jaar probeer ik minimaal één keer bij elke acteur te gaan kijken. Zo kan ik beoordelen of de voorstellingen nog werken, of alles technisch goed verloopt en hoe de acteurs het doen. Dit kost veel tijd, want inmiddels werken we met een team van meer dan twaalf acteurs. En om het voor mezelf leuk te houden, wil ik ook graag verschillende voorstellingen zien. Een hele puzzel dus.
 
-Vorige week woensdag was het zover: ik ging op één dag twee voorstellingen bekijken, op twee totaal verschillende scholen. Zo kon ik in één dag zes acteurs aan het werk zien. Dat was behoorlijk efficiënt.
+Op een woensdag een paar weken gelden was het zover: ik ging op één dag twee voorstellingen bekijken, op twee totaal verschillende scholen. Zo kon ik in één dag zes acteurs aan het werk zien. Dat was behoorlijk efficiënt.
 
 ’s Ochtends begon de dag in Montfoort, op een vmbo-school: een school met veel persoonlijke aandacht en veel praktische vakken. ’s Middags reisde ik door naar een gymnasium in Alkmaar, waar juist vooral het hoofd aan het werk is. Groter kan het contrast bijna niet zijn, en toch speelde Theatergroep Zwerm dezelfde voorstelling op beide scholen.
 
