@@ -1,6 +1,7 @@
 ---
-title: Vroegboekkorting 2025-2026 – Alleen voor onze vaste klanten!
-date: 2025-04-15 21:13:00 +02:00
+title: Vroegboekkorting 2026-2027 – Alleen voor onze vaste klanten!
+date: 2026-04-22 21:13:00 +02:00
+published: false
 position: 5
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 home-page: nee
@@ -11,7 +12,7 @@ author: info@opde1sterij.nl
 
 De meivakantie moet nog beginnen, maar jij krijgt als vaste klant alvast een sneak peek van onze jaarlijkse **vroegboekkorting** voor schooljaar **2025-2026**!
 
-#### 🎁 Vroegboekkorting 2025/2026
+#### 🎁 Vroegboekkorting 2026/2027
 
 * **€100 korting** bij 3 voorstellingen
 
@@ -23,7 +24,7 @@ De meivakantie moet nog beginnen, maar jij krijgt als vaste klant alvast een sne
 
 Deze actie geldt voor alle voorstellingen van **Theatergroep Zwerm** (PO en VO), met uitzondering van de Kinderboekenweek-voorstelling. Ook TheaterChallenge doet mee!
 
-**Let op:** boek vóór **18 juli 2025** om gebruik te maken van de vroegboekkorting.
+**Let op:** boek vóór **11 juli 2026** om gebruik te maken van de vroegboekkorting.
 
 ### Waarom nú al boeken?
 

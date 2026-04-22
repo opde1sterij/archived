@@ -2,6 +2,8 @@
 title: Eén voorstelling, twee werelden, dezelfde pubers
 date: 2026-04-21 20:15:00 +02:00
 blogger: Esther Hulst
+assets:
+- path: "/uploads/twee%20voorstellingen%20blog.jpg"
 ---
 
 *Door: Esther Hulst*
