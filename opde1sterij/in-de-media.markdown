@@ -5,7 +5,7 @@ position: 1
 zoektermen: Op de eerste rij in de media, media, cultuureducatie, opinie
 ---
 
-### Esther in de maart editie van Moesson, hét Indisch maandblad
+## Esther in de maart editie van Moesson, hét Indisch maandblad
 
 Deze maand is het 75 jaar geleden dat de eerste Molukkers naar Nederland kwamen. KNIL-soldaten die, net als hun families, niet in de republiek Indonesië konden blijven. Zij waren in de veronderstelling dat hun verblijf in Nederland tijdelijk zou zijn, maar de geschiedenis liep anders. In deze editie verschillende verhalen over die geschiedenis, de Molukse cultuur en tradities. Waaronder een interview met Esther over het doorgeven van cultuur. De maart editie bestellen? Check deze [link](https://www.moesson.com/shop/magazine/moesson-maart-2026-75-jaar-molukkers-in-nederland/).
 
