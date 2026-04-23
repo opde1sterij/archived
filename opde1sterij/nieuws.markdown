@@ -5,7 +5,7 @@ position: 0
 author: info@opde1sterij.nl
 ---
 
-## **Theatergroep Zwerm zoekt acteur (M/X) 🎭**
+### Theatergroep Zwerm zoekt acteur (M/X) 🎭
 
 Stel je voor: elke keer een andere school, een andere groep, een ander gesprek. Jij speelt een voorstelling met thema’s die jongeren écht bezighouden — seksualiteit, consent, pesten, social media, nepnieuws, liefde, AI — en leidt daarna zelf de nabespreking.
 
