@@ -18,9 +18,9 @@ kenmerken: 'Soort project: voorstelling in de klas; Doelgroep: 12+ alle niveaus 
   speciaal onderwijs; Tijdsduur: 1,5 uur (45 min voorstelling en 45 min nabespreking);
   Aangeboden in: heel Nederland; Max. aantal deelnemers: 64 leerlingen of 2 klassen;
   Maakt gebruik van: digibord; Nieuw lesmateriaal: vanaf schooljaar 21-22; SLO-kerndoelen:
-  1, 6, 36, 48, 50, 51, 52, 54, 55, 56 ; Prijs: 1 voorstelling per dag €895,- <br>
-  2 voorstellingen per dag €1450,- <br> 3 voorstellingen per dag €1895,- <br> De prijzen
-  zijn excl. btw en excl. reiskosten; '
+  1, 6, 36, 48, 50, 51, 52, 54, 55, 56 ; Prijs: 1 voorstelling per dag €925,- <br>
+  2 voorstellingen per dag €1495,- <br> 3 voorstellingen per dag €1955,- <br>  De
+  prijzen zijn excl. btw en excl. reiskosten;  '
 leeftijd: VO
 actie: 
 sleutelwoorden: 
