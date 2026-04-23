@@ -5,10 +5,11 @@ position: 1
 zoektermen: Op de eerste rij in de media, media, cultuureducatie, opinie
 ---
 
-## Esther in de maart editie van Moesson, hét Indisch maandblad
+### Esther in de maart editie van Moesson, hét Indisch maandblad
+
 Deze maand is het 75 jaar geleden dat de eerste Molukkers naar Nederland kwamen. KNIL-soldaten die, net als hun families, niet in de republiek Indonesië konden blijven. Zij waren in de veronderstelling dat hun verblijf in Nederland tijdelijk zou zijn, maar de geschiedenis liep anders. In deze editie verschillende verhalen over die geschiedenis, de Molukse cultuur en tradities. Waaronder een interview met Esther over het doorgeven van cultuur. De maart editie bestellen? Check deze [link](https://www.moesson.com/shop/magazine/moesson-maart-2026-75-jaar-molukkers-in-nederland/).
 
-### Interview op de regionale radio voor RTV Drenthe
+## Interview op de regionale radio voor RTV Drenthe
 
 Op 28 januari sprak Esther Hulst met Elly Smit van radio RTVDrenthe over onze voorstelling ‘Stamppot en Papeda’. Dit tergelegenheid van de tour langs Drentse basisscholen. Het werd een gesprek over over 75 jaar Molukkers in Nederland, gedeelde geschiedenis, en wat representatie betekent voor de makers en voor leerlingen.
 
@@ -16,7 +17,7 @@ Want als kinderen zichzelf herkennen in wat ze zien, voelen ze zich gezien. Dat 
 
 Luister het hele interview [hier](https://www.rtvdrenthe.nl/radio/aflevering/koffie-en-keuvelen/20260128100000) (vanaf minuut 38) we zijn benieuwd wat jij ervan vindt!
 
-**Esther schrijft artikel in vakblad van12tot18 over burgerschap**
+# Esther schrijft artikel in vakblad van12tot18 over burgerschap
 
 Het nieuwste nummer van vakblad **van12tot18** met thema **Burgerschap** is uit. Esther Hulst, oprichter van *Op de eerste rij*, schreef een artikel over de vraag: hoe ga je concreet aan de slag met de nieuwe kerndoelen burgerschap?
 
