@@ -17,15 +17,15 @@ We spelen dit schooljaar al meer dan 𝟰𝟬𝟬 𝘃𝗼𝗼𝗿𝘀𝘁𝗲�
 
 Wat we vragen:
 
-* ✔️ HBO acteeropleiding
+* HBO acteeropleiding
 
-* ✔️ Tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
+* Tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
 
-* ✔️ Amsterdam of Haarlem en omgeving
+* Amsterdam of Haarlem en omgeving
 
-* ✔️ Rijbewijs
+* Rijbewijs
 
-* ✔️ Affiniteit met de doelgroep
+* Affiniteit met de doelgroep
 
 Wat we bieden: Veel speeldagen, flexibiliteit, een professioneel team en ruimte voor je eigen ontwikkeling.
 
