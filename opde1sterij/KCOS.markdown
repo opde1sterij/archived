@@ -1,7 +1,7 @@
 ---
 title: KCOS
 date: 2025-04-15 09:02:00 +02:00
-position: 2
+position: 3
 formulier-link: https://opdeeersterij.activehosted.com/f/8
 home-page: nee
 assets:
