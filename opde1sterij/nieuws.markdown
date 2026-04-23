@@ -2,8 +2,6 @@
 title: Nieuws
 date: 2026-04-22 09:12:00 +02:00
 position: 0
-assets:
-- path: "/uploads/deze-week-geen-blog-maar-toch-ook-wel-puntje-puntje-puntje.jpg"
 author: info@opde1sterij.nl
 ---
 
@@ -18,17 +16,13 @@ We spelen dit schooljaar al meer dan 𝟰𝟬𝟬 𝘃𝗼𝗼𝗿𝘀𝘁𝗲�
 Wat we vragen:
 
 * HBO acteeropleiding
-
 * Tot 30 jaar (je speelt een jongere/tiener en moet dus jong lijken)
-
 * Amsterdam of Haarlem en omgeving
-
 * Rijbewijs
-
 * Affiniteit met de doelgroep
 
 Wat we bieden: Veel speeldagen, flexibiliteit, een professioneel team en ruimte voor je eigen ontwikkeling.
 
-📅 Auditie:  𝗱𝗶𝗻𝘀𝗱𝗮𝗴 𝟭𝟮 𝗺𝗲𝗶 𝟮𝟬𝟮𝟲 📩 reageren voor **vrij 1 mei 2026**.
+📅 Auditie: 𝗱𝗶𝗻𝘀𝗱𝗮𝗴 𝟭𝟮 𝗺𝗲𝗶 𝟮𝟬𝟮𝟲 📩 reageren voor **vrij 1 mei 2026**.
 
 → Lees de [volledige vacature](https://www.opde1sterij.nl/vacatures/)
