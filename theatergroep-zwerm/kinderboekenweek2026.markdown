@@ -14,8 +14,8 @@ kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook 
   digitale interactieve lesbrief; SLO-kerndoelen: 34, 54, 55 & 56 ; Prijs op school:
   1 voorstelling per dag €645,- <br> 2 voorstellingen per dag €925,- <br> 3 voorstellingen
   per dag €1155,- <br> 4 voorstellingen per dag €1435,- <br> ; Prijs in theater: 1
-  voorstelling per dag €855,- <br> 2 voorstellingen per dag €1105,- <br> 3 voorstellingen
-  per dag €1365,- <br>  4 voorstellingen per dag €1745,- <br>  Prijzen zijn excl.
+  voorstelling per dag €895,- <br> 2 voorstellingen per dag €1145,- <br> 3 voorstellingen
+  per dag €1395,- <br>  4 voorstellingen per dag €1745,- <br>  Prijzen zijn excl.
   btw en excl. reiskosten; '
 leeftijd: groep 3, 4, 5, 6, 7, 8
 sectie: po
