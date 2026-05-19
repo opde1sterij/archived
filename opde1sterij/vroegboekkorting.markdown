@@ -10,8 +10,6 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-De meivakantie moet nog beginnen, maar jij krijgt als vaste klant alvast een sneak peek van onze jaarlijkse **vroegboekkorting** voor schooljaar **2025-2026**!
-
 #### 🎁 Vroegboekkorting 2026/2027
 
 * **€100 korting** bij 3 voorstellingen
