@@ -14,6 +14,8 @@ Voor meer informatie mail:
 
 Of bel: <a href="tel:\+31232052482" title="Bel Op de eerste rij">023 - 205 2482</a>
 
+Of maak een [belafspraak](https://calendly.com/opde1sterij/bellen-voor-meer-info). Dan bespreken we de mogelijkheden.
+
 Op de eerste rij<br>
 Broedplaats Bogota<br>
 Haarlemmerstraatweg 79<br>
