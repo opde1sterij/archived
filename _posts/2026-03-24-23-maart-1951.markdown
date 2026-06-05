@@ -1,9 +1,10 @@
 ---
 title: 23 maart 1951
 date: 2026-03-24 14:48:00 +01:00
+permalink: "/blog/24-3-2026-23-maart-1951/"
 blogger: Esther Hulst
 assets:
-- path: "/uploads/image.jpg"
+- path: "/uploads/23-maart-1951.jpg"
 ---
 
 *Door: Esther Hulst*

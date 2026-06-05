@@ -6,11 +6,11 @@ formulier-link: https://opdeeersterij.activehosted.com/f/7
 author: info@opde1sterij.nl
 ---
 
-## Vroegboekkorting
+### Vroegboekkorting
 
 Het einde van het schooljaar al in zicht en bij **Op de eerste rij** kijken we alvast vooruit. Wil jij in schooljaar **2026-2027** verzekerd zijn van inspirerende voorstellingen of workshops op jouw school? Dan is dit hét moment om te boeken!
 
-## Boek vóór 11 juli 2026 en profiteer van:
+### Boek vóór 11 juli 2026 en profiteer van:
 
 * **€100 korting** bij 3 voorstellingen
 

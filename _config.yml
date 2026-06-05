@@ -95,6 +95,7 @@ include:
 - ".2025-08"
 - ".2025-11-05-deze-week-geen-blog-maar-toch-ook-wel-puntje-puntje-puntje.markdown"
 - ".2025-12"
+- ".2026-06"
 plugins:
 - jekyll-redirect-from
 whitelist:

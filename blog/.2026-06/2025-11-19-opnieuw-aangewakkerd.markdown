@@ -1,7 +1,7 @@
 ---
 title: opnieuw aangewakkerd
 date: 2025-11-19 14:33:00 +01:00
-permalink: "/blog/19-11-2025-opnieuw-aangewakkerd/ "
+permalink: "/blog/19-11-2025-opnieuw-aangewakkerd/"
 blogger: Esther Hulst
 assets:
 - path: "/uploads/opnieuw-aangewakkerd.jpg"

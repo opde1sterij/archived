@@ -141,7 +141,7 @@
 							<div class="blokje"></div>
 						</a>
 					</section>{% assign pages = site.pages | sort: 'position' | where_exp: 'sub-page', 'sub-page.dir contains "opde1sterij"' %}
-					{% for page in pages %}{% if page.title %}{% if page.home-page != 'nee'%}<section aria-labelledby="{{page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><h2 id="{{page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><a href="{{page.url}}" title="{{page.title}}">{{page.title}}</a></h2>
+					{% for home_page_page in pages %}{% if home_page_page.title %}{% if home_page_page.home-page != 'nee'%}<section aria-labelledby="{{home_page_page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><h2 id="{{home_page_page.title | replace: ' ', '-' | replace: '!', '' | downcase}}"><a href="{{home_page_page.url}}" title="{{home_page_page.title}}">{{home_page_page.title}}</a></h2>
 					<div class="tekst">
 						{{page.content | markdownify | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}
 						{% assign trailer = page.trailer-embed-code | default: 'geen trailer' %}{% if trailer != 'geen trailer' %}{{page.trailer-embed-code | replace: '<iframe', '<div class="filmpje"><div class="video-wikkel normale-ratio"><iframe' | replace: 'src=', 'data-src=' | replace: 'youtube.com', 'youtube-nocookie.com' | replace: '></iframe>', ' class="lazyload"></iframe></div></div>'}}{% endif %}

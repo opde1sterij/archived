@@ -5,7 +5,7 @@ position: 9
 zoektermen: Audities, acteren, acteur, acteur gezocht, vacature, educatief theater
 korte-beschrijving: Werken bij Op de eerste rij? Bekijk de vacatures.
 assets:
-- path: "/uploads/5.jpg"
+- path: "/uploads/theatergroep-zwerm-zoekt-acteurs-m-x.jpg"
   name: vacature
 - path: "/uploads/gezocht-administratieve-duizendpoot.jpg"
   name: vacature-administratieve-duizendpoot
