@@ -1,5 +1,5 @@
 ---
-title: Vroegboekkorting 2026-2027 – Alleen voor onze vaste klanten!
+title: Vroegboekkorting 2026-2027
 date: 2026-04-22 21:13:00 +02:00
 position: 6
 formulier-link: https://opdeeersterij.activehosted.com/f/7
