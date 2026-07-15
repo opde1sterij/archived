@@ -1,7 +1,7 @@
 ---
 title: In de media
 date: 2026-04-23 10:22:00 +02:00
-position: 1
+position: 2
 zoektermen: Op de eerste rij in de media, media, cultuureducatie, opinie
 ---
 
