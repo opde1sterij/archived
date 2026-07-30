@@ -1,6 +1,7 @@
 ---
 title: Vroegboekkorting 2026-2027
 date: 2026-04-22 21:13:00 +02:00
+published: false
 position: 6
 formulier-link: https://opdeeersterij.activehosted.com/f/7
 home-page: nee
