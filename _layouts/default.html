@@ -228,7 +228,7 @@
 							<p>Vul je gegevens in:</p>
 							<input type="text" name="naam" placeholder="Naam" id="boeking-naam" required>
 							<br>
-							<input type="text" name="e-mailadres" placeholder="E-mailadres" id="boeking-e-mailadres" required>
+							<input type="email" name="e-mailadres" placeholder="E-mailadres" id="boeking-e-mailadres" required>
 							<br>
 							<input type="text" name="schoolnaam" placeholder="(Schoolnaam)" class="boeking-school">
 							<br>
@@ -238,13 +238,13 @@
 							<br>
 							<input type="text" name="plaats" placeholder="Plaats" class="boeking-plaats" required>
 							<br>
-							<input type="text" name="telefoonnummer" placeholder="Tel. Contactpersoon" class="boeking-telelefoonnummer">
+							<input type="tel" name="telefoonnummer" placeholder="Tel. Contactpersoon" class="boeking-telelefoonnummer">
 							<br>
 							<input type="text" name="datum" placeholder="Voorkeursdatum" class="boeking-datum">
 						</div>
 						<textarea class="boekingstoevoegingen" name="toevoegingen" rows="5" placeholder="Toevoegingen…"></textarea>
 						<div id="boekingsbevestiging">
-							<noscript><input type="submit" value="Zet eerst JavaScript aan!" title="Zet eerst JavaScript aan en klik dan op deze knop" class="geen-js verstuur-boeking"></noscript>
+							<noscript><input type="submit" value="JavaScript moet aanstaan" title="Zet eerst JavaScript aan en klik dan op deze knop" class="geen-js verstuur-boeking"></noscript>
 							<input type="submit" value="Klik hier om te versturen" title="Klik hier om deze boekingsaanvraag te versturen" class="js verstuur-boeking">
 							<div class="blokje"></div>
 						</div>

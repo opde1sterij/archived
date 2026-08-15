@@ -87,6 +87,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
         var result = JSON.parse(xhr.responseText);
         if(result.result === 'success') {
           handled = true;
+          event.target.reset();
           document.getElementById('boekingsbevestiging').style.display = 'none';
           document.getElementById('boeking-verzonden').style.display = 'inline-block';
         } else {
