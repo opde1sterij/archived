@@ -2152,7 +2152,7 @@ p.tap-meer-lezen {
     clear: both
 }
 
-.boekingsformulier input[type=text] {
+.boekingsformulier input[type=text], .boekingsformulier input[type=email], .boekingsformulier input[type=tel] {
     font-family: inherit;
     font-size: inherit;
     font-weight: 300;
