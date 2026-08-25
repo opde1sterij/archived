@@ -9,9 +9,7 @@ assets:
 - path: "/uploads/kinderboekenweek-2025-reserveer-nu-je-plek.jpg"
 ---
 
-De **Kinderboekenweek 2026** staat in het teken van **"Spot aan!"**, en Tg Zwerm neemt je mee op een bijzonder avontuur met de voorstelling **"Help, ik heb de hoofdrol"**. Dit multimediale theaterstuk over plankenkoorts, kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht, is geschikt voor groep 3 t/m 8. 
-
-Net als voorgaande jaren maken wij er een Kinderboekenmaand van: van maandag 28 september t/m vrijdag 30 oktober 2026. 
+De **Kinderboekenweek 2026** staat in het teken van **"Spot aan!"**, en Tg Zwerm neemt je mee op een bijzonder avontuur met de voorstelling **"Help, ik heb de hoofdrol"**. Deze multimediale voorstelling over plankenkoorts, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht, is geschikt voor groep 3 t/m 8. 
 
 📅 **Wanneer?** Van maandag 28 september t/m vrijdag 30 oktober 2026. 
 🎭 **Voor wie?** Scholen, bibliotheken en cultuurliefhebbers die de Kinderboekenweek extra bijzonder willen maken. 
