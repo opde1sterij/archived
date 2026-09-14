@@ -7,7 +7,7 @@ korte-beschrijving: '"Help, ik heb de hoofdrol" is een multimediale voorstelling
   kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer
   durft dan je dacht.'
 assets:
-- path: "/uploads/help-ik-heb-de-hoofdrol.jpg"
+- path: "/uploads/DSC08849.jpg"
 kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook speciaal
   onderwijs; Tijdsduur: 40 min (30 min voorstelling en 10 min meet + greet); Aangeboden
   in: heel Nederland; Aantal deelnemers: max. 90 op school, max. 150 in theater; Lesmateriaal:
