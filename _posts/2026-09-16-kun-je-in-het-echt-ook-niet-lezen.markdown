@@ -38,6 +38,6 @@ Meneer Zonneveld vroeg daarop aan de kinderen: "Kunnen jullie allemaal lezen?". 
 
 De Week van Lezen en Schrijven is nu voorbij. Maar dit thema verdient ook naast deze week aandacht. Daarom een oproep: laten we het leren lezen vieren. En laten we de schaamte die bij laaggeletterdheid komt kijken zoveel mogelijk wegnemen. Want die schaamte helpt niemand om het alsnog te leren.
 
-Dit kan met Circus Alfabet bij jou op school, in het theater of in de bieb. Wil je meer weten? Neem [contact](https://www.opde1sterij.nl/contact/) op of bekijk de voorstellingspagina van [Circus Alfabet](https://www.opde1sterij.nl/theatergroep-zwerm/circus-alfabet/) [link].
+Dit kan met Circus Alfabet bij jou op school, in het theater of in de bieb. Wil je meer weten? Neem [contact](https://www.opde1sterij.nl/contact/) op of bekijk de voorstellingspagina van [Circus Alfabet](https://www.opde1sterij.nl/theatergroep-zwerm/circus-alfabet/).
 
 En ik ben benieuwd: hoe denk je dat de leesvaardigheid in het onderwijs verbeterd kan worden? Heb je ideeën? stuur vooral een [mail](mailto: esther@opde1sterij.nl)!
