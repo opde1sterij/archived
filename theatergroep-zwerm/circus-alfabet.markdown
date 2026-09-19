@@ -30,4 +30,6 @@ Biby vindt het stom dat ze niet naar school kan. Ze kan nét lezen en vindt het 
 
 Biby snapt het niet: hoe kun je leven zonder te lezen? Zonder alle verhalen die in boeken zitten? Zonder het “hartenboek” vol herinneringen dat Ankie voor hem schreef? Biby besluit hem te helpen.
 
+*Bij deze voorstelling is een aansluitend Goodie bag pakket verkrijgbaar.*
+
 *Deze voorstelling is tot stand gekomen mede dankzij Bibliotheek Barneveld*
