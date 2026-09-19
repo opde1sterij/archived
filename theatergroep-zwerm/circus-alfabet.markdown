@@ -2,6 +2,7 @@
 title: Circus Alfabet
 date: 2025-12-16 08:07:00 +01:00
 position: 0
+zoektermen: Laaggeletterdheid, leren lezen, groep 3-4, ouders/verzorgers
 korte-beschrijving: Circus Alfabet is een kleurrijke voorstelling over hoe bijzonder
   het is als letters ineens betekenis krijgen, als woorden verhalen worden en als
   er nieuwe werelden voor je opengaan.
