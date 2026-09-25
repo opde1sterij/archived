@@ -1,0 +1,5 @@
+Sitemap: https://www.opde1sterij.nl/sitemap.xml
+
+User-agent: *
+Disallow: /e-mailhandtekeningen/
+Disallow: /admin/

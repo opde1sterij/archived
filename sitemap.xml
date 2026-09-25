@@ -1,0 +1,30 @@
+---
+layout: 
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.opde1sterij.nl/</loc>
+		<lastmod>{{site.time | date_to_xmlschema}}</lastmod>
+	</url>
+	{% for post in site.posts %}{% if post.sitemap != false and post.home-page != 'nee' and post.layout != 'redirect' %}<url>
+		<loc>https://www.opde1sterij.nl{{post.url}}</loc>
+		<lastmod>{{post.date | date_to_xmlschema}}</lastmod>
+	</url>{% endif %}{% endfor %}
+	{% for page in site.pages reversed %}{% if page.sitemap == false or page.home-page == 'nee' or page.layout == 'redirect' %}{% elsif page.url == '/' %}{% elsif page.url == '/admin/' %}{% elsif page.url == '/agenda/' %}{% elsif page.url == '/e-mailhandtekeningen/' %}{% elsif page.url == '/assets/css/style.css' %}{% elsif page.url == '/redirects.json' %}{% elsif page.url == '/sitemap.xml' %}
+	{% else %}<url>
+		<loc>https://www.opde1sterij.nl{{page.url}}</loc>
+		<lastmod>{% if page.url contains '/blog/' %}{{page.date | date_to_xmlschema}}{% else %}{{site.time | date_to_xmlschema}}{% endif %}</lastmod>
+<!-- 
+ 		<lastmod>{{page.date | date_to_xmlschema}}</lastmod>
+ -->
+	</url>
+	{% for subpage in page.pages reversed %}{% assign home-page = subpage.home-page | default: 'ja' %}{% if home-page != 'nee' and subpage.sitemap != false and subpage.layout != 'redirect' %}<url>
+		<loc>https://www.opde1sterij.nl{{subpage.url}}</loc>
+		<lastmod>{{site.time | date_to_xmlschema}}</lastmod>
+<!-- 
+		<lastmod>{{subpage.date | date_to_xmlschema}}</lastmod>
+ -->
+	</url>{% endif %}{% endfor %}{% endif %}{% endfor %}
+</urlset>

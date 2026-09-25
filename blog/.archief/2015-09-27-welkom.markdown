@@ -1,0 +1,17 @@
+---
+title: Welkom
+date: 2015-09-27 13:00:00 +02:00
+permalink: "/blog/welkom/"
+filmpje-embed-code: 
+blogger: opde1sterij
+assets:
+- path: "/uploads/opde1sterij-lancering.png"
+  name: opde1sterij-lancering
+- path: "/uploads/opde1sterij-lancering-2.jpeg"
+  name: opde1sterij-lancering-2
+---
+
+Vol trots presenteren Martijn Huitema en Esther Hulst vandaag:  
+Op de eerste rij - Nederlands Instituut voor Cultuureducatie. 
+
+Proost op iedereen die ons de afgelopen tijd heeft geholpen en proost op alle mooie producties, workshops en inspiratiedagen die nog komen gaan! Wij zijn er klaar voor!![opde1sterij-lancering-2](/uploads/opde1sterij-lancering-2.jpeg)

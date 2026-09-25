@@ -1,0 +1,31 @@
+---
+title: Help, ik heb de hoofdrol
+date: 2026-03-22 10:04:00 +01:00
+position: 1
+zoektermen: Kinderboekenweek, Kinderboekenweek 2026, spot aan
+korte-beschrijving: '"Help, ik heb de hoofdrol" is een multimediale voorstelling over
+  kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer
+  durft dan je dacht.'
+assets:
+- path: "/uploads/DSC08849.jpg"
+kenmerken: 'Soort project: voorstelling op school; Doelgroep: groep 3 t/m 8 ook speciaal
+  onderwijs; Tijdsduur: 40 min (30 min voorstelling en 10 min meet + greet); Aangeboden
+  in: heel Nederland; Aantal deelnemers: max. 90 op school, max. 150 in theater; Lesmateriaal:
+  digitale interactieve lesbrief; SLO-kerndoelen: 34, 54, 55 & 56 ; Prijs op school:
+  1 voorstelling per dag €645,- <br> 2 voorstellingen per dag €925,- <br> 3 voorstellingen
+  per dag €1155,- <br> 4 voorstellingen per dag €1435,- <br> ; Prijs in theater: 1
+  voorstelling per dag €895,- <br> 2 voorstellingen per dag €1145,- <br> 3 voorstellingen
+  per dag €1395,- <br>  4 voorstellingen per dag €1745,- <br>  Prijzen zijn excl.
+  btw en excl. reiskosten; '
+leeftijd: groep 3, 4, 5, 6, 7, 8
+sectie: po
+redirect_from: "/theatergroep-zwerm/kinderboekenweek2026"
+---
+
+**Sam is verhuisd. Zijn ouders hebben werk in het buitenland gekregen en dus is Philines beste vriend zomaar weg. Ze mist hem verschrikkelijk. Maar in zijn huis woont nu een nieuw gezin, met een jongen die ook Sam heet. Sam 2.0 is net zo oud als Philine, zit bij haar in de klas én de meester heeft hem ook nog eens náást haar gezet. Wat een toeval. Maar is hij wel net zo aardig als de oude Sam?**
+
+Hij is in ieder geval dol op acteren, dansen en zingen. Hij leeft voor musical! En dat komt goed uit. Want de klas moet een voorstelling maken en Philine heeft enorme plankenkoorts.
+
+"Help, ik heb de hoofdrol" is een multimediale voorstelling over kriebels in je buik, een nieuwe vriendschap en ontdekken dat je misschien toch meer durft dan je dacht.
+
+Voor de Kinderboekenweek 2026 maakt Tg Zwerm weer een speciale voorstelling: *Help, ik heb de hoofdrol*. Dit is alweer het zesde avontuur van Sam en Philine. De vijf eerdere voorstellingen waren grote successen, en de Kinderboekenweek was in no time volgeboekt. Daarom maakt Tg Zwerm er wederom een **KinderboekenMAAND** van. "Help, ik heb de hoofdrol" speelt van **maandag 28 september t/m vrijdag 30 oktober 2026**, natuurlijk passend bij het thema van de Kinderboekenweek 2026.
