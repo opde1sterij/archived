@@ -1,0 +1,95 @@
+{%- assign html = include.html -%}
+{%- assign soorten = 'img,iframe' | split: ',' -%}
+{%- assign aanhalingstekens = '"' | append: "'" | split: '' -%}
+{%- for soort in soorten -%}
+  {%- if soort == 'img' -%}{%- assign beschrijving = 'alt=' -%}{%- else -%}{%- assign beschrijving = 'title=' -%}{%- endif -%}
+  {%- assign begin = '<' | append: soort -%}
+  {%- assign delen = html | split: begin -%}
+  {%- capture html -%}
+    {%- for deel in delen -%}
+      {%- if forloop.first -%}{{- deel -}}{%- continue -%}{%- endif -%}
+      {%- assign grens = deel | slice: 0, 1 | strip -%}
+      {%- unless grens == '' or grens == '>' -%}{{- begin -}}{{- deel -}}{%- continue -%}{%- endunless -%}
+      {%- assign aanhaling = '' -%}
+      {%- assign einde = nil -%}
+      {%- assign attribuut = '' -%}
+      {%- assign heeft-beschrijving = false -%}
+      {%- assign tekens = deel | split: '' -%}
+      {%- for teken in tekens -%}
+        {%- if aanhaling != '' -%}
+          {%- unless teken == aanhaling -%}{%- continue -%}{%- endunless -%}
+          {%- assign aanhaling = '' -%}
+          {%- assign attribuut = '' -%}
+        {%- elsif aanhalingstekens contains teken -%}
+          {%- assign aanhaling = teken -%}
+          {%- if attribuut == beschrijving -%}{%- assign heeft-beschrijving = true -%}{%- endif -%}
+        {%- elsif teken == '>' -%}
+          {%- assign einde = forloop.index0 -%}{%- break -%}
+        {%- else -%}
+          {%- assign spatie = teken | strip -%}
+          {%- if spatie == '' -%}{%- assign attribuut = '' -%}{%- else -%}{%- assign attribuut = attribuut | append: teken | downcase -%}{%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if einde == nil -%}{{- begin -}}{{- deel -}}{%- continue -%}{%- endif -%}
+      {%- assign tag = deel | slice: 0, einde | prepend: begin -%}
+      {%- assign rest = deel | slice: einde, deel.size -%}
+      {%- for aanhaling in aanhalingstekens -%}
+        {%- assign zoek = ' src=' | append: aanhaling -%}
+        {%- if soort == 'iframe' and tag contains zoek -%}
+          {%- assign url = tag | split: zoek | last | split: aanhaling | first -%}
+          {%- assign domein = url | split: '/' -%}
+          {%- if domein[2] == 'www.youtube.com' or domein[2] == 'youtube.com' -%}
+            {%- assign oud = zoek | append: url | append: aanhaling -%}
+            {%- assign nieuw = oud | replace_first: 'youtube.com', 'youtube-nocookie.com' -%}
+            {%- assign tag = tag | replace_first: oud, nieuw -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if soort == 'img' or include.wikkel == 'achtergrond' -%}
+        {%- unless tag contains ' data-src=' -%}{%- assign tag = tag | replace_first: ' src=', ' data-src=' -%}{%- endunless -%}
+        {%- if soort == 'img' -%}
+          {%- unless tag contains ' data-srcset=' -%}{%- assign tag = tag | replace_first: ' srcset=', ' data-srcset=' -%}{%- endunless -%}
+        {%- else -%}
+          {%- unless tag contains ' data-load-mode=' -%}{%- assign tag = tag | append: ' data-load-mode="1"' -%}{%- endunless -%}
+        {%- endif -%}
+        {%- if tag contains ' class=' -%}
+          {%- for aanhaling in aanhalingstekens -%}
+            {%- assign zoek = ' class=' | append: aanhaling -%}
+            {%- if tag contains zoek -%}
+              {%- assign klasse = tag | split: zoek | last | split: aanhaling | first -%}
+              {%- assign klassen = klasse | split: ' ' -%}
+              {%- unless klassen contains 'lazyload' -%}
+                {%- assign oud = zoek | append: klasse | append: aanhaling -%}
+                {%- assign nieuw = klasse | append: ' lazyload' | prepend: zoek | append: aanhaling -%}
+                {%- assign tag = tag | replace_first: oud, nieuw -%}
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- elsif soort == 'img' -%}
+          {%- assign tag = tag | replace_first: '<img', '<img class="lazyload"' -%}
+        {%- else -%}
+          {%- assign tag = tag | append: ' class="lazyload"' -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- unless heeft-beschrijving -%}
+        {%- if soort == 'img' -%}
+          {%- assign tag = tag | replace_first: '<img', '<img alt=""' -%}
+        {%- else -%}
+          {%- assign titel = include.titel | default: page.title | default: site.title -%}
+          {%- capture nieuw -%}<iframe title="Video{% if titel %} bij {{ titel | escape }}{% endif %}"{%- endcapture -%}
+          {%- assign tag = tag | replace_first: '<iframe', nieuw -%}
+        {%- endif -%}
+      {%- endunless -%}
+      {%- if soort == 'iframe' and rest contains '</iframe>' -%}
+        {%- case include.wikkel -%}
+          {%- when 'achtergrond' -%}<div class="video-wikkel">{%- assign sluiting = '</iframe></div>' -%}
+          {%- when 'inhoud' -%}<div class="video-wikkel normale-ratio">{%- assign sluiting = '</iframe></div>' -%}
+          {%- else -%}<div class="filmpje"><div class="video-wikkel normale-ratio">{%- assign sluiting = '</iframe></div></div>' -%}
+        {%- endcase -%}
+        {%- assign rest = rest | replace_first: '</iframe>', sluiting -%}
+      {%- endif -%}
+      {{- tag -}}{{- rest -}}
+    {%- endfor -%}
+  {%- endcapture -%}
+{%- endfor -%}
+{{- html -}}

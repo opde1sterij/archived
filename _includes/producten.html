@@ -1,0 +1,27 @@
+{% capture product-info %}
+									<div class="product-info">
+										<div class="product-kopjes">
+											<h4><span class="product-titel">{{ include.product.title | escape }}</span>{%- if include.product.leeftijd %} <span class="leeftijd">{{ include.product.leeftijd | escape }}</span>{%- endif -%}</h4>
+											<p class="onderdeel-naam">
+											{%- assign parent = include.product.url | split: '/' %}{{ parent[1] | replace: '-', ' ' | capitalize | escape }}</p>
+											<p class="tap-meer-lezen">Tap om meer te lezen</p>
+											<p class="klik-meer-info">Klik voor meer info</p>
+										</div>
+										<div class="product-korte-beschrijving"><p>{{ include.product.korte-beschrijving }}</p></div>
+									</div>
+									{%- endcapture -%}
+									{% assign foto-url = include.product.assets[0].path | uri_escape | replace: "'", "%27" | escape -%}
+									{% capture product-foto %}
+									<div class="product-foto-box">
+										<noscript><div class="product-foto" style="background-image: url('{{ foto-url }}')"></div></noscript>
+										<div class="product-foto lazyload" data-bg="{{ foto-url }}"></div>
+										<div class="product-foto-lader"></div>
+									</div>
+									{%- endcapture -%}
+						{% capture omenom %}{% cycle 'oneven', 'even' %}{% endcapture %}
+						<li class="{{ omenom }}">
+							<a href="{{ include.product.url | escape }}" title="Over {{ include.product.title | escape }}{% if include.product.leeftijd %} ({{ include.product.leeftijd | escape }}){% endif %}" class="product {% if parent[2] %} {{ parent[1] | escape }}{% endif %}{% if include.product.actie %} actie{% endif %}{% if include.product.speciaal %} speciaal{% endif %}"{% if include.product.actie %} data-actietekst="{{ include.product.actie | downcase | replace: 'vroegboekkorting', 'vroegboek korting' | replace: 'onlineaanbod', 'online aanbod' | replace: '!', '' | escape }}"{% endif %}{% if include.product.speciaal %} data-speciaaltekst="{{ include.product.speciaal | replace: 'coronaproof', 'corona proof' | escape }}"{% endif %} ontouchend="">
+								<div>{% if omenom == 'oneven' %}{{ product-info }}{{ product-foto }}{% else %}{{ product-foto }}{{ product-info }}{% endif %}
+								</div>
+							</a>
+						</li>
