@@ -7,4 +7,4 @@ assets:
 - path: "/uploads/bente-stoelwinder.jpeg"
 ---
 
-Actrice en gespreksleider bij Tg Zwerm in iSocial, Close, InControl, en VerPest voor Voortgezet Onderwijs.
+Actrice en gespreksleider bij Tg Zwerm in iSocial, Close, InControl, VerPest en Bullsh*t voor Voortgezet Onderwijs.

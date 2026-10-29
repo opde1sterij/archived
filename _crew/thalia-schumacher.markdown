@@ -7,4 +7,4 @@ assets:
 - path: "/uploads/thalia-schumacher.jpeg"
 ---
 
-Actrice bij Tg Zwerm in Circus Alfabet.
+Actrice bij Tg Zwerm in Circus Alfabet en bij Tg Zwerm in iSocial, Close en VerPest voor Voortgezet Onderwijs.

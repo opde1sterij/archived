@@ -11,4 +11,4 @@ assets:
 author: info@opde1sterij.nl
 ---
 
-Actrice en gespreksleider bij Tg Zwerm in iSocial, Close, InControl, VerPest en Bullsh*t voor Voortgezet Onderwijs en iSocial, PestKoppen, Blozen voor beginners en Ai, ai, ai voor Primair Onderwijs.
+Actrice en gespreksleider bij Tg Zwerm in iSocial, Close, InControl en VerPest voor Voortgezet Onderwijs en iSocial, PestKoppen, Blozen voor beginners en Ai, ai, ai voor Primair Onderwijs.
