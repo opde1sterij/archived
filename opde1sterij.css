@@ -227,6 +227,10 @@ ol, ul {
     list-style: none
 }
 
+input {
+	appearance: none!important;
+}
+
 .wikkel {
     position: relative;
     overflow-x: hidden;
@@ -2425,7 +2429,10 @@ tr.monkeyspoom, tr.monkeyspoom a {
     transition: transform .6s cubic-bezier(.68, -.55, .265, 1.55) .3s;
     transform: translateY(88px);
     transform: translateY(calc(88px + (env(safe-area-inset-bottom) * (2 / 3))));
+    background-color: #fff;
+/* 
     background-color: rgba(254, 254, 254, .98);
+ */
     box-shadow: 0-.5px 1px #e0e0e0
 }
 

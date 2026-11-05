@@ -279,7 +279,7 @@ $(function() {
 
 				instagramItemImageLink = data[0].imageURL;
 				if (typeof instagramItemImageLink == 'string' && instagramItemImageLink != '') {
-					itemAfbeeldingLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImageLink) + '&w=168&q=77&output=jpg';
+					itemAfbeeldingLink = 'https://wsrv.nl/?url=' + encodeURIComponent(instagramItemImageLink) + '&w=168&q=78&output=jpg';
 				}
 
 				instagramItemBericht = data[0].description;

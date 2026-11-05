@@ -166,7 +166,7 @@
 				{% assign achtergrond-afbeelding = selected-page.assets[0].path | default: '/leeg_nieuw.png' -%}
 				{% assign extension = achtergrond-afbeelding | split: '.' | last -%}
 				{% if extension == 'png' -%}
-				  {% assign achtergrond-afbeelding = achtergrond-afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg' -%}
+				  {% assign achtergrond-afbeelding = achtergrond-afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=78&output=jpg' -%}
 				{% endif -%}
 				{% assign achtergrond-afbeelding = achtergrond-afbeelding | uri_escape | replace: "'", "%27" | escape -%}
 				<noscript><div class="achtergrond" style="background-image:url('{{ achtergrond-afbeelding }}'); opacity: 1;"></div></noscript><div class="achtergrond lazyload"{% if trailer == 'geen trailer' %} data-bg="{{ achtergrond-afbeelding }}"{% endif %}>
@@ -214,7 +214,7 @@
 					{% assign afbeelding = home-pagina.assets[0].path -%}
 					{% assign extension = afbeelding | split: '.' | last -%}
 					{% if extension == 'png' -%}
-					  {% assign afbeelding = afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg' -%}
+					  {% assign afbeelding = afbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=78&output=jpg' -%}
 					{% endif -%}
 					{% assign afbeelding = afbeelding | uri_escape | replace: "'", "%27" | escape -%}
 					<noscript><img src="{{ afbeelding }}" alt="{{ home-pagina.assets[0].alt | default: '' | escape }}" style="width: 100%; margin: 16px 0 0;"></noscript><img class="lazyload" data-src="{{ afbeelding }}" alt="{{ home-pagina.assets[0].alt | default: '' | escape }}" style="width: 100%; margin: 16px 0 0;">
@@ -418,9 +418,13 @@
 					{% for post in blogposts -%}
 					{% assign blogpostafbeelding = post.assets[0].path | default: 'geen afbeelding' -%}
 					{% if blogpostafbeelding != 'geen afbeelding' -%}
-					  {% assign blogpostafbeelding = blogpostafbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=75&output=jpg' | uri_escape | replace: "'", "%27" | escape -%}
+  					{% assign extension = blogpostafbeelding | split: '.' | last -%}
+  					{% if extension == 'png' -%}
+    				  {% assign blogpostafbeelding = blogpostafbeelding | prepend: 'https://wsrv.nl/?url=https://www.opde1sterij.nl' | append: '&w=1920&q=78&output=jpg' -%}
+  					{% endif -%}
+  					  {% assign blogpostafbeelding = blogpostafbeelding | uri_escape | replace: "'", "%27" | escape -%}
 					{% else -%}
-					  {% assign blogpostafbeelding = '' -%}
+  					  {% assign blogpostafbeelding = '/leeg_nieuw.png' -%}
 					{% endif %}
 					<div class="blogger-portret-cirkel"><noscript><div class="blogger-portret-foto" style="background-image: url('{{ blogpostafbeelding }}')"></div></noscript><div class="blogger-portret-foto lazyload" data-bg="{{ blogpostafbeelding }}"></div></div>
 					<a class="link" href="{{ post.url | escape }}" title="Blog post: {{ post.title | escape }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ post.date | date: '%-d-%-m-%Y' }}"><span>{{ post.title | escape }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ post.date | date: '%-d-%-m-%Y' }}</span><div class="blokje"></div></a>
