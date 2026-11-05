@@ -229,6 +229,7 @@ ol, ul {
 
 input {
 	appearance: none!important;
+	min-height: 40px;
 }
 
 .wikkel {
