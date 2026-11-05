@@ -1,0 +1,70 @@
+---
+title: Op de eerste rij - Cultuureducatie
+timezone: Europe/Amsterdam
+collections:
+  crew:
+    title: Crew
+    output: false
+    author: info@opde1sterij.nl
+    korte-beschrijving: De hele Op de eerste rij crew.
+  posts:
+    title: Posts
+    output: true
+    author: info@opde1sterij.nl
+    korte-beschrijving: Elke maand een nieuwe blog van de Op de eerste rij crew.
+    assets:
+    - path: "/uploads/elke-maand-een-nieuwe-blog.jpg"
+      name: elke-maand-een-nieuwe-blog
+    - path: "/uploads/blog.jpg"
+      name: blog
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+    zoektermen: 
+    korte-beschrijving: 
+    trailer-embed-code: 
+    filmpje-embed-code: 
+    formulier-link: 
+    home-page: 
+    assets:
+    - path: ''
+      name: ''
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: default
+    permalink: "/blog/:i_day-:i_month-:year-:title/"
+    blogger: 
+    trailer-embed-code: 
+    filmpje-embed-code: 
+    formulier-link: 
+    assets:
+    - path: ''
+      name: ''
+- scope:
+    path: ''
+    type: crew
+  values:
+    onderdeel: 
+    blogger-bio: 
+    assets:
+    - path: ''
+      name: ''
+repository: opde1sterij/archived
+url: https://www.opde1sterij.nl
+permalink: pretty
+markdown: kramdown
+auteur: Op de eerste rij
+include:
+- ".archief"
+plugins:
+- jekyll-redirect-from
+whitelist:
+- jekyll-redirect-from

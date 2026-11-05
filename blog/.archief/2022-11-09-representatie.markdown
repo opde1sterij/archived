@@ -1,0 +1,20 @@
+---
+title: Representatie
+date: 2022-11-09 10:45:00 +01:00
+permalink: l/blog/9-11-2022-representatie/
+blogger: Esther Hulst
+assets:
+- path: "/uploads/representatie.jpg"
+---
+
+*Door: Esther Hulst*
+
+Een paar weken geleden was ik naar de voorstelling *De eeuw van mijn moeder*. Een indrukwekkend familieverhaal over de migratie van Nederlands-Indië naar Nederland. Een fantastische voorstelling, zeker als je roots in Nederlands-Indië  hebt, zoals ik. Ik ben geboren uit een Molukse moeder en een Nederlandse vader.  Ik heb dus roots in Nederlands-Indie. Mijn opa was KNIL-militair en kwam op dienstbevel in 1951 met zijn zwangere vrouw en kinderen naar Nederland. De voorstelling ging over een Indische familie. In historisch perspectief is dat verhaal een ander verhaal dan dat van de KNIL-militairen. Maar in het echte leven zijn die verschillen misschien kleiner dan men denkt. In ieder geval dan ik denk.
+
+De voorstelling was fantastisch. Waarom? Omdat ik me in alle vrouwelijke personages kon herkennen. Het felle reageren terwijl het personage het heel normaal vindt. Het eindeloos eten, het niet praten over dingen, waar misschien wel over gepraat moet worden. De familieverhoudingen en natuurlijk het grote trauma dat hieraan ten grondslag ligt: het ontheemd zijn. Het “moeten” verlaten van het land dat je lief is om in een nieuw land met een 10-0 achterstand te beginnen. Een land waar het koud is en nat en waar ze rare gebruiken hebben en waar we er tot op de dag van vandaag nog niet helemaal bij horen. 
+
+Elk goed toneelstuk roept herkenning op, natuurlijk. Maar ik keek vaak naar vrouwen die helemaal niet op mij leken en luisterde ik naar verhalen waarin ik me kon inleven, maar waarin ik mezelf niet perse herkende. Tijdens het kijken naar deze voorstelling realiseerde ik me hoe belangrijk representatie is. Dat je je écht herkent in de personages en in schrijvers, in mensen op tv. Dat maakte deze voorstelling voor mij een parel. Als kind had ik die rolmodellen wel. Marion Bloem met haar prachtige kinderboek Matabia liet me als kind zien dat je ook als Indisch, of in mijn geval half Moluks meisje, schrijver kan worden. Anis de Jong en Nel Lekatompessy van Delta (dua) lieten me als kind met hun voorstellingen zien dat ook actrice en theatermaker tot de mogelijkheden behoorden. Zij waren het die mijn afstuderen hebben begeleid en samen met Nel mocht ik onder regie van Anis spelen in mijn eigen voorstelling. Voor mij was die representatie er wel. En ik was (en ben) zo eigenwijs dat ik me niet laat tegenhouden door vooroordelen of gebrek aan representatie. 
+
+Tijdens het spelen van onze Kinderboekenweek-voorstelling: *Help, onze meester is verdwaald!* merkte ik tot mijn verbazing dat ook wíj voor representatie zorgen. In de voorstelling speel ik Philine die in Indonesië is geweest op familiebezoek en hier heel graag over wil praten met haar beste vriend Sam. Na de voorstelling is er een Meet&Greet, waarin we vragen van kinderen beantwoorden. Deze keer was vaak één van de eerste vragen of eigenlijk opmerkingen (voor kinderen is dit verschil soms nog moeilijk:): ‘Ik kom ook uit Indonesië’ of ‘Mijn opa en oma zijn Indisch’ of I’k ben ook Moluks net als jij’. Tijdens het maken van de voorstelling had ik dit helemaal niet bedacht. Natuurlijk was de keuze voor Indonesië bewust, maar dat zoveel kinderen zich zouden herkennen in het personage Philine had ik niet gedacht. Dat maakt het spelen nog een beetje leuker. Dat ik als theatermaker een andere voorstelling nodig had om te beseffen hoe belangrijk representatie is. Grappig!
+
+*[Help, onze meester is verdwaald!](https://www.opde1sterij.nl/theatergroep-zwerm/help-onze-meester-is-verdwaald/) Is ook buiten de Kinderboekenweek te boeken. Meer weten? Check dan de link of neem contact met ons op via telefoon 023-2052482, [mail](mailto: info@opde1sterij.nl) of plan een [belafspraak](https://calendly.com/opde1sterij/bellen-voor-meer-info) in.*

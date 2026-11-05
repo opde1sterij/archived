@@ -1,0 +1,22 @@
+---
+title: Nieuwe dingen leren
+date: 2023-12-13 15:40:00 +01:00
+permalink: "/blog/13-12-2023-nieuwe-dingen-leren/"
+blogger: Esther Hulst
+assets:
+- path: "/uploads/nieuwe-dingen-leren.jpg"
+---
+
+*Door: Esther Hulst*
+
+Terwijl ik de was aan het opvouwen was, luisterde ik naar een podcast. Deze ging over doelen stellen en wat je nog voor het einde van het jaar wilt bereiken, en vooral hoe je dit haalbaar maakt. Nu werken wij niet echt met kalenderjaren maar met schooljaren, en stellen we doelen, targets voor het eind van het schooljaar. Halverwege je doelen afvinken of bijstellen voelt daaardoor een beetje als valsspelen. Ik luisterde toch verder. Ik voelde al dagen de behoefte om nieuwe ideeën op te schrijven, maar dacht ook dat dat te veel zou zijn voor nu. De podcast hielp.
+
+Helemaal geïnspireerd ging ik de volgende dag naar kantoor. Ik pakte er wat blaadjes en post-its bij en begon alles op te schrijven wat ik nog wil(de) doen. Ik maakte twee categorieën: wat dit jaar nog gerealiseerd moest worden en wat doorgeschoven kon worden naar volgend jaar. Ik keek nog eens realistisch naar de lijstjes. Ik heb namelijk de neiging om te onderschatten hoeveel tijd iets kost. Schoof nog een doel naar volgend jaar, of nee, hing 'm er tussenin. Als het dit jaar nog lukt, is het fijn, zo niet, dan volgend jaar.
+
+Een aantal taken besteedde ik uit. En één doel, eSign, greep ik voor het eerst echt bij de kladden. eSign? Hoe bedoel je? eSign is een functie in ons boekingssysteem waarmee de klant, de school, digitaal een handtekening kan zetten op offertes en contracten. Dit scheelt voor iedereen tijd, want degene die ons boekt hoeft de offerte of het contract niet meer uit te printen, te ondertekenen, te scannen en dan weer terug te mailen, maar kan gewoon online met de muis de handtekening zetten. En wij hoeven de offertes en contracten niet meer te zoeken in onze mail, te uploaden in ons systeem en ze vervolgens handmatig op akkoord te zetten. Dit gaat allemaal automatisch! Hoe fijn is dat? En we hoeven daarvoor geen extra abonnement af te sluiten of extra te betalen. Nu heeft ons online boekingssysteem dit al een tijdje, maar ik begon er elke keer maar niet aan. Er lag altijd ander, meer urgent werk. Tot de podcast en mijn lijstjes.
+
+Er was wat uitzoekwerk, een online training van techsupport en doorzettingsvermogen voor nodig, maar dat vond ik eigenlijk allemaal nog heel erg leuk ook. Ik ontdekte opnieuw hoe geweldig ik het vind om nieuwe dingen te leren, zeker als ik ze in mijn eentje kan uitvogelen. En wat meetelt, is dat dit voor mij logische processen zijn. Het gaat bij computers niet om smaak of het moment, maar over als-dan-keuzes; als ik dit invul, dan gebeurt er dit. En dat vind ik heerlijk om mee bezig te zijn. Begrijp me goed, niet de hele tijd. Ik vind het theatervak nog steeds het mooiste wat er is. Maar voor de afwisseling vind ik het heerlijk om me helemaal op dit soort "nerdendingen" te storten. Dingen uitproberen, kijken of het werkt, blij zijn als het doet wat ik wil of tot de bodem uitzoeken waarom het niet werkt zodat ik het kan aanpassen en het wel werkt.
+
+Maar tegen het eind van de dag liep ik vast. Ik plande een onlinetraining in, een beetje uit frustratie, maar deed het toch. Dan stond deze maar vast in mijn agenda. Ik deed wat andere taken, zodat ik toch efficiënt was. Ik hou van efficiëntie. En pakte toen toch de draad weer op. Het kon niet zo zijn dat ik dit niet zelf kon. Ik zette door, paste nog wat zaken aan, en warempel, er kwam een contract ondertekend met eSign terug. Ik was zo blij. Het was me gelukt.
+
+De online training liet ik staan, want misschien had ik toch nog wat zaken over het hoofd gezien. Of werkten dingen toch heel anders dan ik dacht. Maar niets bleek minder waar. De trainer begon met: "You did a great job. You did almost 90% by yourself." En dit schrijf ik niet om op te scheppen, maar omdat ik deze succeservaring leerlingen ook zo gun. Door de steeds sneller gaande maatschappij en bijvoorbeeld de kant-en-klare filmpjes op YouTube en TikTok leren kinderen steeds minder doorzetten en uitproberen. Juist daarom was het fijn om dit zelf weer even te ervaren, zodat ik weer mee kan nemen in het lesgeven. Niet alles hoeft meteen te lukken, als je doorzet en meerdere opties uitprobeert, wordt het alleen maar mooier. En misschien word ik in een volgend leven wel programmeur of ux-designer.
