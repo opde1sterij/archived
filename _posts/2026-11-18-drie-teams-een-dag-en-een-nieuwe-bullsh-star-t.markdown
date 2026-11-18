@@ -6,7 +6,7 @@ assets:
 - path: "/uploads/blog%20repetitie%20bullshit.jpg"
 ---
 
-**Bullsh*t**, onze voorstelling over AI en nepnieuws, is voor de tweede keer herschreven. Wat deed AI met ons script, en hoe leerden drie teams in één dag de nieuwe versie?
+**Bullsh*t**, onze voorstelling over AI en nepnieuws, is voor de tweede keer herschreven. Wat deed AI met ons script, en hoe leerden drie teams in één dag de nieuwe versie? 
 
 *Door: Esther Hulst*
 
