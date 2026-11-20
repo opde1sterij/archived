@@ -227,9 +227,9 @@ ol, ul {
     list-style: none
 }
 
-input {
-	appearance: none!important;
-	min-height: 40px;
+input:not([type="checkbox"]):not([type="radio"]) {
+  appearance: none !important;
+  min-height: 40px;
 }
 
 .wikkel {

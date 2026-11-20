@@ -2,6 +2,7 @@
 <html class="no-js" lang="nl">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
 		{%- if page.url != '/' %}{{ page.title | escape }}{% if page.leeftijd %} ({{ page.leeftijd | escape }}){% endif %} - {% endif -%}
 		{% assign parent = page.url | split: '/' -%}
@@ -18,10 +19,11 @@
 		  {% endif -%}
 		{% endcapture -%}
 		<meta name="description" content="{{ meta-beschrijving | escape }}">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="{% if page.url != '/agenda/' %}{% if page.home-page == 'nee' %}noindex, nofollow{% else %}index, follow{% endif %}{% endif %}">
 		<link rel="canonical" href="{{ page.url | prepend: 'https://www.opde1sterij.nl' | escape }}">
 		<link rel="stylesheet" href="/opde1sterij.css">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<script>
 			(function(d) {
 				var config = {
