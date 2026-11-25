@@ -59,4 +59,4 @@ Waarom we dat doen? Omdat we het bij Op de eerste rij zonde vinden als budget da
 
 Weet je nog niet welke voorstelling het beste bij jouw school past? Bel of mail ons. Vertel voor welke klassen je iets zoekt en wat er op school speelt. Dan kijken we samen welke voorstelling het beste aansluit.
 
-Zo benut je het Cultuurkaartbudget van 2026 én geef je jouw leerlingen in 2027 een voorstelling die ertoe doet.
+Zo benut je het Cultuurkaartbudget van 2026 én geef je jouw leerlingen in 2027 een voorstelling die ertoe doet. 
